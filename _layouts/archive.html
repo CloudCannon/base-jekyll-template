@@ -1,0 +1,7 @@
+---
+layout: default
+---
+{% assign posts = page.posts | sort: "title" %}
+<h2>{{ page.title }} <span class="count">({{ posts | size }})</span></h2>
+
+{% include listings.html listings=posts %}
