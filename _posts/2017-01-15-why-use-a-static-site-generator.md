@@ -9,117 +9,65 @@ categories:
 set: getting-started
 set_order: 6
 ---
-We're looking at what ​static site generators are and how they're different from dynamic content management systems like WordPress.  
+Many people don’t use Jekyll for client projects as non-developers would traditionally have to learn HTML, Markdown and Liquid to update content. In this tutorial, we give non-developers an easy way to update Jekyll sites with [CloudCannon](https://cloudcannon.com).
 
-### What is a static site generator?
+## What is CloudCannon?
 
-A static site generator takes source files and generates an entirely static website.
+CloudCannon is cloud content management system and hosting provider for Jekyll websites. A developer uploads a Jekyll site in the browser or by syncing with GitHub, Bitbucket or Dropbox. CloudCannon then builds the site, hosts it and provides an interface for non-technical users to update content.
 
-![Static Overview](/img/casts/what-is-a-static-site-generator/static-overview.png)
+## Setup
 
-There are many static site generators available built for all sorts of purposes. [Some](https://github.com/Jack000/Expose) are for creating photo gallery websites from a bunch of photos, [others](https://www.gitbook.com/) help you create documentation websites. The majority help you manage a typical website with a blog.  
+To begin, we need to create a CloudCannon account and create our first site. Head over to [CloudCannon](https://cloudcannon.com) and click the *Get Started Free* button:
 
-![static site generator Options](/img/casts/what-is-a-static-site-generator/options.png)
+Enter your details into the sign up form:
 
-In this tutorial series we're using [Jekyll](http://jekyllrb.com). Jekyll is actively maintained and has the largest community of all the static site generators.
+Once we've signed up we're taken to our dashboard. Click *Create Site*:
 
-To understand how static site generators are different, let's have a look at how a dynamic CMS such as [WordPress](https://wordpress.org/) works.
+Enter a name for the site. I'm going to use the site from the [Converting a static site to Jekyll](/jekyll-casts/converting-a-static-site-to-jekyll/) cast so I'll call it *Creative*:
 
-### How does a dynamic CMS work?
+This creates the site and gives us options for uploading our files. If you'd like to use the same site I'm using you can download it [here](https://github.com/CloudCannon/creative-jekyll-theme/archive/master.zip).
 
-In this article we're using WordPress as the dynamic CMS but we could easily swap this out for Drupal or the majority of other CMSs out there.
+There's a number of ways of getting your files on CloudCannon. To keep things simple we're just going to upload a folder from our local computer. Click on the folder icon. *Note: folder upload is only supported in Chrome*
 
-When a user goes to a page on a WordPress site, the request is sent to our web server ([Nginx](https://www.nginx.com/)) then forwarded to WordPress. WordPress builds the page from a number of templates, gets the content and other site data from the database and sends the complete HTML page back to the user.
+Navigate to your Jekyll site and click *Upload*:
 
-![How does a dynamic CMS work?](/img/casts/what-is-a-static-site-generator/dynamic-cms-overview.png)
+Once the files upload, CloudCannon builds the site:
 
-### How does a static site generator work?
+We can view the live site by clicking on the _.cloudvent.net_ URL in the sidebar:
 
-When we're setting up our server, we take the static site created by static site generator and deploy it to our server. When a user requests a page on our static site, the request is sent to our web server ([Nginx](https://www.nginx.com/)), which then finds the matching file and sends it back to the user.
+## Editables
 
-![How does a static site generator work?](/img/casts/what-is-a-static-site-generator/jekyll-overview.png)
+Next, we need to do is to define areas in our HTML which non-developers can update. These are called [Editable Regions](https://docs.cloudcannon.com/editing/editable-regions/) and are set by adding a class of `editable` to HTML elements.
 
+Open `index.html` in CloudCannon and add a class of `editable` to the `h1` and `p` inside `<div class="header-content-inner">` so it becomes the following:
 
-### Why use a static site generator?
+~~~ html
+<div class="header-content-inner">
+  <h1 class="editable">Your Favorite Source of Free Bootstrap Themes</h1>
+  <hr>
+  <p class="editable">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+  <a href="/about.html" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+</div>
+~~~
 
-Now that we understand the fundamental differences between static site generators and dynamic CMSs, let's have a look at why we'd actually use one.
+## Client Access
 
-#### Less Complexity
+Now the site is ready for our non-developer to update. We'll set up [Client Sharing](https://docs.cloudcannon.com/sharing/client-sharing/) which allows our client to update their site without having to create an account. Go to the Site Settings / Client Sharing section and set a password for your client.
 
-Jekyll sites are basically static sites with an extra templating language called [Liquid](https://shopify.github.io/liquid/) so it's a small step to learn if you already know HTML, CSS and JavaScript. We can actually just start with a static site and then introduce Jekyll functionality as it's needed.
+Our non-developer can view their live site at your-site.cloudvent.net (or you can set up a custom domain). To update their site they just add `/update` to the URL and enter the password we set earlier.
 
-![Building Jekyll](/img/casts/what-is-a-static-site-generator/building-jekyll.png)
+## The Client Workflow
 
-When we're setting up a static server, all we need is a web server that's capable of serving static files.
+Once the client logs in they see their site with colored boxes highlighting the editable regions. The client can update content directly inline by clicking on text:
 
-![Jekyll Simplicity](/img/casts/what-is-a-static-site-generator/jekyll-overview.png)
+By clicking _Collections_ in the sidebar the client can manage their blog posts:
 
-On the other hand to build WordPress themes, in addition to HTML, CSS and JavaScript, we need to understand PHP, MySQL and the WordPress API.
+Editing posts happens in the [Content Editor](https://docs.cloudcannon.com/editing/content-editor/) which is a rich text editor for Markdown. The client can also manage all the front matter data on the page using an easy-to-use editor:
 
-![Building WordPress](/img/casts/what-is-a-static-site-generator/building-wordpress.png)
+Or we can use the [Visual Editor](https://docs.cloudcannon.com/editing/visual-editor/) to update posts:
 
-To set up a WordPress server we need to setup our web server, PHP and MySQL. Then we'll copy over our WordPress plugins, database and files from our development environment.
+The client can also update collection items using the same editor. In this example there's no body content and only front matter so we've made the front matter editor full screen:
 
-![WordPress Simplicity](/img/casts/what-is-a-static-site-generator/dynamic-cms-overview.png)
+If we have GitHub, Bitbucket or Dropbox connected to the site, all changes the client makes are pushed back to the storage provider.
 
-#### Speed
-
-Serving a static site is extremely fast because all the web server needs to do is return a file. We can also make sure the site is perfectly optimized before we deploy it. We do this by running all the source code through minifiers, optimizing the images, using tools to remove unused CSS and other techniques.
-
-![Jekyll Speed](/img/casts/what-is-a-static-site-generator/jekyll-overview.png)
-
-On every request WordPress needs to build the whole page from scratch. This involves putting together all the template files and getting any content or other data from the database.
-
-![WordPress Speed](/img/casts/what-is-a-static-site-generator/dynamic-cms-overview.png)
-
-This is made worse if we're using WordPress plugins. Each plugin will most likely need data from the database and time to process.
-
-![WordPress Speed Plugins](/img/casts/what-is-a-static-site-generator/wordpress-plugins.png)
-
-A lot of this processing can be eliminated by using a cache which means when a page is processed, it will save a copy for future requests. However this adds extra complexity and another point of failure.
-
-We can also perform some optimizations like minification to speed up the site but these are usually done on-the-fly.
-
-#### Security
-
-There are only static files and a web server on our server, there's nothing dynamic that can be exploited. It's still possible to access the server if a hacker can find a vulnerability in the web server but the risk is greatly reduced.
-
-![Jekyll Security](/img/casts/what-is-a-static-site-generator/jekyll-overview.png)
-
-Hackers often look for out of date WordPress sites where there are known exploits. So the main way to keep WordPress secure is making sure it's kept up to date. The database is also a potential point of access if it's misconfigured. There are security plugins available which help prevent common misconfigurations.
-
-![WordPress Security](/img/casts/what-is-a-static-site-generator/dynamic-cms-overview.png)
-
-Every WordPress plugin we install is a potential access point for a hacker. Access was gained in the [Panama Papers incident](https://en.wikipedia.org/wiki/Panama_Papers) by exploiting an out of date slider plugin.
-
-![WordPress Speed Plugins](/img/casts/what-is-a-static-site-generator/wordpress-plugins.png)
-
-#### Scalability
-
-A single server can handle [a lot](http://www.speedemy.com/apache-vs-nginx-2015/) of traffic if it's just serving static files. However, if we need more resources (or redundancy) we can load balance traffic across multiple servers. This is relatively easy to set up as we just need to make sure the static site is on all our servers.
-
-![Static Site Scale](/img/casts/what-is-a-static-site-generator/static-scale.png)
-
-To scale WordPress we can deploy our WordPress environment to multiple servers and have our database instance on a single separate server. At some point we'll need to have multiple database servers as well which adds another layer of complexity.
-
-![WordPress Site Scale](/img/casts/what-is-a-static-site-generator/wordpress-scale.png)
-
-#### Version Control
-
-All the source code for our Jekyll site can live in a version control system like [Git](https://git-scm.com/). With Git we can go back to any single version of the site in its entire history. This also serves as an offsite backup, if we ever need to restore a server all the files we need are in the Git repository.
-
-We can create branches which allow us to work on multiple versions of the site and merge them together later. This is extremely useful when we have a large team of developers as they can work simultaneously. It also means they can clone the production environment on their local machine with minimal effort.
-
-If we take this a step further we can even have our source code in an open source repository on [GitHub](https://github.com) and have anyone make updates and suggest merging it into our live site.
-
-![Version Control](/img/casts/what-is-a-static-site-generator/version-control.png)
-
-In WordPress we have the ability to revert changes on an individual blog post. We need to ensure we're backing up the database regularly and keeping track of the themes, plugins and  assets we've uploaded.
-
-![Version Control](/img/casts/what-is-a-static-site-generator/wordpress-version.png)
-
-### Conclusion
-
-If you're interesting in trying out Jekyll you're in the right place! [Jekyll Casts](/) takes you through everything you need to know from installing Jekyll, to advanced use cases.
-
-We look forward to seeing you again soon!
+Now the client can update all the content and hasn't had to learn HTML, Liquid or Markdown. This gives a small taste of what you can achieve on CloudCannon. [Sign up free](https://app.cloudcannon.com/users/sign_up) and make your Jekyll site client editable.

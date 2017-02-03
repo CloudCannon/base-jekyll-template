@@ -17,169 +17,65 @@ set: getting-started
 set_order: 4
 ---
 
-Jekyll collections are a powerful way to organize content on your site. So when you should use collections? Ben Balter has a great overview on his blog called [Explain Like I'm Five - Jekyll Collections](http://ben.balter.com/2015/02/20/jekyll-collections/). In the post Ben includes the following diagram of when you should use a post, page or collection in Jekyll.
+Many people don’t use Jekyll for client projects as non-developers would traditionally have to learn HTML, Markdown and Liquid to update content. In this tutorial, we give non-developers an easy way to update Jekyll sites with [CloudCannon](https://cloudcannon.com).
 
-{% raw %}
-~~~text
-+-------------------------------------+         +----------------+
-| Can the things be logically grouped?|---No--->|    Use pages   |
-+-------------------------------------+         +----------------+
-                |
-               Yes
-                |
-                V
-+-------------------------------------+         +----------------+
-|      Are they grouped by date?      |---No--->|Use a collection|
-+-------------------------------------+         +----------------+
-                |
-               Yes
-                |
-                V
-+-------------------------------------+
-|            Use posts                |
-+-------------------------------------+
-~~~
-{% endraw %}
+## What is CloudCannon?
 
-In this tutorial we're looking at a page on our BakeryStore site which lists all the cookies we have.
+CloudCannon is cloud content management system and hosting provider for Jekyll websites. A developer uploads a Jekyll site in the browser or by syncing with GitHub, Bitbucket or Dropbox. CloudCannon then builds the site, hosts it and provides an interface for non-technical users to update content.
 
-![Cookies page](/img/casts/intro-to-collections/cookies-page.png)
+## Setup
 
-Each cookie has an image, heading and content.
+To begin, we need to create a CloudCannon account and create our first site. Head over to [CloudCannon](https://cloudcannon.com) and click the *Get Started Free* button:
 
-{% raw %}
-~~~html
-...
-<div class="cookie">
-  <h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg" alt="Afghan">
-    Afghan
-  </h2>
-  <p>
-    An Afghan biscuit is a traditional New Zealand biscuit made from flour, butter, cornflakes, sugar and cocoa powder, topped with chocolate icing and a half walnut. The recipe[1] has a high proportion of butter, and relatively low sugar, and no leavening (rising agent), giving it a soft, dense and rich texture, with crunchiness from the cornflakes, rather than from a high sugar content. The high butter content gives a soft melt-in-the-mouth texture, and the sweetness of the icing offsets the low sugar and the cocoa bitterness. The origin of the recipe and the derivation of the name are unknown, but the recipe has appeared in many editions of the influential New Zealand Edmonds Cookery Book.
-  </p>
-  <p>Source <a href="https://en.wikipedia.org/wiki/Afghan_biscuit">Wikipedia</a></p>
-</div>
-...
-~~~
-{% endraw %}
+Enter your details into the sign up form:
 
-If we wanted to add another cookie we would copy and paste an existing cookies and update the content. The problem with doing this is if we wanted to update the structure of the cookies page, for example adding a rating to each cookie, we would have to copy and paste code and it's highly likely we would make a mistake. Collections eliminate this repetition and make the page much easier to maintain.
+Once we've signed up we're taken to our dashboard. Click *Create Site*:
 
-Defining collections happens in `_config.yml`. First we add a collections object, then under collections we define the different collections we want on this site. In this case we're going to have one collections called cookies.
+Enter a name for the site. I'm going to use the site from the [Converting a static site to Jekyll](/jekyll-casts/converting-a-static-site-to-jekyll/) cast so I'll call it *Creative*:
 
-{% raw %}
-~~~yaml
-collections:
-  cookies:
-~~~
-{% endraw %}
+This creates the site and gives us options for uploading our files. If you'd like to use the same site I'm using you can download it [here](https://github.com/CloudCannon/creative-jekyll-theme/archive/master.zip).
 
-Documents (the items in a collection) live in a folder in the root of your site named _*collection_name*, in this case it's `_cookies`. Documents can either be Markdown or HTML. Markdown is more common as it's easier to work with unless you're doing something complicated.
+There's a number of ways of getting your files on CloudCannon. To keep things simple we're just going to upload a folder from our local computer. Click on the folder icon. *Note: folder upload is only supported in Chrome*
 
-Now we'll create a document for each cookie. The image and title will be specified in front matter and the description in the content. For the Afghan cookie we'll create `_cookies/afghan.md` and copy the content across so it'll look like this:
+Navigate to your Jekyll site and click *Upload*:
 
-{% raw %}
-~~~yaml
----
-title: Afghan
-image_path: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
----
-An Afghan biscuit is a traditional New Zealand biscuit made from flour, butter, cornflakes, sugar and cocoa powder, topped with chocolate icing and a half walnut. The recipe[1] has a high proportion of butter, and relatively low sugar, and no leavening (rising agent), giving it a soft, dense and rich texture, with crunchiness from the cornflakes, rather than from a high sugar content. The high butter content gives a soft melt-in-the-mouth texture, and the sweetness of the icing offsets the low sugar and the cocoa bitterness. The origin of the recipe and the derivation of the name are unknown, but the recipe has appeared in many editions of the influential New Zealand Edmonds Cookery Book.
+Once the files upload, CloudCannon builds the site:
 
-Source [Wikipedia](https://en.wikipedia.org/wiki/Afghan_biscuit)
-~~~
-{% endraw %}
+We can view the live site by clicking on the _.cloudvent.net_ URL in the sidebar:
 
-Repeat this for the other cookies.
+## Editables
 
-Next we need to print we'll replace the hardcoded cookie data `cookies.html` with data from our cookie collection. Jekyll makes collection documents available to us at site.*collection_name*, in this case it's `site.cookies`. So let's iterate over our documents and output the data.
+Next, we need to do is to define areas in our HTML which non-developers can update. These are called [Editable Regions](https://docs.cloudcannon.com/editing/editable-regions/) and are set by adding a class of `editable` to HTML elements.
 
-{% raw %}
-~~~yaml
----
-layout: page
-title: Cookies
----
-{% for cookie in site.cookies %}
-  <div class="cookie">
-    <h2><img src="{{ cookie.image_path }}" alt="{{ cookie.title }}">{{ cookie.title }}</a></h2>
-    {{ cookie.content }}
-  </div>
-{% endfor %}
-~~~
-{% endraw %}
+Open `index.html` in CloudCannon and add a class of `editable` to the `h1` and `p` inside `<div class="header-content-inner">` so it becomes the following:
 
-Remember when you change `_config.yml` you need to restart your Jekyll server for the changes to take affect.
-
-The output of this page is exactly the same and notice how much we've reduced the source code.
-
-Now we have the cookies printed out on this page using collections, let's try something more advanced. Instead of having all the cookies and content on one page, let's just have the cookie title which links to another page with more information about that cookie.
-
-We can add an `output: true` flag to our collection configuration in `_config.yml` which means Jekyll will generate a page for each document.
-
-{% raw %}
-~~~yaml
-collections:
-  cookies:
-    output: true
-~~~
-{% endraw %}
-
-In `cookies.html` we'll remove the content and image. We'll also add an a tag to link to the generated document page. The url is available to us at *document*.url.
-
-{% raw %}
-~~~yaml
----
-layout: page
-title: Cookies
----
-{% for cookie in site.cookies %}
-	<div class="cookie">
-		<h2><a href="{{ cookie.url }}">{{ cookie.title }}</a></h2>
-	</div>
-{% endfor %}
-~~~
-{% endraw %}
-
-So how do we specify the look of the generated document pages? Well we can use a layout for that.
-
-We'll create `_layouts/cookie.html` with a basic layout:
-
-{% raw %}
-~~~yaml
----
-layout: page
----
-<div class="cookie">
-  <h2><img src="{{ page.image_path }}" alt="page.title" />{{ page.title }}</h2>
-
-  <div class="blog-post spacing">
-    {{ content }}
-  </div>
+~~~ html
+<div class="header-content-inner">
+  <h1 class="editable">Your Favorite Source of Free Bootstrap Themes</h1>
+  <hr>
+  <p class="editable">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+  <a href="/about.html" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
 </div>
 ~~~
-{% endraw %}
 
-Then in each document we can specify that layout.
+## Client Access
 
-{% raw %}
-~~~yaml
----
-layout: cookie
-title: Afghan
-image_path: https://upload.wikimedia.org/wikipedia/commons/d/d1/AfghanBiscuit.jpg
----
-An Afghan biscuit is a traditional New Zealand biscuit made from flour, butter, cornflakes, sugar and cocoa powder, topped with chocolate icing and a half walnut. The recipe[1] has a high proportion of butter, and relatively low sugar, and no leavening (rising agent), giving it a soft, dense and rich texture, with crunchiness from the cornflakes, rather than from a high sugar content. The high butter content gives a soft melt-in-the-mouth texture, and the sweetness of the icing offsets the low sugar and the cocoa bitterness. The origin of the recipe and the derivation of the name are unknown, but the recipe has appeared in many editions of the influential New Zealand Edmonds Cookery Book.
+Now the site is ready for our non-developer to update. We'll set up [Client Sharing](https://docs.cloudcannon.com/sharing/client-sharing/) which allows our client to update their site without having to create an account. Go to the Site Settings / Client Sharing section and set a password for your client.
 
-Source [Wikipedia](https://en.wikipedia.org/wiki/Afghan_biscuit)
-~~~
-{% endraw %}
+Our non-developer can view their live site at your-site.cloudvent.net (or you can set up a custom domain). To update their site they just add `/update` to the URL and enter the password we set earlier.
 
-The cookies page now has a list of links to cookies:
+## The Client Workflow
 
-![Cookies page Links](/img/casts/intro-to-collections/cookies-page-links.png)
+Once the client logs in they see their site with colored boxes highlighting the editable regions. The client can update content directly inline by clicking on text:
 
-If I click on one, it takes me to a new page with information about that cookie:
+By clicking _Collections_ in the sidebar the client can manage their blog posts:
 
-![Cookie page](/img/casts/intro-to-collections/cookie-page.png)
+Editing posts happens in the [Content Editor](https://docs.cloudcannon.com/editing/content-editor/) which is a rich text editor for Markdown. The client can also manage all the front matter data on the page using an easy-to-use editor:
+
+Or we can use the [Visual Editor](https://docs.cloudcannon.com/editing/visual-editor/) to update posts:
+
+The client can also update collection items using the same editor. In this example there's no body content and only front matter so we've made the front matter editor full screen:
+
+If we have GitHub, Bitbucket or Dropbox connected to the site, all changes the client makes are pushed back to the storage provider.
+
+Now the client can update all the content and hasn't had to learn HTML, Liquid or Markdown. This gives a small taste of what you can achieve on CloudCannon. [Sign up free](https://app.cloudcannon.com/users/sign_up) and make your Jekyll site client editable.

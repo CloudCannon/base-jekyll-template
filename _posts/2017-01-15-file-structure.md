@@ -12,47 +12,65 @@ type: Video
 set: getting-started
 set_order: 2
 ---
+Many people don’t use Jekyll for client projects as non-developers would traditionally have to learn HTML, Markdown and Liquid to update content. In this tutorial, we give non-developers an easy way to update Jekyll sites with [CloudCannon](https://cloudcannon.com).
 
-A basic Jekyll site has a file structure something like this:
+## What is CloudCannon?
 
-In this tutorial we'll take a high-level look at what these directories mean. Don't stress if you don't pick up these concepts now, we'll go over these topics in-depth in later tutorials.
+CloudCannon is cloud content management system and hosting provider for Jekyll websites. A developer uploads a Jekyll site in the browser or by syncing with GitHub, Bitbucket or Dropbox. CloudCannon then builds the site, hosts it and provides an interface for non-technical users to update content.
 
-## _config.yml
+## Setup
 
-Holds the configuration for your Jekyll site. This is commonly used to:
+To begin, we need to create a CloudCannon account and create our first site. Head over to [CloudCannon](https://cloudcannon.com) and click the *Get Started Free* button:
 
-* Set variables which are used over our site
-* Configure Collections or defaults
-* Specify runtime variables we want to run every time.  
+Enter your details into the sign up form:
 
-## _drafts
+Once we've signed up we're taken to our dashboard. Click *Create Site*:
 
-All our unpublished blog posts. This allows us to work on blog posts without publishing them to the live site.
+Enter a name for the site. I'm going to use the site from the [Converting a static site to Jekyll](/jekyll-casts/converting-a-static-site-to-jekyll/) cast so I'll call it *Creative*:
 
-## _includes
+This creates the site and gives us options for uploading our files. If you'd like to use the same site I'm using you can download it [here](https://github.com/CloudCannon/creative-jekyll-theme/archive/master.zip).
 
-Partial parts of a page which can be included throughout our site. Includes are often used for page sections which are duplicated across the site like a newsletter subscribe form.
+There's a number of ways of getting your files on CloudCannon. To keep things simple we're just going to upload a folder from our local computer. Click on the folder icon. *Note: folder upload is only supported in Chrome*
 
-## _layouts
+Navigate to your Jekyll site and click *Upload*:
 
-Templates which wrap around our content. All the repeating code on our site like the header, footer and navigation are typically in a layout.
+Once the files upload, CloudCannon builds the site:
 
-## _posts
+We can view the live site by clicking on the _.cloudvent.net_ URL in the sidebar:
 
-Contains our blog posts usually written in Markdown.
+## Editables
 
-## _data
+Next, we need to do is to define areas in our HTML which non-developers can update. These are called [Editable Regions](https://docs.cloudcannon.com/editing/editable-regions/) and are set by adding a class of `editable` to HTML elements.
 
-`_data` contains YAML, JSON and CSV files. The data in these files can be used throughout the Jekyll site.
+Open `index.html` in CloudCannon and add a class of `editable` to the `h1` and `p` inside `<div class="header-content-inner">` so it becomes the following:
 
-## _site
+~~~ html
+<div class="header-content-inner">
+  <h1 class="editable">Your Favorite Source of Free Bootstrap Themes</h1>
+  <hr>
+  <p class="editable">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+  <a href="/about.html" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+</div>
+~~~
 
-Once Jekyll has built our site it puts the entire static site including all our assets in `_site`.
+## Client Access
 
-## .jekyll-metadata
+Now the site is ready for our non-developer to update. We'll set up [Client Sharing](https://docs.cloudcannon.com/sharing/client-sharing/) which allows our client to update their site without having to create an account. Go to the Site Settings / Client Sharing section and set a password for your client.
 
-This file is used by Jekyll's incremental build feature to keep track of the files which have changed.
+Our non-developer can view their live site at your-site.cloudvent.net (or you can set up a custom domain). To update their site they just add `/update` to the URL and enter the password we set earlier.
 
-## Other Files/Folders
+## The Client Workflow
 
-Files with front matter are processed and output to `_site` on a build. Files **without** front matter (typically CSS, JavaScript and image files) are copied straight to `_site` on a build.
+Once the client logs in they see their site with colored boxes highlighting the editable regions. The client can update content directly inline by clicking on text:
+
+By clicking _Collections_ in the sidebar the client can manage their blog posts:
+
+Editing posts happens in the [Content Editor](https://docs.cloudcannon.com/editing/content-editor/) which is a rich text editor for Markdown. The client can also manage all the front matter data on the page using an easy-to-use editor:
+
+Or we can use the [Visual Editor](https://docs.cloudcannon.com/editing/visual-editor/) to update posts:
+
+The client can also update collection items using the same editor. In this example there's no body content and only front matter so we've made the front matter editor full screen:
+
+If we have GitHub, Bitbucket or Dropbox connected to the site, all changes the client makes are pushed back to the storage provider.
+
+Now the client can update all the content and hasn't had to learn HTML, Liquid or Markdown. This gives a small taste of what you can achieve on CloudCannon. [Sign up free](https://app.cloudcannon.com/users/sign_up) and make your Jekyll site client editable.

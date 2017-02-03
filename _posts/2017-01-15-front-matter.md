@@ -14,188 +14,65 @@ type: Video
 set: getting-started
 set_order: 3
 ---
-Front matter is used to set variables and metadata on pages in your Jekyll site. Let's get straight into an example to demonstrate why this is useful.
+Many people don’t use Jekyll for client projects as non-developers would traditionally have to learn HTML, Markdown and Liquid to update content. In this tutorial, we give non-developers an easy way to update Jekyll sites with [CloudCannon](https://cloudcannon.com).
 
-We'll start with some basic HTML structure in `about.html`:
+## What is CloudCannon?
 
-{% raw %}
-~~~html
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>About</title>
-  </head>
-  <body>
-    <h1>About page</h1>
-  </body>
-</html>
+CloudCannon is cloud content management system and hosting provider for Jekyll websites. A developer uploads a Jekyll site in the browser or by syncing with GitHub, Bitbucket or Dropbox. CloudCannon then builds the site, hosts it and provides an interface for non-technical users to update content.
+
+## Setup
+
+To begin, we need to create a CloudCannon account and create our first site. Head over to [CloudCannon](https://cloudcannon.com) and click the *Get Started Free* button:
+
+Enter your details into the sign up form:
+
+Once we've signed up we're taken to our dashboard. Click *Create Site*:
+
+Enter a name for the site. I'm going to use the site from the [Converting a static site to Jekyll](/jekyll-casts/converting-a-static-site-to-jekyll/) cast so I'll call it *Creative*:
+
+This creates the site and gives us options for uploading our files. If you'd like to use the same site I'm using you can download it [here](https://github.com/CloudCannon/creative-jekyll-theme/archive/master.zip).
+
+There's a number of ways of getting your files on CloudCannon. To keep things simple we're just going to upload a folder from our local computer. Click on the folder icon. *Note: folder upload is only supported in Chrome*
+
+Navigate to your Jekyll site and click *Upload*:
+
+Once the files upload, CloudCannon builds the site:
+
+We can view the live site by clicking on the _.cloudvent.net_ URL in the sidebar:
+
+## Editables
+
+Next, we need to do is to define areas in our HTML which non-developers can update. These are called [Editable Regions](https://docs.cloudcannon.com/editing/editable-regions/) and are set by adding a class of `editable` to HTML elements.
+
+Open `index.html` in CloudCannon and add a class of `editable` to the `h1` and `p` inside `<div class="header-content-inner">` so it becomes the following:
+
+~~~ html
+<div class="header-content-inner">
+  <h1 class="editable">Your Favorite Source of Free Bootstrap Themes</h1>
+  <hr>
+  <p class="editable">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+  <a href="/about.html" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+</div>
 ~~~
-{% endraw %}
 
-![Starting about page](/img/casts/front-matter/starting-about.png)
+## Client Access
 
-Now we'll set a variable in front matter, then output it on our page. Front matter lives between two triple dashed lines `---` at the top of the file. In between these lines we can write YAML to set variables.
+Now the site is ready for our non-developer to update. We'll set up [Client Sharing](https://docs.cloudcannon.com/sharing/client-sharing/) which allows our client to update their site without having to create an account. Go to the Site Settings / Client Sharing section and set a password for your client.
 
-Let's set a variable called `hello_text` and give it a value of "Hello there!". `about.html` now looks like this:
+Our non-developer can view their live site at your-site.cloudvent.net (or you can set up a custom domain). To update their site they just add `/update` to the URL and enter the password we set earlier.
 
-{% raw %}
-~~~html
----
-hello_text: "Hello there!"
----
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>About</title>
-  </head>
-  <body>
-    <h1>About page</h1>
-  </body>
-</html>
-~~~
-{% endraw %}
+## The Client Workflow
 
-To output front matter variables, Jekyll uses a language called [Liquid](https://shopify.github.io/liquid/). We'll cover Liquid in later videos, for now you need to know two basic tags:
+Once the client logs in they see their site with colored boxes highlighting the editable regions. The client can update content directly inline by clicking on text:
 
-* You can output variables by surrounding them in two curly braces e.g. {% raw %}`{{ variable }}`{% endraw %}
-* You can perform logic statements by surrounding them in a curly brace, percentage sign e.g. {% raw %}`{% if statement %}`{% endraw %}
+By clicking _Collections_ in the sidebar the client can manage their blog posts:
 
-We can access variables set in front matter using `page.name_of_variable`. So let's add `p` straight after the `h1` and output `hello_text`.
+Editing posts happens in the [Content Editor](https://docs.cloudcannon.com/editing/content-editor/) which is a rich text editor for Markdown. The client can also manage all the front matter data on the page using an easy-to-use editor:
 
-{% raw %}
-~~~html
----
-hello_text: "Hello there!"
----
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>About</title>
-  </head>
-  <body>
-    <h1>About page</h1>
-    <p>{{ page.hello_text }}</p>
-  </body>
-</html>
-~~~
-{% endraw %}
+Or we can use the [Visual Editor](https://docs.cloudcannon.com/editing/visual-editor/) to update posts:
 
-![Output about page](/img/casts/front-matter/output-about.png)
+The client can also update collection items using the same editor. In this example there's no body content and only front matter so we've made the front matter editor full screen:
 
-We can use front matter to show/hide sections of a page. In this example we'll add a `show_footer` variable to the front matter which when set to true, will add a footer to the page.
+If we have GitHub, Bitbucket or Dropbox connected to the site, all changes the client makes are pushed back to the storage provider.
 
-{% raw %}
-~~~html
----
-hello_text: "Hello there!"
-show_footer: true
----
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>About</title>
-  </head>
-  <body>
-    <h1>About page</h1>
-    <p>{{ page.hello_text }}</p>
-
-    {% if page.show_footer %}
-      <footer>I am a footer</footer>
-    {% endif %}
-  </body>
-</html>
-~~~
-{% endraw %}
-
-![Footer about page](/img/casts/front-matter/footer-about.png)
-
-Changing `show_footer` to false will remove the footer.
-
-Arrays are also possible in front matter. We'll create a new array called fruit, each item is indented with two spaces then starts with a hyphen. Then we'll iterate over the items on our page and output them as an unordered list.
-
-{% raw %}
-~~~html
----
-hello_text: "Hello there!"
-show_footer: false
-fruit:
-  - apple
-  - banana
-  - orange
----
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>About</title>
-  </head>
-  <body>
-    <h1>About page</h1>
-    <p>{{ page.hello_text }}</p>
-
-    <ul>
-      {% for item in page.fruit %}
-        <li>{{ item }}</li>
-      {% endfor %}
-    </ul>
-
-    {% if page.show_footer %}
-      <footer>I am a footer</footer>
-    {% endif %}
-  </body>
-</html>
-~~~
-{% endraw %}
-
-![Object about page](/img/casts/front-matter/array.png)
-
-
-In this last example we'll use objects in front matter. Objects allow for more complex data structures, we're going to use it in our fruits array so we're not only setting the name of the fruit, but also the cost and color. Instead of array items being strings we want them to be keys and values. When we're outputting the fruit, item is now an entire object so we need to reference the keys inside the object.
-
-{% raw %}
-~~~html
----
-hello_text: "Hello there!"
-show_footer: false
-fruit:
-  - name: apple
-    cost: $1
-    color: red
-  - name: banana
-    cost: $2
-    color: yellow
-  - name: orange
-    cost: $1.50
-    color: orange
----
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>About</title>
-  </head>
-  <body>
-    <h1>About page</h1>
-    <p>{{ page.hello_text }}</p>
-
-    <ul>
-      {% for item in page.fruit %}
-        <li>{{ item.name }}, cost: {{ item.cost }}, color: {{ item.color }}</li>
-      {% endfor %}
-    </ul>
-
-    {% if page.show_footer %}
-      <footer>I am a footer</footer>
-    {% endif %}
-  </body>
-</html>
-~~~
-{% endraw %}
-
-![Object about page](/img/casts/front-matter/object-about.png)
-
-The real power of front matter comes when it's used in combination with layouts and includes which we'll cover in the next tutorials.
+Now the client can update all the content and hasn't had to learn HTML, Liquid or Markdown. This gives a small taste of what you can achieve on CloudCannon. [Sign up free](https://app.cloudcannon.com/users/sign_up) and make your Jekyll site client editable.
