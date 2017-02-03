@@ -1,4 +1,4 @@
-.count {
+tim.count {
 	color: $light-grey;
 	font-size: .7em;
 	position: relative;
@@ -21,6 +21,10 @@
 
 .category {
 	flex: 0 0 100%;
+
+	h3 {
+		text-transform:capitalize;
+	}
 
 	@media #{$mid-point} {
 		flex: 0 0 50%;
@@ -101,12 +105,12 @@
 			color: $medium-grey;
 			text-decoration: none;
 			display: block;
-			-webkit-transition: padding .2s ease;
+			-webkit-transition: transform .2s ease;
 			line-height: 1.3em;
 
 			&.active {
 				color: $link-color;
-				padding-left: 10px;
+				transform: translateX(10px);
 			}
 		}
 	}
@@ -303,15 +307,22 @@
 
 .tutorial-series {
 	ul {
-		border-left: 2px solid #e0e0e0;
 		padding: 0 0 0 20px;
+	}
+
+	li:last-child a:after {
+		background: none;
+		height: 0;
+		width: 0;
 	}
 
 	li {
 		flex: 0 0 100%;
+		margin: 0;
 
 		a {
 			position: relative;
+			margin: 0 0 20px 0;
 			&:before {
 				content: "\25BA";
 				position: absolute;
@@ -321,8 +332,20 @@
 				-moz-transform: translateY(-50%);
 				-ms-transform: translateY(-50%);
 				transform: translateY(-50%);
-				left: -22px;
+				left: -23px;
 				color: #e0e0e0;
+				z-index: 1;
+			}
+
+			&:after {
+				content: "";
+				display: block;
+				left: -22px;
+				background: #e0e0e0;
+				position: absolute;
+				bottom: -43px;
+				width: 2px;
+				top: 39px;
 			}
 		}
 

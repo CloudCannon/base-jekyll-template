@@ -17,6 +17,7 @@ input[type="submit"] {
 	margin-top: 9px;
 	border-radius: 3px;
 	width: 100%;
+	cursor: pointer;
 }
 
 input {
@@ -50,8 +51,4 @@ input:-moz-placeholder {
 }
 input::-webkit-input-placeholder {
 	color: #ccc;
-}
-
-input[type=search]:hover {
-	background-color: #fff;
 }

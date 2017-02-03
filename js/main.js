@@ -45,11 +45,13 @@ function getClosestHeader() {
 	$last = $links.first(),
 	$content = $(".tutorial-content");
 
+	console.log(top);
+
 	if (top < 300) {
 		return $last;
 	}
 
-	if (top + window.innerHeight >= $content.height()) {
+	if (top + window.innerHeight >= $content.offset().top + $content.height()) {
 		return $links.last();
 	}
 
@@ -63,7 +65,7 @@ function getClosestHeader() {
 			if ($anchor.length > 0) {
 				var offset = $anchor.offset();
 
-				if (top < offset.top - 300) {
+				if (top < offset.top - (window.innerHeight / 2)) {
 					return $last;
 				}
 

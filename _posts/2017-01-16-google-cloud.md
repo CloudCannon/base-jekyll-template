@@ -1,8 +1,8 @@
 ---
 date: 2017-01-16
 title: Google Cloud
-category:
-  - Deployment
+categories:
+  - deployment
 description: Deploy Jekyll sites to Google Cloud
 type: Document
 ---

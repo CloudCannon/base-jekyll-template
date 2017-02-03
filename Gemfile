@@ -8,6 +8,6 @@ group :jekyll_plugins do
 	gem 'jekyll-sitemap', '0.12.0'
 	gem 'jekyll-seo-tag', '2.1.0'
 	gem 'jekyll-feed', '0.8.0'
+	gem 'jekyll-extract-element', '0.0.6'
 	gem 'classifier-reborn', '2.0.4'
-	gem 'nokogiri'
 end

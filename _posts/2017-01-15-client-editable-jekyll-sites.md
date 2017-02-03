@@ -3,8 +3,8 @@ date: 2017-01-15
 title: Client editable Jekyll sites
 video_id: skb_XWABEDc
 description: Have non-technical people update Jekyll sites
-category:
-  - Deployment
+categories:
+  - deployment
 resources:
   - name: Source code
     link: https://github.com/CloudCannon/creative-jekyll-theme/

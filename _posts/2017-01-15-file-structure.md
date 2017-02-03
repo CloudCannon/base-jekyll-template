@@ -3,8 +3,8 @@ date: 2017-01-15
 title: File structure
 video_id: C4qwj6kHF48
 description: Overview of Jekyll's file structure
-category:
-  - Getting Started
+categories:
+  - getting-started
 resources:
   - name: Source code
     link: https://github.com/CloudCannon/bakery-store/tree/structure

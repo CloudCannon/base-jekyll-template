@@ -4,8 +4,8 @@ title: Why use a static site generator?
 video_id: FOfIoCi9uTI
 description: Introduction to the world of static site generators
 type: Video
-category:
-  - Getting Started
+categories:
+  - getting-started
 set: getting-started
 set_order: 6
 ---

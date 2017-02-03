@@ -40,6 +40,10 @@ header {
 				min-width: 100px;
 			}
 		}
+
+		form svg {
+			fill: #eee;
+		}
 	}
 
 	nav {
@@ -64,33 +68,13 @@ header {
 		input[type="search"] {
 			width: 100%;
 			padding: 5px 10px;
-			background: rgba(255,255,255,0);
-			border-color: rgba(255,255,255,.2);
-			color: rgba(255,255,255,.9);
-
-			&:focus {
-				// background: rgba(255,255,255,.3);
-				border-color: rgba(255,255,255,.7);
-			}
-
-			&:hover {
-				background: rgba(255,255,255,0);
-			}
-		}
-
-		input:-moz-placeholder {
-			color: rgba(255,255,255,.3);
-		}
-		input::-webkit-input-placeholder {
-			color: rgba(255,255,255,.3);
 		}
 
 		svg {
 			position: absolute;
-			top: 1px;
+			top: 6px;
 			right: 7px;
 			width: 25px;
-			color: rgba(255,255,255,.3);
 			cursor: pointer;
 		}
 
@@ -153,12 +137,12 @@ header {
 		padding: 20px 0;
 
 		svg {
-			color: #eee;
+			fill: #eee;
 			position: absolute;
-			top: 30px;
-			right: 20px;
+			top: 31px;
+			right: 12px;
 			display: inline-block;
-			width: 27px;
+			width: 36px;
 			height: 40px;
 			cursor: pointer;
 		}

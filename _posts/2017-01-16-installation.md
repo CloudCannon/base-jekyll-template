@@ -1,8 +1,8 @@
 ---
 date: 2017-01-16
 title: Installation
-category:
-  - Getting Started
+categories:
+  - getting-started
 description: Your guide to installation
 type: Document
 ---

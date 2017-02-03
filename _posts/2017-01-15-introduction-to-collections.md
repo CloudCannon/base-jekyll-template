@@ -3,8 +3,8 @@ date: 2017-01-15
 title: Introduction to collections
 video_id: _f4aly6xblQ
 description: Learn how to use collections to manage and organize related content
-category:
-  - Billing
+categories:
+  - billing
 resources:
   - name: "Explain like I'm five: Jekyll collections"
     link: http://ben.balter.com/2015/02/20/jekyll-collections/
