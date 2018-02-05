@@ -25,7 +25,8 @@ social:
 
 permalink: /:categories/:title/
 
-gems:
+plugins:
+  - jekyll-extract-element
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
