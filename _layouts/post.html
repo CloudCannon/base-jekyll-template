@@ -40,7 +40,7 @@ layout: default
 
 {% if page.set %}
 	{% assign set_file_name = "_sets/" | append: page.set | append: ".md" %}
-	{% assign set = site.sets | where: "title", "Getting Started" | first %}
+	{% assign set = site.sets | where: "path", set_file_name | first %}
 	{% assign series_posts = site.posts | where: "set", page.set %}
 	<div class="tutorial-series">
 		<h3>{{ set.title }} - Series</h3>
