@@ -23,6 +23,8 @@ social:
 # -----
 # Build
 
+timezone: Etc/UTC
+
 permalink: /:categories/:title/
 
 plugins:
