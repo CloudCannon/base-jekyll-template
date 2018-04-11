@@ -10,7 +10,7 @@
 
 header {
 	padding: 16px 0 10px 0;
-	background: $header-color;
+	background: $header-bg;
 	color: #fff;
 
 	form {
@@ -31,13 +31,6 @@ header {
 			a {
 				display: block;
 				line-height: 0;
-			}
-
-			svg {
-				fill: #fff;
-				width: 100%;
-				height: 46px;
-				min-width: 100px;
 			}
 		}
 
