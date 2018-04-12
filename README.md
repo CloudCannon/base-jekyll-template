@@ -1,5 +1,6 @@
 # READ THIS
-When creating posts, in the date field in the .md do not go over the number 9. If you use any number bigger than 9 the post will not render. Probably an easy fix, feel free to make a PR. 
+
+When creating posts, in the __date__ field in the .md do not go over the number 9. If you use any number bigger than 9 the post will __not__ render. Probably an easy fix, feel free to make a PR. 
 
 
 ## Features
