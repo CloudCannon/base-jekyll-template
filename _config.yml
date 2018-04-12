@@ -2,8 +2,8 @@
 # Site
 
 title: Base
-url: "https://orange-ape.cloudvent.net/"
-baseurl:
+url: "https://kb.armory.io/"
+baseurl: 
 google_analytics_key:
 disqus_shortname:
 newsletter_action:
