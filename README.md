@@ -1,12 +1,6 @@
-# Base
+# READ THIS
+When creating posts, in the date field in the .md do not go over the number 9. If you use any number bigger than 9 the post will not render. Probably an easy fix, feel free to make a PR. 
 
-Knowledge base template for Jekyll. Browse through a [live demo](https://orange-ape.cloudvent.net/).
-
-![Base template screenshot](images/_screenshot.png)
-
-Base was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
-
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
 ## Features
 
