@@ -22,21 +22,18 @@ When creating posts, in the __date__ field in the .md do not go over the number 
 2. Add your Google Analytics, Disqus and MailChimp keys to `_config.yml`.
 3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
 
-## Develop
+### Running locally
 
-Base was built with [Jekyll](http://jekyllrb.com/) version 3.4.3, but should support newer versions as well.
+Once you have this repo checked out, 
+1. Download and install Docker
+2. Start the server and make changes
+    ```
+    ./bin/run
+    ```
 
-Install the dependencies with [Bundler](http://bundler.io/):
+You can view your changes at : `http://localhost:4000` or `http://192.168.99.100:4000` (if you're using docker-machine)
 
-~~~bash
-$ bundle install
-~~~
-
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
-
-~~~bash
-$ bundle exec jekyll serve
-~~~
+to exit, you can do `ctrl+c`
 
 ## Editing
 
