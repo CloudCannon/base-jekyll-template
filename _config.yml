@@ -3,7 +3,7 @@
 
 title: Base
 url: "https://kb.armory.io/"
-baseurl: 
+baseurl:
 google_analytics_key:
 disqus_shortname:
 newsletter_action:
@@ -39,6 +39,8 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - Dockerfile
+  - Jenkinsfile
 
 collections:
   sets:
