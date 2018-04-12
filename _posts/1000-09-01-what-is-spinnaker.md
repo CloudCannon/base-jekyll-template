@@ -12,5 +12,5 @@ type: Video
 set: getting-started
 set_order: 10
 ---
-Spinnaker is the continuous delivery platform that codifies the software delivery best practices that put Netflix and Google a decade ahead of most other companies..
+In this video Ethan, Armory's Software Engineer, discusses what Spinnaker is. 
 
