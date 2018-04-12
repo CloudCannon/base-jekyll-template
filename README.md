@@ -22,7 +22,7 @@ When creating posts, in the __date__ field in the .md do not go over the number 
 2. Add your Google Analytics, Disqus and MailChimp keys to `_config.yml`.
 3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
 
-### Running locally
+## Running locally
 
 Once you have this repo checked out, 
 1. Download and install Docker
