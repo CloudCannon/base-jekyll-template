@@ -12,5 +12,5 @@ type: Video
 set: getting-started
 set_order: 10
 ---
-In this video Ethan, Armory's Software Engineer, discusses what Spinnaker is. 
+In this video Ethan, Armory's Software Engineer, give a quick overview of Spinnaker and some basic use cases. 
 
