@@ -1,8 +1,8 @@
 ---
 date: 2018-01-18
 title: Pipelines Part 2
-video_id: xQj4EflCcio
-description: An Introduction To Creating Pipelines
+video_id: L8bJUFhcqGs
+description: An Introduction On How To Build Pipelines
 categories:
   - pipelines
 resources:
