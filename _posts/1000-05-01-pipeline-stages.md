@@ -4,7 +4,7 @@ title: Pipelines Stages
 video_id: VjAkccQHR4Y
 description: An Introduction To Creating Different Types Of Pipeline Stages
 categories:
-  - spinnaker concepts
+  - Pipelines
 resources:
   - name: Pipelines
     link: https://docs.armory.io/user-guides/pipelines/
