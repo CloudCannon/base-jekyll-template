@@ -4,7 +4,7 @@ title: Pipelines Part 2
 video_id: xQj4EflCcio
 description: An Introduction To Creating Pipelines
 categories:
-  - spinnaker concepts
+  - pipelines
 resources:
   - name: Pipelines
     link: https://docs.armory.io/user-guides/pipelines/
