@@ -1,15 +1,11 @@
 ---
 faq:
-  - question: What is Jekyll?
-    answer: Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.
-  - question: What is front matter?
-    answer: The front matter is where Jekyll starts to get really cool. Any file that contains a YAML front matter block will be processed by Jekyll as a special file. The front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines
-  - question: What is a static file?
-    answer: A static file is a file that does not contain any YAML front matter. These include images, PDFs, and other un-rendered content.
-  - question: What is a collection?
-    answer: Not everything is a post or a page. Maybe you want to document the various methods in your open source project, members of a team, or talks at a conference. Collections allow you to define a new type of document that behave like Pages or Posts do normally, but also have their own unique properties and namespace.
-  - question: What is a data file?
-    answer: In addition to the built-in variables available from Jekyll, you can specify your own custom data that can be accessed via the Liquid templating system. Jekyll supports loading data from YAML, JSON, and CSV files located in the  `_data` directory. Note that CSV files must contain a header row.
+  - question: What is Immutable Infrastructure?
+    answer: Immutable infrastructure is comprised of immutable components that are replaced for every deployment, rather than being updated in-place. Those components are started from a common image that is built once per deployment and can be tested and validated.
+  - question: Where does Spinnaker begin and Jenkins end?
+    answer: Spinnaker is not a build server. It was never designed that way. While in theory Spinnaker could implement its own service that acts as a build server, there is no need to do this. Spinnaker takes advantage of the existing Jenkins ecosystem and uses Jenkins behinds the scenes. Spinnaker was designed from the ground up to be a cloud deployment tool combining Continuous Integration and Continuous Delivery. This means that instead of just executing arbitrary tasks, it has first class support for cloud concepts.
+  - question: How do I monitor my server that monitors my deployments?
+    answer: Currently, Armory has integration with Datadog, and New Relic coming soon, but we are open to suggestions and welcome feedback on other tools we could integrate with.
 ---
 
 <h1>FAQ</h1>
