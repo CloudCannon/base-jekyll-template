@@ -1,7 +1,7 @@
 ---
 date: 2018-01-18
 title: Pipelines Stages
-video_id: VjAkccQHR4Y
+video_id: dM1trF4rsqU&t
 description: An Introduction To Creating Different Types Of Pipeline Stages
 categories:
   - pipelines
