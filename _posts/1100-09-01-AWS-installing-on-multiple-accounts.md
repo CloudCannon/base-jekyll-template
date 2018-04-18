@@ -21,10 +21,6 @@ In the file */opt/spinnaker/env/prod.env*, many different environment variables 
 
 If you want to customize the secrets for each environment, production, staging, development, you can add these to */opt/spinnaker/bin/secrets* with conditionals to obtain the correct credentials for the environment. You can see an example of conditional secrets in the secrets file at: [https://github.com/armory/spinnaker-config-deb/blob/master/deb-config/spinnaker/bin/secrets](https://github.com/armory/spinnaker-config-deb/blob/master/deb-config/spinnaker/bin/secrets)
 
-## What Is Default.env
-
-*/opt/spinnaker/env/default.env* is created by user-data in the *deploy-stage.* This can be edited, and most user defined env should be in 
-*/opt/spinnaker/env/**{your-env-here}**.env*
 
 ## Additional Links
 
