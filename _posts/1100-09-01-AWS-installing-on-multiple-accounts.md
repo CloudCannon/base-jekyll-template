@@ -15,9 +15,11 @@ A file similar to */opt/spinnaker/env/prod.env* The name *prod* comes from the *
 Example:
 `armoryapinnaker-prod-v999`
 
-## Setting Environment Variables
+## Setting Environment Variables And Secrets Specific to Environments
 
-In this file, many different environment variables can be set depending on needs
+In the file */opt/spinnaker/env/prod.env*, many different environment variables can be set depending on the needs of that specific envrionment.  
+
+If you want to customize the secrets for each environment, production, staging, development, you can add these to */opt/spinnaker/bin/secrets* with conditionals to obtain the correct credentials for the environment. You can see an example of conditional secrets in the secrets file at: [https://github.com/armory/spinnaker-config-deb/blob/master/deb-config/spinnaker/bin/secrets](https://github.com/armory/spinnaker-config-deb/blob/master/deb-config/spinnaker/bin/secrets)
 
 ## What Is Default.env
 
