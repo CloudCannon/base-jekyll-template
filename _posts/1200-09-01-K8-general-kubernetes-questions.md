@@ -1,6 +1,6 @@
 ---
 date: 2018-04-17
-title: Spinnaker And K8 V2
+title: Spinnaker K8s V2 FAQs
 categories:
    - Kubernetes
 description: "Spinnaker with Kubernetes V2"
@@ -8,14 +8,13 @@ type: Document
 ---
 04/19/2018
 
-Below we will answer some general questions on Kubernetes (K8) V2 and how it works with Armory Spinnaker
+Below we will answer some general questions on Kubernetes (K8s) V2 and how it works with Armory Spinnaker
 
-## How to create a pipeline in K8 V2 with Spinnaker?
+## How to create a pipeline in K8s V2 with Spinnaker?
 Generally speaking, to create a K8 V2 pipeline, you would create a ‘deployment’ manifest for your server group. You can store it in either GitHub, S3, or GCS. In the pipeline you can configure it to trigger when there is a change to it. Details to each can be found in the OSS docs.
 
 You can find more details at this link:
 [https://www.spinnaker.io/reference/providers/kubernetes-v2/#using-externally-stored-manifests](https://www.spinnaker.io/reference/providers/kubernetes-v2/#using-externally-stored-manifests)
-
 
 ## How does Spinnakers K8 V2 handle ISTIO changes?
 There is no extra support for ISTIO right now. Some things may work perfectly, while others may not work as expected. Armory and the OSS community still determining how to best fit ISTIO into the provider.

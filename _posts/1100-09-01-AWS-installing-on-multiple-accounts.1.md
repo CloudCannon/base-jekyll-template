@@ -21,5 +21,6 @@ This is where Spinnaker (the service) lives. Usually correlated with an appropri
 This is where Spinnaker is configured to deploy *to*. This is useful for managing applications across different cloud providers, accounts.
 
 ## Documentation
-With the above understanding jump over to our documentation and enjoy.[https://docs.armory.io/admin-guides/shared_configuration_repo/](https://docs.armory.io/admin-guides/shared_configuration_repo/)
+With the above understanding jump over to our documentation and enjoy.
+[https://docs.armory.io/admin-guides/shared_configuration_repo/](https://docs.armory.io/admin-guides/shared_configuration_repo/)
 
