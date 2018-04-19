@@ -10,7 +10,7 @@ type: Document
 
 Below we will answer some general questions on Kubernetes (K8) V2 and how it works with Armory Spinnaker
 
-## How would to create a pipeline in K8 V2 with Spinnaker?
+## How to create a pipeline in K8 V2 with Spinnaker?
 Generally speaking, to create a K8 V2 pipeline, you would create a ‘deployment’ manifest for your server group. You can store it in either GitHub, S3, or GCS. In the pipeline you can configure it to trigger when there is a change to it. Details to each can be found in the OSS docs.
 
 You can find more details at this link:
