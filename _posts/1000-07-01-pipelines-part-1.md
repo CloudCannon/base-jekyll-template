@@ -12,4 +12,4 @@ type: Video
 set: getting-started
 set_order: 8
 ---
-In this video Ethan, Armory's Software Engineer, will cover what pipelines are, how stages fit into pipelines, stage dependencies,
+In this video Ethan, Armory's Software Engineer, will cover what pipelines are, how stages fit into pipelines, and stage dependencies.

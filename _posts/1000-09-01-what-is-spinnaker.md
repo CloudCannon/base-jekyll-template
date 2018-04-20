@@ -6,7 +6,7 @@ description: A Quick Overview Of Spinnaker
 categories:
   - spinnaker concepts
 resources:
-  - name: Documentation
+  - name: Armory Documentation
     link: docs.armory.io
 type: Video
 set: getting-started

@@ -6,9 +6,9 @@ description: A Quick Overview Of Spinnaker Concepts
 categories:
   - spinnaker concepts
 resources:
-  - name: Pipelines
+  - name: Armory Docs On pipelines
     link: https://docs.armory.io/user-guides/pipelines/
-  - name: Application
+  - name: Armory Docs On the application screen
     link: https://docs.armory.io/user-guides/application-screen/
 type: Video
 set: getting-started
