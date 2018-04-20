@@ -51,11 +51,11 @@ There are two primary posts types, Document and Video.
 
 An important of the orginization of the posts for both documents and videos is the metadata at the top of the file. Breaking down what each field means.
 
-date: *Will be the publish date, but will not show up to the end user, used for SEO*
+- date: the publishing date, it **will not** show up to the end user, used for SEO
 
-title: *Will be the title showed at the top of the article and when it's listed*
+- title: the title showed at the top of the article and when it's listed
 
-description: *Will not be published to the user, used for SEO*
+- description: Will not be shown to the user, used for SEO
 
 
 ### Example of a category
