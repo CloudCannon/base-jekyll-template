@@ -53,7 +53,7 @@ An important of the orginization of the posts for both documents and videos is t
 
 date: <Will be the publish date, but will not show up to the end user, used for SEO>
 title: <Will be the title showed at the top of the article and when it's listed>
-categoies: <Are ways to organize similar content>
+categoies: <Are ways to organize similar content> 
 description: <Will not be published to the user, used for SEO>
 
 ### Example of a category
