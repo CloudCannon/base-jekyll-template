@@ -1,6 +1,6 @@
 # READ THIS
 
-There are default examples of both video and document in the repo called **video_default.md** and **document_default.md**
+There are default examples of both video and document in the repo called [video_default.md](https://github.com/armory/knowledge-base/blob/master/_posts/video_default.md) and [document_default.md](https://github.com/armory/knowledge-base/blob/master/_posts/document_default.md)
 
 
 ## Features
