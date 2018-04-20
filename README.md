@@ -66,7 +66,7 @@ type: <Determins what icon is next to your post>
 
 ![Image](https://dha4w82d62smt.cloudfront.net/items/1y0W262h1O1b2o3a0m0c/%5Ba6426540b975b5cec5dbfeab5f60eded%5D_Image%25202018-04-20%2520at%25209.46.12%2520AM.png?X-CloudApp-Visitor-Id=3010088&v=31718d5c)
     
-Resources: <Only pertains to "Video" posts. These are the links that appear right below the video
+Resources: <Only pertains to "Video" posts. These are the links that appear right below the video>
 
 ![Image]
 (https://dha4w82d62smt.cloudfront.net/items/3y230Z2W0W1C3l20262Z/%5B31966bf1a3b62fc817d809c2c48402a0%5D_Image%25202018-04-20%2520at%25209.59.31%2520AM.png?X-CloudApp-Visitor-Id=3010088&v=d456f555)
