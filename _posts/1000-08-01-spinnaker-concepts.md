@@ -8,7 +8,7 @@ categories:
 resources:
   - name: Armory Docs On Pipelines
     link: https://docs.armory.io/user-guides/pipelines/
-  - name: Armory Docs On the application screen
+  - name: Armory Docs On The Application Screen
     link: https://docs.armory.io/user-guides/application-screen/
 type: Video
 set: getting-started
