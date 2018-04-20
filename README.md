@@ -51,10 +51,10 @@ There are two primary posts Document and Video.
 
 An important of the orginization of the posts for both documents and videos is the metadata at the top of the file. Breaking down what each field means.
 
-date: <Will be the publish date, but will not show up to the end user, used for SEO>
-title: <Will be the title showed at the top of the article and when it's listed>
-categoies: <Are ways to organize similar content> 
-description: <Will not be published to the user, used for SEO>
+date: *Will be the publish date, but will not show up to the end user, used for SEO*
+title: *Will be the title showed at the top of the article and when it's listed*
+categoies: *Are ways to organize similar content*
+description: *Will not be published to the user, used for SEO*
 
 ### Example of a category
 cateogory: Kubernetes
@@ -62,14 +62,14 @@ cateogory: Kubernetes
 ![Category Screenshot](https://dha4w82d62smt.cloudfront.net/items/0k3T1V372L193C0x1y3F/%5Bd2bdba30dd8aee222e7511abd5a338f6%5D_Image%25202018-04-19%2520at%25209.12.47%2520PM.png?X-CloudApp-Visitor-Id=3010088&v=f0daac9e)
 
 
-type: <Determins what icon is next to your post (Document or Video)>
+type: *Determins what icon is next to your post (Document or Video)*
 
 ### Example of a type
 
 ![Type Screenshot](https://dha4w82d62smt.cloudfront.net/items/1y0W262h1O1b2o3a0m0c/%5Ba6426540b975b5cec5dbfeab5f60eded%5D_Image%25202018-04-20%2520at%25209.46.12%2520AM.png?X-CloudApp-Visitor-Id=3010088&v=31718d5c)
     
 
-Resources: <Only pertains to "Video" posts. These are the links that appear right below the video>
+Resources: *Only pertains to "Video" posts. These are the links that appear right below the video*
 
 ### Example of a Resources
 
