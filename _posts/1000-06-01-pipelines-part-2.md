@@ -6,7 +6,7 @@ description: An Introduction On How To Build Pipelines
 categories:
   - pipelines
 resources:
-  - name: Pipelines
+  - name: Armory Docs On Pipelines
     link: https://docs.armory.io/user-guides/pipelines/
 type: Video
 set: getting-started
