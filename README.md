@@ -47,7 +47,7 @@ The sticky sidebar in tutorials in populated by pulling out `<h2>` elements from
 * Change the defaults when new posts are created in `_posts/_defaults.md`.
 
 ### Lets break it down a little more
-There are two primary posts Document and Video. 
+There are two primary posts types, Document and Video. 
 
 An important of the orginization of the posts for both documents and videos is the metadata at the top of the file. Breaking down what each field means.
 
