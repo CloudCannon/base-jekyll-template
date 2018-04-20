@@ -60,6 +60,7 @@ description: *Will not be published to the user, used for SEO*
 
 ### Example of a category
 categoies: *Are ways to organize similar content*
+
 cateogory: Kubernetes
 
 ![Category Screenshot](https://dha4w82d62smt.cloudfront.net/items/0k3T1V372L193C0x1y3F/%5Bd2bdba30dd8aee222e7511abd5a338f6%5D_Image%25202018-04-19%2520at%25209.12.47%2520PM.png?X-CloudApp-Visitor-Id=3010088&v=f0daac9e)
