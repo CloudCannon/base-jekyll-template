@@ -11,7 +11,6 @@ When creating posts, in the __date__ field in the .md do not go over the number 
 * FAQ section
 * Disqus comments
 * Sticky sidebar for main headings in tutorials
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
 * RSS/Atom feed
 * SEO tags
 * Google Analytics
@@ -46,6 +45,21 @@ The sticky sidebar in tutorials in populated by pulling out `<h2>` elements from
 * Add, update or remove a post in the *Posts* collection.
 * The tutorials page is organised by categories.
 * Change the defaults when new posts are created in `_posts/_defaults.md`.
+
+# Lets break it down a little more
+There are two primary posts Document and Video. 
+
+An important of the orginization of the posts for both documents and videos is the metadata at the top of the file. Breaking down what each field means
+
+date: Will be the publish date, but will not show up to the end user
+title: Will be the title showed at the top of the article and when it's listed.
+categoies: Are ways to organize similar content.
+
+# Example of a category
+cateogory: Kubernetes
+
+![Image](https://cl.ly/0s0e0f03350V)
+
 
 ### Post Series
 To create a new series:
