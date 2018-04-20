@@ -57,24 +57,22 @@ title: *Will be the title showed at the top of the article and when it's listed*
 
 description: *Will not be published to the user, used for SEO*
 
-categoies: *Are ways to organize similar content*
 
 ### Example of a category
+categoies: *Are ways to organize similar content*
 cateogory: Kubernetes
 
 ![Category Screenshot](https://dha4w82d62smt.cloudfront.net/items/0k3T1V372L193C0x1y3F/%5Bd2bdba30dd8aee222e7511abd5a338f6%5D_Image%25202018-04-19%2520at%25209.12.47%2520PM.png?X-CloudApp-Visitor-Id=3010088&v=f0daac9e)
 
 
-type: *Determins what icon is next to your post (Document or Video)*
-
 ### Example of a type
+type: *Determins what icon is next to your post (Document or Video)*
 
 ![Type Screenshot](https://dha4w82d62smt.cloudfront.net/items/1y0W262h1O1b2o3a0m0c/%5Ba6426540b975b5cec5dbfeab5f60eded%5D_Image%25202018-04-20%2520at%25209.46.12%2520AM.png?X-CloudApp-Visitor-Id=3010088&v=31718d5c)
     
 
-Resources: *Only pertains to "Video" posts. These are the links that appear right below the video*
-
 ### Example of Resources
+Resources: *Only pertains to "Video" posts. These are the links that appear right below the video*
 
 ![Resources Screenshot](https://dha4w82d62smt.cloudfront.net/items/3y230Z2W0W1C3l20262Z/%5B31966bf1a3b62fc817d809c2c48402a0%5D_Image%25202018-04-20%2520at%25209.59.31%2520AM.png?X-CloudApp-Visitor-Id=3010088&v=d456f555)
 
