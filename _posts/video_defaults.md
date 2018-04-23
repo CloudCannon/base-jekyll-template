@@ -1,5 +1,5 @@
 ---
-date: <not showed to user, SEO data>
+date: <YYYY-MM-DD not showed to user, SEO data>
 title: <title at top of doc and tile used when linking to doc>
 video_id: <youtube videoID>
 description: <description not shown to user, used for SEO>
