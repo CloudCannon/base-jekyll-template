@@ -9,7 +9,7 @@ type: Document
 04/23/2018
 
 ## Question
-How do I find out what version of Armory's installation is best for my needs.
+How do I find out what version of Armory's installation is best for my needs?
 
 ## Answer
 Knowing your needs is the most important part of picking the correct installation.  If you want the stable recommended release with none of the new functionality you will want the GA. If you want the latest with some possible hiccups, most likely not for prod, go with the latest cut.
