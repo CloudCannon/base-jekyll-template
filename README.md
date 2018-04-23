@@ -49,7 +49,7 @@ The sticky sidebar in tutorials in populated by pulling out `<h2>` elements from
 ### Lets break it down a little more
 There are two primary posts types, Document and Video. 
 
-An important of the orginization of the posts for both documents and videos is the metadata at the top of the file. Breaking down what each field means.
+An important part of the orginization of the posts for both documents and videos is the metadata at the top of the file. Breaking down what each field means.
 
 - date: the publishing date, it **will not** show up to the end user, used for SEO
 
