@@ -4,7 +4,7 @@ title: Spinnaker Concepts
 video_id: b8N23gcdRHc
 description: A Quick Overview Of Spinnaker Concepts
 categories:
-  - spinnaker concepts
+  - Spinnaker
 resources:
   - name: Armory Docs On Pipelines
     link: https://docs.armory.io/user-guides/pipelines/

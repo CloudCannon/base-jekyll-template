@@ -4,7 +4,7 @@ title: What Is Spinnaker
 video_id: H_rFShgmJHY
 description: A Quick Overview Of Spinnaker
 categories:
-  - spinnaker concepts
+  - Spinnaker
 resources:
   - name: Armory Documentation
     link: docs.armory.io

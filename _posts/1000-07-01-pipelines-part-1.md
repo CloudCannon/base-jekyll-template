@@ -4,7 +4,7 @@ title: Pipelines Part 1
 video_id: NBeUAjlcVJw
 description: An Introduction To Creating Pipelines
 categories:
-  - pipelines
+  - Pipelines
 resources:
   - name: Armory Docs On Pipelines
     link: https://docs.armory.io/user-guides/pipelines/
