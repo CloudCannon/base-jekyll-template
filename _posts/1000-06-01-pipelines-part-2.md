@@ -4,7 +4,7 @@ title: Pipelines Part 2
 video_id: L8bJUFhcqGs
 description: An Introduction On How To Build Pipelines
 categories:
-  - pipelines
+  - Pipelines
 resources:
   - name: Armory Docs On Pipelines
     link: https://docs.armory.io/user-guides/pipelines/

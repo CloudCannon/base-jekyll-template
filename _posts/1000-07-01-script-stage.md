@@ -2,7 +2,7 @@
 date: 2018-04-23
 title: Spinnaker Script Stage
 categories:
-   - pipelines
+   - Pipelines
 description: Describes how to use the Spinnaker script stage in a spinnaker pipeline
 type: Document
 ---
