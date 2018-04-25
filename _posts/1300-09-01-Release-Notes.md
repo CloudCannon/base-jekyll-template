@@ -1,9 +1,9 @@
 ---
 date: 2018-04-23
-title: What Release Do I use
+title: What Armory Release Do I use
 categories:
   - Releases
-description: What release is good for you?
+description: What Armory release is good for you?
 type: Document
 ---
 04/23/2018
