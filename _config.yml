@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Base
-url: "https://orange-ape.cloudvent.net/"
+title: Armory
+url: "https://kb.armory.io/"
 baseurl:
 google_analytics_key:
 disqus_shortname:
@@ -39,6 +39,8 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - Dockerfile
+  - Jenkinsfile
 
 collections:
   sets:
