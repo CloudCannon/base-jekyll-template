@@ -48,117 +48,121 @@ header {
 }
 button.PrimaryCTAButton {
 	@media #{$mid-point} {
-			/* Font & Text */
-			font-family: "Open Sans", "Arial CE", Arial, sans-serif;
-			font-size: 14px;
-			font-style: normal;
-			font-variant: normal;
-			font-weight: 700;
-			letter-spacing: 1.4px;
-			line-height: 18px;
-			text-decoration: none solid rgb(255, 255, 255);
-			text-align: center;
-			text-indent: 0px;
-			text-transform: uppercase;
-			vertical-align: baseline;
-			white-space: normal;
-			word-spacing: 0px;
+		/* Font & Text */
+		font-family: "Open Sans", "Arial CE", Arial, sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 700;
+		letter-spacing: 1.4px;
+		line-height: 18px;
+		text-decoration: none solid rgb(255, 255, 255);
+		text-align: center;
+		text-indent: 0px;
+		text-transform: uppercase;
+		vertical-align: baseline;
+		white-space: normal;
+		word-spacing: 0px;
 
-			/* Color & Background */
-			background-attachment: scroll;
-			background-color: rgb(0, 212, 148);
-			background-image: none;
-			background-position: 0% 0%;
-			background-repeat: repeat;
-			color: rgb(255, 255, 255);
+		/* Color & Background */
+		background-attachment: scroll;
+		background-color: rgb(0, 212, 148);
+		background-image: none;
+		background-position: 0% 0%;
+		background-repeat: repeat;
+		color: rgb(255, 255, 255);
 
-			/* Box */
-			height: 46px;
-			width: 181.781px;
-			border: 0px none rgb(255, 255, 255);
-			border-top: 0px none rgb(255, 255, 255);
-			border-right: 0px none rgb(255, 255, 255);
-			border-bottom: 0px none rgb(255, 255, 255);
-			border-left: 0px none rgb(255, 255, 255);
-			margin: 0px;
-			padding: 14px 20px;
-			max-height: none;
-			min-height: auto;
-			max-width: none;
-			min-width: auto;
+		/* Box */
+		height: 46px;
+		width: 181.781px;
+		border: 0px none rgb(255, 255, 255);
+		border-top: 0px none rgb(255, 255, 255);
+		border-right: 0px none rgb(255, 255, 255);
+		border-bottom: 0px none rgb(255, 255, 255);
+		border-left: 0px none rgb(255, 255, 255);
+		margin: 0px;
+		padding: 14px 20px;
+		max-height: none;
+		min-height: auto;
+		max-width: none;
+		min-width: auto;
 
-			/* Positioning */
-			position: relative;
-			top: 0px;
-			bottom: 0px;
-			right: 0px;
-			left: 0px;
-			float: none;
-			display: block;
-			clear: none;
-			z-index: auto;
+		/* Positioning */
+		position: relative;
+		top: 0px;
+		bottom: 0px;
+		right: 0px;
+		left: 0px;
+		float: none;
+		display: block;
+		clear: none;
+		z-index: auto;
 
-			/* List */
-			list-style-image: none;
-			list-style-type: disc;
-			list-style-position: outside;
+		/* List */
+		list-style-image: none;
+		list-style-type: disc;
+		list-style-position: outside;
 
-			/* Table */
-			border-collapse: separate;
-			border-spacing: 0px 0px;
-			caption-side: top;
-			empty-cells: show;
-			table-layout: auto;
+		/* Table */
+		border-collapse: separate;
+		border-spacing: 0px 0px;
+		caption-side: top;
+		empty-cells: show;
+		table-layout: auto;
 
-			/* Miscellaneous */
-			overflow: visible;
-			cursor: pointer;
-			visibility: visible;
+		/* Miscellaneous */
+		overflow: visible;
+		cursor: pointer;
+		visibility: visible;
 
-			/* Effects */
-			transform: matrix(1, 0, 0, 1, 0, 0);
-			transition: all 0.25s linear 0s;
-			outline: rgb(255, 255, 255) dashed 0px;
-			outline-offset: 0px;
-			box-sizing: border-box;
-			resize: none;
-			text-shadow: none;
-			text-overflow: clip;
-			word-wrap: normal;
-			box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 8px 0px;
-			border-top-left-radius: 4px;
-			border-top-right-radius: 4px;
-			border-bottom-left-radius: 4px;
-			border-bottom-right-radius: 4px;
+		/* Effects */
+		transform: matrix(1, 0, 0, 1, 0, 0);
+		transition: all 0.25s linear 0s;
+		outline: rgb(255, 255, 255) dashed 0px;
+		outline-offset: 0px;
+		box-sizing: border-box;
+		resize: none;
+		text-shadow: none;
+		text-overflow: clip;
+		word-wrap: normal;
+		box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 8px 0px;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		border-bottom-left-radius: 4px;
+		border-bottom-right-radius: 4px;
+		a {
+			color: #ffffff;
+			text-decoration: none !important;
 		}
-		display: none;
 	}
+	display: none;
+}
 
-	nav {
-		@media #{$mid-point} {
-			margin: 0 0 0 10px;
-			display: block;
+nav {
+	@media #{$mid-point} {
+		margin: 0 0 0 10px;
+		display: block;
 
-			form {
-				position: absolute;
-				right: 25px;
-				top: 4px;
-				text-align: right;
-			}
-
-			input[type="search"] {
-				max-width: 300px;
-			}
+		form {
+			position: absolute;
+			right: 25px;
+			top: 4px;
+			text-align: right;
 		}
-		display: none;
 
 		input[type="search"] {
-			width: 100%;
-			padding: 5px 10px;
+			max-width: 300px;
 		}
+	}
+	display: none;
 
-		svg {
-			position: absolute;
+	input[type="search"] {
+		width: 100%;
+		padding: 5px 10px;
+	}
+
+	svg {
+		position: absolute;
 			top: 6px;
 			right: 7px;
 			width: 25px;
