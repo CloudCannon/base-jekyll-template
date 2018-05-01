@@ -3,12 +3,7 @@ date: 2018-04-30
 title: Serverless Support with Spinnaker
 categories:
    - serverless
-   - lambda
-   - cloud functions
-   - aws
-   - gcp
-   - jenkins
-description: Serverless Support within Spinnaker and how to accomplish it if needed
+description: Serverless Support within Spinnaker and how to accomplish it if needed. Serverless. FAAS. Lambda. Cloud Functions.
 type: Document
 ---
 04/30/2018
