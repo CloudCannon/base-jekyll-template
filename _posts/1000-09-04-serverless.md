@@ -12,7 +12,7 @@ type: Document
 Does Spinnaker support Serverless or other FAAS technologies?
 
 ## Answer:
-At the moment Spinnaker doesn't have any native support for Serverless technologies. If these are a critical part of your deployment worflow you can always utilize Jenkins to do these as part of your application rollout. Since Spinnaker has a native integration with Jenkins, you can create jobs that roll out your Serverless function and trigger them as part of your Pipeline, making them _feel_ native. This is one of the many ways to make Spinnaker more extensible.
+At the moment Spinnaker doesn't have any native support for Serverless technologies. If these are a critical part of your deployment workflow you can always utilize Jenkins to do these as part of your application rollout. Since Spinnaker has a native integration with Jenkins, you can create jobs that roll out your Serverless function and trigger them as part of your Pipeline, making them _feel_ native. This is one of the many ways to make Spinnaker more extensible.
 
 ### Related Documentation
 - [Working with Jenkins](https://docs.armory.io/user-guides/working-with-jenkins/)
