@@ -29,3 +29,6 @@ Helm strength lies in making manifest bundles (Charts) for multi-environment dep
 
 ## What Spinnaker Does Good, And What Spinnaker Does Ok
 Spinnaker is a multi-cloud, Kubernetes loving, application delivery powerhouse. It lets Netflix deploy applications 4000 times a day, that is 2.5 deployments a minute, one deployment nearly every 25 seconds. Spinnaker is best in class in deployments and all the functionality it wraps around it.  OSS Spinnaker is also great at understanding what other tools do better and incorporating that functionality into its platform.  In this case it’s Helm Charts. Isn’t OSS great‽
+
+Check out our blog post on it here:
+[https://blog.armory.io/deploy-helm-charts-with-spinnaker/](https://blog.armory.io/deploy-helm-charts-with-spinnaker/)
