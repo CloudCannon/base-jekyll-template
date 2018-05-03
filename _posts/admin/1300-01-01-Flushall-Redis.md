@@ -1,6 +1,6 @@
 ---
 date: 2018-05-03
-title: When to use FLUSHALL on Spinnaker's Redis Cache
+title: FLUSHALL on Spinnaker's Redis Cache
 categories:
    - Admin
 description: Why not to run Redis's Flushall with Spinnaker. Flushall. Redis.
