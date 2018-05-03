@@ -2,7 +2,7 @@
 date: 2018-01-18
 title: Spinnaker And Helm
 categories:
-   - Spinnaker
+   - Kubernetes
 description: How Spinnaker and Helm play together
 type: Document
 ---
