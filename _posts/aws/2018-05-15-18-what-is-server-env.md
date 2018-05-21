@@ -3,7 +3,7 @@ date: 2018-05-15
 title: What is /etc/default/server-env
 categories:
    - AWS
-description: "What is /etc/default/server-env"
+description: "What is /etc/default/server-env?"
 type: Document
 ---
 05/15/2018
@@ -31,4 +31,6 @@ LAUNCH_CONFIG="armoryspinnaker-prod-nonpolling-v984-0828050116281"
 
 There's a lot of uses cases, for example: Armory Spinnaker uses this information to determine which `/opt/spinnaker/env/*.env` file to load at runtime.
 
-To learn more: https://www.spinnaker.io/setup/features/user-data/
+To learn more: 
+- [https://docs.armory.io/admin-guides/userdata/](https://docs.armory.io/admin-guides/userdata/)
+- [https://www.spinnaker.io/setup/features/user-data/](https://www.spinnaker.io/setup/features/user-data/)
