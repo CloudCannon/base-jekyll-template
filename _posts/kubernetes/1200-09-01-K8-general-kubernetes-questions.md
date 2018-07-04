@@ -16,6 +16,11 @@ Generally speaking, to create a Kubernetes V2 pipeline, you would create a ‘de
 You can find more details at this link:
 [https://www.spinnaker.io/reference/providers/kubernetes-v2/#using-externally-stored-manifests](https://www.spinnaker.io/reference/providers/kubernetes-v2/#using-externally-stored-manifests)
 
+
+## How does Spinnaker handle multi-cluster and multi-region deploys to Kubernetes?
+In Spinnaker you can configure multiple Kubernetes accounts with different clusters which are located in different regions and then each deploy stage can target a specific account. So you can have N deploy stages, each going to a different account.
+
+
 ## How does Spinnakers Kubernetes V2 handle ISTIO changes?
 There is no extra support for ISTIO right now. Some things may work perfectly, while others may not work as expected. Armory and the OSS community still determining how to best fit ISTIO into the provider.
 
