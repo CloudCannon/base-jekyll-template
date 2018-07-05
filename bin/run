@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -x
+
+rm -rf _site/
+
+docker build -t armory/kb .
+
+docker run --rm -ti \
+  --name=kb \
+  -p 4000:4000 -p 5678:5678 \
+  -v "$(pwd):/srv/jekyll" armory/kb \
+  jekyll serve --watch --incremental --livereload --reload_port 5678

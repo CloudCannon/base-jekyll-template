@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+cd "$(dirname "$0")"/..
+aws s3 sync --delete "$(pwd)/_site/" "s3://kb.armory.io/"
+aws cloudfront create-invalidation --distribution-id E1BHH0QM51WZ95 --paths "/*"

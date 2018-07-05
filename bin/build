@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+cd "$(dirname "$0")"/..
+chmod -R 777 "$(pwd)"
+rm -dfr _site
+
+docker build -t armory/kb .
+
+docker run --rm --user="root" -v "$(pwd):/srv/jekyll" armory/kb bash -c "jekyll build"
