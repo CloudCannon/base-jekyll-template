@@ -31,4 +31,4 @@ Discord bans are usually our final action against a server member, however you m
   - Your discord tag, as well as screenshots of past messages from our moderation bot
   - Why you want to be unbanned from the discord
 
-We cannot guarantee that appealing your ban will get you unbanned, however anwering all of the above questions clearly will greatly improve your chances and improve our response time.
+We cannot guarantee that appealing your ban will get you unbanned, however answering all of the above questions clearly will greatly improve your chances and improve our response time.
