@@ -1,4 +1,8 @@
 - name:
+  link: https://github.com/FydeOS/fydeos.github.io
+  social_icon: Github
+  new_window: true
+- name:
   link: https://t.me/hi_flinters
   social_icon: Telegram
   new_window: true
