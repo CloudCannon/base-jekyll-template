@@ -15,6 +15,6 @@ $ sudo passwd chronos
 
 如果你仅需要获得root权限，只需要执行脚本：
 ```
-$ chomeos-setdevpasswd
+$ chromeos-setdevpasswd
 ```
 并按提示键入你想要设置的密码即可。
