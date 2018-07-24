@@ -4,6 +4,9 @@
       button {
         font-size: 1.2em;
         color: #850916;
+        white-space: normal;
+        word-wrap: break-word;
+        text-align: left;
       }
       button:hover {
         color: #E72223;
