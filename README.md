@@ -1,76 +1,67 @@
-# Base
+# FydeOS FAQ & Knowledge base
 
-Knowledge base template for Jekyll. Browse through a [live demo](https://orange-ape.cloudvent.net/).
+## What is this
+**FydeOS FAQ & Knowledge base** - as the name suggests, it's the repository for FAQ and recipes for FydeOS and its related ecosystem. It's powered by [Jekyll](https://jekyllrb.com/), the static website engine behind Github pages. We decided to host it on Github pages so that you can contribute to perfect this repository and help others to better utilise FydeOS.
 
-![Base template screenshot](images/_screenshot.png)
 
-Base was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
+## How can I contribute
 
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
+### Setup
 
-## Features
+1. Checkout this repository:
+```bash
+$ git checkout git@github.com:FydeOS/fydeos.github.io.git
+```
 
-* Tutorials organised by category
-* Two types of tutorials - text and video
-* Ability to have a "tutorial series"
-* FAQ section
-* Disqus comments
-* Sticky sidebar for main headings in tutorials
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
+2. Install ruby on your OS if you have not already had it. Refer to [https://www.ruby-lang.org/en/](https://www.ruby-lang.org/en/) for more details.
 
-## Setup
+3. cd into your working copy and prep for the Jekyll and its deps:
+```bash
+$ cd your/dir/to/fydeos.github.io
+~/your/dir/to/fydeos.github.io $ gem install bundler jekyll
+~/your/dir/to/fydeos.github.io $ bundle exec jekyll serve --incremental
+```
 
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics, Disqus and MailChimp keys to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+Now you should have **FydeOS FAQ & Knowledge base** showing up on your browser at [http://127.0.0.1:4000](http://127.0.0.1:4000)
 
-## Develop
 
-Base was built with [Jekyll](http://jekyllrb.com/) version 3.4.3, but should support newer versions as well.
+### Creating new content
+1. FAQ items
+ - Locate the directory named `_faq` in your working copy.
+ - Within `_faq` you shall find numerous of `*.md` files, each file corresponds to one piece of FAQ item.
+ - To create a new question, simply create a new `*.md` file within this directory, with the **name of your question** being the filename. e.g. `如何使用OTA升级我的FydeOS？.md`.
+ - Edit this Markdown file you've just created, with content being the answer to the question. Note that the **first two lines of triple dashes** need to be preserved on each file, e.g.
 
-Install the dependencies with [Bundler](http://bundler.io/):
+        ```
+        ---
+        ---
+        Your answer here
+        ```
+ - Save your file, you should be able to find your item on the FAQ page.
 
-~~~bash
-$ bundle install
-~~~
+2. Knowledge base item
+ - Locate the directory named `_post` in your working copy.
+ - Within `_post` you shall find numerous of `*.md` files, each file corresponds to one piece of knowledge base recipe/tutorial item in the **FydeOS FAQ & Knowledge base** site.
+ - To create a new question, simply create a new `*.md` file within this directory, with the pattern of `<YYYY-MM-DD->-<title_of_your_tutorial>.md` being the filename, e.g. `2018-07-24-如何在FydeOS上安装使用Crostini.md`.
+ - Edit this Markdown file you've just created, with content being the tutorial that you would like to share. Note that the **first two lines of triple dashes** need to be preserved and you should include some metadata to your tutorial in the following format, e.g.
 
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
+        ```
+        ---
+        date: <YYYY-MM-DD>
+        title: <title to your tutorial, same as the latter part of the filename of this file>
+        categories:
+          - <category name of your choice>
+        type: Document
+        ---
+        Your tutorial content here
+        ```
+ - Save your file, you should be able to find your item on the Knowledge bsae page.
+ - When in doubt, you can always refer to existing tutorial files for reference.
 
-~~~bash
-$ bundle exec jekyll serve
-~~~
+### Contributing to the live site
+You shall create a pull request along with your additions to this repository, upon reviewing we will go-live your contribution asap.
 
-## Editing
 
-Base is already optimised for adding, updating and removing tutorials, navigation, footer and FAQ information in CloudCannon.
-
-The sticky sidebar in tutorials in populated by pulling out `<h2>` elements from the content.
-
-### Posts
-
-* Add, update or remove a post in the *Posts* collection.
-* The tutorials page is organised by categories.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
-
-### Post Series
-To create a new series:
-
-* Add a new document to the `sets` collection.
-* Set the `title` and `description`.
-
-To add a tutorial/post to a series:
-* Add a `set` field to the tutorial front matter which points to the file name of the desired set without the `.md` extention. e.g. If I have a set at `_sets/getting-started.md` I would use this in my tutorial front matter: `set: getting-started`.
-* Add a `set_order` field to the tutorial front matter and specify a number. This is the tutorials order in the set.
-
-### Navigation
-
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Navigation* section.
-
-### Footer
-
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Footer* section.
+## Some other notes
+ - The official language for contributing new contents is currently `zh_CN`, we will be making `EN` soon when we are ready to serve markets other than PR China.
+ - This Jekyll template originates from `Base`, which was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.

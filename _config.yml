@@ -1,20 +1,19 @@
 # ----
 # Site
 
-title: Base
-url: "https://orange-ape.cloudvent.net/"
-baseurl:
-google_analytics_key:
+title: FydeOS 知识库
+url: "https://faq.fydeos.com/"
+#baseurl: "https://fydeos.com/"
+google_analytics_key: UA-74826425-9
 disqus_shortname:
 newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Knowledge base template for Jekyll.
+logo: images/qnalogo.png
+description: FydeOS的常见问题汇总以及wiki知识库
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Fyde Innovations
+  email: hi@fydeos.io
 social:
   name: Base Template
   links:
@@ -41,8 +40,8 @@ exclude:
   - LICENCE
 
 collections:
-  sets:
-
+  faq: 
+    output: true
 
 jekyll-archives:
   enabled: ['categories']
@@ -61,12 +60,13 @@ defaults:
       comments: true
   -
     scope:
-      type: "sets"
+      path: ""
+      type: faq
     values:
-      _hide_content: true
+      layout: answer
   -
     scope:
-      path: "index.html"
+      path: "kb.html"
     values:
       body_class: "show_hero_search"
 
@@ -74,16 +74,8 @@ defaults:
 # CloudCannon
 
 social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - Email
-  - RSS
+  - Telegram
+  - Wechat
 
 types:
   - Document

@@ -1,72 +1,75 @@
 <!DOCTYPE html>
-
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
-		<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
-		<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
-		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400italic,400,300italic,300,700,700italic|Open+Sans:400italic,600italic,700italic,700,600,400|Inconsolata:400,700">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 
-		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
-			<script>
-				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-				ga('create', '{{ site.google_analytics_key }}', 'auto');
-				ga('send', 'pageview');
-			</script>
-			<script async src='https://www.google-analytics.com/analytics.js'></script>
-		{% endif %}
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/favicon/apple-touch-icon.png?v=m2l4wEbdX3">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon/favicon-32x32.png?v=m2l4wEbdX3">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon/favicon-16x16.png?v=m2l4wEbdX3">
+  <link rel="manifest" href="{{ site.baseurl }}/favicon/site.webmanifest?v=m2l4wEbdX3">
+  <link rel="mask-icon" href="{{ site.baseurl }}/favicon/safari-pinned-tab.svg?v=m2l4wEbdX3" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff"> 
 
-		{% seo %}
-		{% feed_meta %}
+  {% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74826425-9"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
 
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	</head>
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
 
-	<body class="{{ page.body_class }}">
-		<header>
-			<div class="wrapper">
-				<section class="top-bar">
-					<div class="logo"><a href="/">{% include logo.html %}</a></div>
-					{% include navigation.html %}
-				</section>
-				<section class="hero_search">
-					<h1>Tutorials</h1>
-					<p>Everything you need to know about running our software.</p>
-					{% include search.html %}
-				</section>
-			</div>
+  gtag('config', 'UA-74826425-9');
+  </script>
+  {% endif %} {% seo %} {% feed_meta %}
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</head>
 
-		</header>
-		<section class="content">
-			<div class="wrapper">
-				{{ content }}
-			</div>
-		</section>
+<body class="{{ page.body_class }}">
+  <header>
+    <div class="wrapper">
+      <section class="top-bar">
+        <div class="logo"><a href="/">{% include logo.html %}</a></div>
+        {% include navigation.html %}
+      </section>
+      <section class="hero_search">
+        {% include search.html %}
+      </section>
+    </div>
+  </header>
+  <section class="content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </section>
+  {% include footer.html %}
+  <script>
+  $(function() {
+    $('a[href*=\\#]').not(".no-smooth").on('click', function(event) {
+      var el = $(this.hash);
+      if (el.length > 0) {
+        // event.preventDefault();
+        $('html,body').animate({ scrollTop: $(this.hash).offset().top - 50 }, 500);
+      }
+    });
 
-		{% include footer.html %}
-		<script>
-			$(function() {
-				$('a[href*=\\#]').not(".no-smooth").on('click', function(event){
-					var el = $(this.hash);
-					if (el.length > 0) {
-						// event.preventDefault();
-						$('html,body').animate({scrollTop:$(this.hash).offset().top - 50}, 500);
-					}
-				});
+    $('svg').click(function() {
+      $(this).parent('form').submit();
+    });
+  });
 
-				$('svg').click(function() {
-					$(this).parent('form').submit();
-				});
-			});
+  document.getElementById("open-nav").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.body.classList.toggle("nav-open");
+  });
+  </script>
+</body>
 
-			document.getElementById("open-nav").addEventListener("click", function (event) {
-				event.preventDefault();
-				document.body.classList.toggle("nav-open");
-			});
-		</script>
-	</body>
 </html>

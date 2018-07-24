@@ -1,26 +1,31 @@
 ---
 ---
 
-<section class="categories">
-	{% assign categories = site.categories | sort %}
-	{% for category in categories %}
-		{% assign name = category[0] %}
-		{% assign posts = category[1] %}
-		{% assign size = posts | size %}
-		<section class="category">
-				<h3>
-					<a href="{{ site.baseurl }}/category/{{ name | slugify }}/">{{ name | replace: "-", " " }}</a>
-				</h3>
+<h1>FAQ</h1>
 
-			<ul>
-				{% assign tutorials = posts | sort: "title" %}
-				{% for tutorial in tutorials limit: 4 %}
-					<li><a href="{{ site.baseurl }}{{ tutorial.url }}">{% include document-icon.html icon=tutorial.type %}{{ tutorial.title }}</a></li>
-				{% endfor %}
-				{% if size > 4 %}
-					<li><a href="{{ site.baseurl }}/category/{{ name | slugify }}/">{{ size | minus: 4 }} more...</a></li>
-				{% endif %}
-			</ul>
-		</section>
-	{% endfor %}
+<section class="faq">
+
+	<div class="accordion" id="accordionFaq">
+
+	  <div class="card">
+    {% assign sorted = site.faq | sort: 'weight' | reverse %}
+    {% for item in sorted %}
+      {% assign question =  item.path | replace:'_faq/','' | replace:'.html','' | replace:'.md','' %}
+	    <div class="card-header" id="heading{{ forloop.index }}">
+	      <h5 class="mb-0">
+	        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
+	          {{question}}
+	        </button>
+	      </h5>
+	    </div>
+
+	    <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}" data-parent="#accordionFaq">
+	      <div class="card-body">
+	        {{ item | markdownify }}
+	      </div>
+	    </div>
+      {% endfor %}
+	  </div>
+
+	</div>
 </section>

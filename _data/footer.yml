@@ -1,16 +1,8 @@
 - name:
-  link: https://facebook.com/
-  new_window: true
-  social_icon: Facebook
-- name:
-  link: https://twitter.com/
-  social_icon: Twitter
+  link: https://t.me/hi_flinters
+  social_icon: Telegram
   new_window: true
 - name:
-  link: https://youtube.com/
-  social_icon: YouTube
+  link: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI5MzQ5NDE2NQ==&scene=110#wechat_redirect
+  social_icon: Wechat
   new_window: true
-- name: 
-  link: /feed.xml
-  social_icon: RSS
-  new_window: false

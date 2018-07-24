@@ -31,10 +31,10 @@ layout: default
 		<div class="tutorial-main">
 			{{ content }}
 		</div>
-		<div class="tutorial-share">
+<!-- 		<div class="tutorial-share">
 			<a class="modalOpen no-smooth" href="#subscribe">{% include social-icon.html icon="Email" %} Subscribe</a>
 			<a class="modalOpen no-smooth" href="#share">{% include social-icon.html icon="Share" %} Share</a>
-		</div>
+		</div> -->
 	</section>
 </section>
 
@@ -53,7 +53,7 @@ layout: default
 {% assign related_posts_size = related_posts | size %}
 {% if related_posts_size > 0 %}
 	<div class="related">
-		<h3>Related tutorials</h3>
+		<h4>这些或许也能帮助到你：</h4>
 
 		{% include listings.html listings=site.related_posts %}
 	</div>
