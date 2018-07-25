@@ -31,7 +31,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-archives
 
 exclude:
   - Gemfile
@@ -43,8 +42,11 @@ collections:
   faq: 
     output: true
 
-jekyll-archives:
-  enabled: ['categories']
+# jekyll-archives:
+#   enabled: ['categories']
+category_archive:
+  type: liquid
+  path: /categories/
 
 defaults:
   -
@@ -79,6 +81,5 @@ social_icons:
 
 types:
   - Document
-  - Video
 
 _comments:

@@ -1,0 +1,11 @@
+---
+title: Category
+permalink: /category/
+---
+{% for category in site.categories %}
+
+<h3>
+  <a href="{{site.url}}/category/{{category[0]}}">{{category[0]}}</a>
+  <span class="count">({{category[1] | size}})</span>
+</h3>
+{% endfor %}
