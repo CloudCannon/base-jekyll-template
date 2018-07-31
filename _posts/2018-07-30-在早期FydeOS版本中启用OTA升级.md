@@ -14,7 +14,7 @@ type: Document
 
 __请注意，只有将 FydeOS 安装进硬盘后才能根据本教程进行 OTA 升级的启用，通过烧写U盘体验是无法进行 OTA 升级的！__
 
-请参照[该教程](https://fydeos.com/instructions-pc/)制作可以引导启动的 FydeOS for PC 并在目标 PC 上成功启动进入 FydeOS 的图形界面。
+请参照[该教程](https://faq.fydeos.com/%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/%E5%B0%86FydeOS-for-PC%E5%AE%89%E8%A3%85%E8%BF%9B%E7%A1%AC%E7%9B%98/)将 FydeOS for PC 安装进目标 PC 的硬盘并成功启动进入 FydeOS 的图形界面。
 
 
 ## 1. 进入Crosh
