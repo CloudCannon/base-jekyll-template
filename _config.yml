@@ -1,24 +1,25 @@
 # ----
 # Site
 
-title: Base
-url: "https://orange-ape.cloudvent.net/"
+title: "Corporate Clash Knowledge Base"
+url: "https://kb.corporateclash.net/"
 baseurl:
 google_analytics_key:
-disqus_shortname:
+disqus_shortname: corporateclashkb
 newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Knowledge base template for Jekyll.
+logo: https://sitecdn.clash.lol/cc.png
+description: Having issues with Corporate Clash? we're here to help!
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Corporate Clash Team
+  email: support@corporateclash.net
+  twitter: CorporateClash
 social:
-  name: Base Template
+  name: Corporate Clash
   links:
-    - https://github.com/CloudCannon/base-jekyll-template
+    - https://twitter.com/CorporateClash
+    - https://github.com/CorporateClash
 
 # -----
 # Build

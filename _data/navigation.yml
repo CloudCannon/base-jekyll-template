@@ -1,6 +1,4 @@
-- name: Tutorials
+- name: Help
   link: /
-- name: Videos
-  link: /videos/
 - name: FAQ
-  link: /faq/
+  link: https://corporateclash.net/help/faq
