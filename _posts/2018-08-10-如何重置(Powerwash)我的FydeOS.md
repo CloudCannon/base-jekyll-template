@@ -1,6 +1,6 @@
 ---
 date: 2018-07-30
-title: 如何重置（powerwash）我的 FydeOS
+title: 如何重置（Powerwash）我的 FydeOS
 categories:
   - 使用技巧
 type: Document
