@@ -45,12 +45,17 @@ code, pre, tt {
   color: #c7254e;
   font-weight:600;
   border-radius: 4px;
-  padding: 2px 5px;
-  margin-left:2px;
   margin-bottom:0;
 }
 
-.highlight{
+code.highlighter-rouge
+{
+  padding:4px 7px;
+  margin: 0 5px;
+}
+
+div.highlight{
+  padding:3px 8px;
   margin-bottom: 1.1em;
   code, pre, tt {
     background-color: unset;
