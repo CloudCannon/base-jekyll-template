@@ -22,6 +22,6 @@ echo 'clobber' | sudo tee /mnt/stateful_partition/.update_available
 sudo reboot
 ```
 
-并在提示之后输入密码，默认为`chronos`。
+并在提示之后输入密码，默认为 `chronos`。
 
-系统重启之后将自动完成数据清除并自动进入OOBE(开箱体验)环节。
+系统重启之后将自动完成数据清除并自动进入 OOBE（开箱体验）环节。
