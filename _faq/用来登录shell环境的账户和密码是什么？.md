@@ -1,19 +1,19 @@
 ---
 weight: 996
 ---
-目前发布的所有FydeOS版本中，您可以使用用户名`chronos`以及密码`chronos`登录系统的shell环境。该账户可通过`sudo`命令提权。
+目前发布的所有 FydeOS 版本中，您可以使用用户名 `chronos` 以及密码 `chronos` 登录系统的 shell 环境。该账户可通过 `sudo` 命令提权。
 
 基于安全性的考量，我们建议您尽早修改该密码。
 
-你可以通过以下两种方式修改chronos账户密码：
+你可以通过以下两种方式修改 chronos 账户密码：
 
-如果你希望获得root权限以及开启SSH远程连接并使用同一个密码，请使用命令：
+如果你希望获得 root 权限以及开启 SSH 远程连接并使用同一个密码，请使用命令：
 ```
 $ sudo passwd chronos
 ```
-将以上`chronos`替换成你想要设置的密码。
+将以上 `chronos` 替换成你想要设置的密码。
 
-如果你仅需要获得root权限，只需要执行脚本：
+如果你仅需要获得 root 权限，只需要执行脚本：
 ```
 $ chromeos-setdevpasswd
 ```
