@@ -27,12 +27,14 @@ layout: default
 				</div>
 			{% endif %}
 		{% endif %}
-		
+
 		<div class="tutorial-main">
 			{{ content }}
 		</div>
 		<div class="tutorial-share">
-			<a class="modalOpen no-smooth" href="#subscribe">{% include social-icon.html icon="Email" %} Subscribe</a>
+			{% if site.newsletter_action %}
+				<a class="modalOpen no-smooth" href="#subscribe">{% include social-icon.html icon="Email" %} Subscribe</a>
+			{% endif %}
 			<a class="modalOpen no-smooth" href="#share">{% include social-icon.html icon="Share" %} Share</a>
 		</div>
 	</section>
@@ -77,17 +79,19 @@ layout: default
 	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 {% endif %}
 
-<div id="subscribe" class="modalDialog">
-	<div>
-		<a title="Close" class="close">&times;</a>
-		<form action="{{ site.newsletter_action }}" method="post">
-			<h2>Subscribe</h2>
-			<p>The latest tutorials sent straight to your inbox.</p>
-			<input type="email" name="EMAIL" placeholder="Email">
-			<input type="submit" value="Sign up">
-		</form>
+{% if site.newsletter_action %}
+	<div id="subscribe" class="modalDialog">
+		<div>
+			<a title="Close" class="close">&times;</a>
+			<form action="{{ site.newsletter_action }}" method="post">
+				<h2>Subscribe</h2>
+				<p>The latest tutorials sent straight to your inbox.</p>
+				<input type="email" name="EMAIL" placeholder="Email">
+				<input type="submit" value="Sign up">
+			</form>
+		</div>
 	</div>
-</div>
+{% endif %}
 
 <div id="share" class="modalDialog sharing">
 	<div>
