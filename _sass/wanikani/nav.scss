@@ -1,0 +1,22 @@
+#wanikani__brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media #{$mid-point} {
+    justify-content: flex-start;
+  }
+}
+
+#wanikani__brand--logo {
+  height: 47px;
+  width: 47px;
+}
+
+#wanikani__brand--title {
+  border-bottom: 2px solid transparent;
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 45px;
+  margin-left: 0.75rem;
+}

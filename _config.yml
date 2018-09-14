@@ -1,24 +1,26 @@
 # ----
 # Site
 
-title: Base
-url: "https://orange-ape.cloudvent.net/"
+title: WaniKani Knowledge Base
+url: "https://knowledge.wanikani.com/"
 baseurl:
-google_analytics_key:
+google_analytics_key: UA-1960021-27
 disqus_shortname:
 newsletter_action:
+company_name: Tofugu LLC
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Knowledge base template for Jekyll.
+description: What is WaniKani? How do I do this and that? What is life? Find the answers here.
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: WaniKani
+  email: hello@wanikani.com
+  twitter: wanikaniapp # twitter username without the @ symbol
 social:
-  name: Base Template
+  name: WaniKani
   links:
-    - https://github.com/CloudCannon/base-jekyll-template
+    - https://knowledge.wanikani.com
+    - https://github.com/tofugu/wanikani-knowledgebase
 
 # -----
 # Build
