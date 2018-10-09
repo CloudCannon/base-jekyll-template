@@ -1,14 +1,15 @@
 ---
 date:
-title:
+title: How Do I Get More Lessons?
 categories:
 description:
 type: Document
 ---
-### How do I get more lessons?
 
 The quick answer is: Do your reviews!
 
-New content is unlocked by getting radicals and kanji to Guru status. WaniKani has a progression of radicals -> kanji -> vocabulary, so when you Guru radicals it will open up new kanji for you to learn, and kanji will introduce vocab.
+New content is unlocked by getting radicals and kanji to "Guru" status. What does that even mean? It's all part of the [SRS tier system](#) that we use.
 
-Not sure what 'Guru' means or how to get there? It's all part of the [SRS tiers](link to SRS entry will go here).
+Once certain items and combinations of items reach Guru status, new items will unlock and appear in your lessons. For example, radicals are used to build mnemonics that teach you the kanji. When the right combination of radicals reach guru, WaniKani will unlock the kanji at or below your current level that use those radicals. Same goes for vocabulary. They will only unlock once the foundational kanji have reached guru. If you wanted to unlock the word 人工, for example, you'd need to guru the kanji 人 and 工.
+
+So, do your reviews and do them on time. If you do, you'll be [leveling up](#) and unlocking all kinds of [radicals](#), [kanji](#), and [vocabulary](#). [Complete your lessons](#) and they'll be moved to your [review pile](#), where they can work their way towards the guru level (and beyond!).
