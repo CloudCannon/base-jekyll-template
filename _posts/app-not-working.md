@@ -1,14 +1,14 @@
 ---
 date:
-title:
+title: The WaniKani App isn't working!
 categories: app
 description:
 type: Document
 ---
-### The WaniKani App isn't working!
+###
 
 Are you using the official WaniKani app?
 
-Don't worry, that's a trick question. The official WK app isn't out yet so, if you're using it, you're either on the WaniKani team, or you've snuck into our office and are living behind the couch next to the office plants.
+Probably not, because currently we don't have an official app on the App Store or Google Play Store. Most likely, you're using a third-party app, so please send _them_ a message telling them their app isn't working.
 
-For everyone else, there are a few third-party mobile apps out there that use WaniKani's API key to sync up with your regular account. Unfortunately, since we didn't make them, we can't offer much support when they stop working. Your best bet is head over to the [forums](https://community.wanikani.com/c/wanikani/api-and-third-party-apps) and ask around there - there's a good chance someone's had the same issue before and knows how to fix it.
+There are a few third-party mobile apps out there that work pretty well, though. You'll need to add your API key, [which can be found in your Account Page](https://www.wanikani.com/settings/account). For suggestions on third-party apps to run WaniKani on your phone, head on over to the community forums. There's an [API and third party apps section](https://community.wanikani.com/c/wanikani/api-and-third-party-apps) filled with helpful posts and people.
