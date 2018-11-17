@@ -13,11 +13,11 @@ type: Document
 
 #### 1. 进入终端
 
-在 FydeOS for PC 图形界面出现之后，请同时按下键盘上 `Ctrl+Alt+F2` 键（在某些电脑上，比如 Apple Mac 上需要按下 `Fn+Ctrl+Alt+F2`，这时系统将会自动切换到 tty 命令行模式。若需要，可按 `Ctrl+Alt+F1`（或 `Fn+Ctrl+Alt+F1`）退回到图形界面模式。
+在 FydeOS for PC 图形界面出现之后，请同时按下键盘上 `Ctrl+Alt+F2` 键（在某些电脑上，比如 Apple Mac 上需要按下 `Fn+Ctrl+Alt+F2`，这时系统将会自动切换到 TTY 命令行模式。若需要，可按 `Ctrl+Alt+F1`（或 `Fn+Ctrl+Alt+F1`）退回到图形界面模式。
 
 #### 2. 登录系统
 
-FydeOS 即将用命令行模式提示您输入用户名以及密码。在 FydeOS for PC v0.2 之后的版本里，默认的用户名和密码都是 `chronos`，输入完成后将会进入开发者模式的命令行。
+FydeOS 即将用命令行模式提示您输入用户名以及密码。在 FydeOS for PC 中，默认的用户名和密码都是 `chronos`，输入完成后将会进入开发者模式的命令行。
 
 #### 3. 确认目标磁盘
 
