@@ -1,3 +1,3 @@
 ---
 ---
-目前没有计划推出 FydeOS 虚拟机版，原 Flint OS 有提供适配 VMWare 的虚拟机镜像文件，可至下载页面「早期版本 (Flint OS) 下载」中查看。
+目前已推出了适配 VMware 的虚拟机版本，您可以移步[下载页面](https://fydeos.com/download/)下载尝鲜。但如果想要获得最佳体验，我们还是建议您使用 FydeOS for PC 版本。
