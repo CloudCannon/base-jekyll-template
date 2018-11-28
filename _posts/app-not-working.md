@@ -1,11 +1,10 @@
 ---
-date:
-title: The WaniKani App isn't working!
+date: 2018-11-25
+title: "The WaniKani App isn't working!"
 categories: app
-description:
+description: Why doesn't the iOS or Android app work properly?
 type: Document
 ---
-###
 
 Are you using the official WaniKani app?
 
