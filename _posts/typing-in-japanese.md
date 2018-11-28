@@ -5,7 +5,6 @@ categories: IME
 description:
 type: Document
 ---
-
 You've Guru'ed those first radicals and finally gotten some real kanji. That's great! But now WaniKani wants you to type stuff _in_ Japanese. So how do you turn what you type in your non-Japanese keyboard into kana? Don't worry, it's actually pretty easy.
 
 For starters, WaniKani has a built in [IME](https://en.wikipedia.org/wiki/Input_method) that will handle all the conversions for you. There's no need to install an IME or buy a Japanese keyboard for your computer or device. Whenever it asks for [a reading-type answer](#), anything you type will be converted into kana.
