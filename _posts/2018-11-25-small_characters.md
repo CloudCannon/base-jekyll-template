@@ -2,6 +2,7 @@
 date: 2018-11-25
 title: Small VS Big Characters
 categories:
+  - Common Questions
 description:
 type: Document
 ---
