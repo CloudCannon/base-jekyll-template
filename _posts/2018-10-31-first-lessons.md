@@ -1,6 +1,6 @@
 ---
-date: 2018-10-31
-title: How Does WaniKani Work?
+date: 2018-10-31 20:00
+title: Doing Your First Lessons
 categories:
   - Getting Started
 description:

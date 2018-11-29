@@ -1,5 +1,5 @@
 ---
-date: 2018-10-31
+date: 2018-10-31 19:00
 title: How Does WaniKani Work?
 categories:
   - Getting Started
@@ -8,6 +8,21 @@ set: getting-started
 set-order: 1
 type: Document
 ---
+
+WaniKani is a...
+
+## Mnemonics
+
+Uses mnemonics (for more detailed information on mnemonics... go to this page)
+
+## Spaced Repetition System
+
+Uses SRS (for more detailed information on SRS... go to this page)
+
+## Radicals
+
+Radicals
+
 
 * How Does WaniKani Work?
   - basic outline
