@@ -2,7 +2,7 @@
 date: 2018-10-31 23:00
 title: WaniKani Premium Membership
 categories:
-  - Getting Started
+  - Getting Started (Basics)
 description:
 set: getting-started
 set-order: 5

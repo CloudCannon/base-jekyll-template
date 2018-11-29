@@ -2,6 +2,7 @@
 date: 2018-11-25
 title: The audio isn't playing
 categories:
+  - WaniKani
 description:
 type: Document
 ---

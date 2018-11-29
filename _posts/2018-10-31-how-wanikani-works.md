@@ -2,7 +2,7 @@
 date: 2018-10-31 19:00
 title: How Does WaniKani Work?
 categories:
-  - Getting Started
+  - Getting Started (Basics)
 description:
 set: getting-started
 set-order: 1
