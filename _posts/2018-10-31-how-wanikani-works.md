@@ -2,7 +2,7 @@
 date: 2018-10-31 19:00
 title: How Does WaniKani Work?
 categories:
-  - Getting Started (Basics)
+  - 1. Getting Started
 description:
 set: getting-started
 set-order: 1
@@ -33,6 +33,6 @@ Radicals
 * Doing Your Reviews
   - Unlocking Kanji
   - Unlocking Vocabulary
-* Getting a WaniKani Membership
+* Getting a WaniKani Account & Membership
 
 * What Can I Do With My WaniKani Knowledge?

@@ -2,7 +2,7 @@
 date: 2018-11-25
 title: Reporting Errors
 categories:
-  - WaniKani
+  - 4. WaniKani
 description:
 type: Document
 ---

@@ -2,7 +2,7 @@
 date: 2018-11-25
 title: How Do I Level Up?
 categories:
-  - Getting Started (Basics)
+  - 1. Getting Started
 description:
 type: Document
 ---
