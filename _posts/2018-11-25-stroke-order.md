@@ -3,7 +3,6 @@ date: 2018-11-25
 title: Does WaniKani teach stroke order?
 categories:
   - WaniKani
-  - Japanese
 description:
 type: Document
 ---
