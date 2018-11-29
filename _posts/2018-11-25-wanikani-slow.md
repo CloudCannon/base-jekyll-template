@@ -1,6 +1,6 @@
 ---
-date: 2018-11-25
-title: Why is WaniKani so slow?
+date: 2018-10-25
+title: Getting a WaniKani Membership
 categories:
 description:
 type: Document
