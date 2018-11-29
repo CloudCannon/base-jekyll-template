@@ -2,6 +2,8 @@
 date: 2018-11-25
 title: Readings vs Meanings
 categories:
+  - WaniKani
+  - Japanese
 description:
 type: Document
 ---

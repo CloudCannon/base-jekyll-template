@@ -2,6 +2,7 @@
 date: 2018-11-25
 title: Payment Methods
 categories:
+  - Payment & Billing
 description:
 type: Document
 ---

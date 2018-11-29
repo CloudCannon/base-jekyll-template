@@ -2,7 +2,9 @@
 date: 2018-11-25
 title: Typing in Japanese/Using the IME
 categories:
-  - Common Questions
+  - Getting Started (Basics)
+  - Japanese
+  - WaniKani
 type: Document
 ---
 You've Guru'ed those first radicals and finally gotten some real kanji. That's great! But now WaniKani wants you to type stuff _in_ Japanese. So how do you turn what you type in your non-Japanese keyboard into kana? Don't worry, it's actually pretty easy.

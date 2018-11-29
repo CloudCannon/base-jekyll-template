@@ -2,6 +2,7 @@
 date: 2018-11-25
 title: My card was declined
 categories:
+  - Payment & Billing
 description:
 type: Document
 ---

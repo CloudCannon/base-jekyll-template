@@ -2,6 +2,7 @@
 date: 2018-11-25
 title: Can I Reset My Reviews?
 categories:
+  - Account & Membership
 description:
 type: Document
 ---

@@ -2,6 +2,8 @@
 date: 2018-11-25
 title: Subscribing to WaniKani
 categories:
+  - Account & Membership
+  - Payment & Billing
 description:
 type: Document
 ---
