@@ -7,6 +7,8 @@ description: Why doesn't the iOS or Android app work properly?
 type: Document
 ---
 
+**note:** (For seo purposes, we'll make this one just about how we don't have an android app)
+
 Are you using the official WaniKani app?
 
 Probably not, because currently we don't have an official app on the App Store or Google Play Store. Most likely, you're using a third-party app, so please send _them_ a message telling them their app isn't working.
