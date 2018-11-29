@@ -1,16 +1,29 @@
 ---
 date: 2018-11-25
-title: Typing in Japanese/Using the IME
+title: Typing in Japanese
 categories:
   - Getting Started (Basics)
   - Japanese
   - WaniKani
 type: Document
 ---
-You've Guru'ed those first radicals and finally gotten some real kanji. That's great! But now WaniKani wants you to type stuff _in_ Japanese. So how do you turn what you type in your non-Japanese keyboard into kana? Don't worry, it's actually pretty easy.
 
-For starters, WaniKani has a built in [IME](https://en.wikipedia.org/wiki/Input_method) that will handle all the conversions for you. There's no need to install an IME or buy a Japanese keyboard for your computer or device. Whenever it asks for [a reading-type answer](#), anything you type will be converted into kana.
+You've Guru'd your first set of radicals and finally unlocked real kanji. That's great! But now WaniKani wants you to type _in Japanese_, and you don't know how! Don't worry, it's pretty easy.
 
-(If you _want_ to install one for other purposes, check out our [walkthrough](http://www.tofugu.com/japanese/how-to-install-japanese-keyboard/) over on Tofugu, though you shouldn't use it when doing your Lessons or Reviews on WaniKani.)
+For starters, WaniKani has a built in [IME](https://en.wikipedia.org/wiki/Input_method) that will handle all the conversions from roman characters to hiragana for you. There's no need to install an IME or buy a Japanese keyboard for your computer or device. Whenever we ask you for a [reading](#), anything you type will be converted automatically.
 
-Still, this doesn't mean anything if you don't know how to type in Japanese. Check out our [guide to typing in Japanese](http://www.tofugu.com/japanese/how-to-type-in-japanese/) any time you're not sure how to get a particular character. WaniKani also has a dropdown menu of all the hiragana/katakana characters that you can select from. It's no replacement for learning how to type, but it's great for when you know the answer but just can't remember how to type that one weird dakuten combo kana.
+(If you _want_ to install a Japanese IME for other purposes, check out our [guide](http://www.tofugu.com/japanese/how-to-install-japanese-keyboard/) over on Tofugu. Just remember not to use it when doing your Lessons or Reviews on WaniKani.)
+
+`screenshot of guide`
+
+That's all well and good, but you still need to know how to type in Japanese! If this is your first time using the world-wide-web for Japanese, read through our [guide to typing in Japanese](http://www.tofugu.com/japanese/how-to-type-in-japanese/). There are some unusual characters in there, so if what you're typing and what you're seeing don't match up, check there first!
+
+If you're in the middle of a Lesson Quiz or a Review and you blank, there's a handy dropdown menu of all of the kana characters right here:
+
+`screenshot of shortcut`
+
+`screenshot of expanded keyboard`
+
+Just click on the one you need and it will appear in the input bar. Or just take a look at the spelling below each one and you'll be able to type it yourself.
+
+Just remember that this tab is no replacement for learning to type yourself, so don't rely on it for everything, okay? Okay. I trust you.
