@@ -2,9 +2,9 @@
 date: 2018-11-25
 title: Typing in Japanese
 categories:
-  - Getting Started (Basics)
-  - Japanese
-  - WaniKani
+  - 1. Getting Started
+  - 5. Japanese
+  - 4. WaniKani
 type: Document
 ---
 

@@ -1,15 +1,15 @@
 ---
 date: 2018-10-31 23:00
-title: WaniKani Premium Membership
+title: WaniKani Premium 2. Account & Membership
 categories:
-  - Getting Started (Basics)
+  - 1. Getting Started
 description:
 set: getting-started
 set-order: 5
 type: Document
 ---
 
-To continue to Level 4, you'll need to upgrade your account to a premium membership.
+To continue to Level 4, you'll need to upgrade your account to a premium 2. Account & Membership.
 
 * How Does WaniKani Work?
   - basic outline

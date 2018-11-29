@@ -2,7 +2,7 @@
 date: 2018-11-25
 title: Is WaniKani available in other languages?
 categories:
-  - WaniKani
+  - 4. WaniKani
 description:
 type: Document
 ---

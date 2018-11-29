@@ -2,8 +2,8 @@
 date: 2018-11-25
 title: On'yomi and Kun'yomi Readings
 categories:
-  - WaniKani
-  - Japanese
+  - 4. WaniKani
+  - 5. Japanese
 description:
 type: Document
 ---
