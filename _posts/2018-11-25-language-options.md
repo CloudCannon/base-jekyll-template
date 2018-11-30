@@ -6,4 +6,11 @@ categories:
 description:
 type: Document
 ---
-WaniKani is only available in English. While we think it would be awesome to have other language options, it would take more than just translating the existing content - we'd also need to come up with an entirely new set of mnemonics that made sense in that language, and that would take a _ton_ of work that we're just not able to do right now.
+
+WaniKani is only available in English.
+
+Supporting other languages would be great, but it would take an incredible amount of time and resources. All of the content would not only need to be translated, but the mnemonics (our sweet, sweet bread and butter) would need to be localized and rewritten from the ground up.
+
+Plus, we're a tiny team and none of us have the language knowledge needed to venture outside of the English⇔Japanese world right now.
+
+If you aren't a native English speaker, and you're having trouble learning Japanese and English at the same time, you can always add the translations for radicals, kanji, and vocabulary words in your language with the [user synonyms feature](#).
