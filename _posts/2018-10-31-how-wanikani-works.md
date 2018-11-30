@@ -46,4 +46,4 @@ To learn more about spaced repetition systems (SRS), [check out our SRS page](#)
 
 [Spelling in English example]
 
-Now that you have a general understanding of WaniKani and how it works [it's time to do your first lesson](/1.%20getting%20started/first-lesson/).
+Now that you have a general understanding of WaniKani and how it works [it's time to do your first lesson](/1.%20getting%20started/first-lessons/).
