@@ -6,6 +6,7 @@ categories:
 description:
 set: getting-started
 set-order: 1
+list-order: 2
 type: Document
 ---
 
@@ -39,20 +40,10 @@ That being said, all you have to do is sit down and do your reviews. We'll take 
 
 To learn more about spaced repetition systems (SRS), [check out our SRS page](#).
 
+## Radicals as Building Blocks
 
+[Everything is built on something else]
 
-Radicals
+[Spelling in English example]
 
-
-* How Does WaniKani Work?
-  - basic outline
-  - radicals and what they are
-  - mnemonics
-* Your First Set of Lessons
-* Why Do I Have to Wait?
-* Doing Your Reviews
-  - Unlocking Kanji
-  - Unlocking Vocabulary
-* Getting a WaniKani Account & Membership
-
-* What Can I Do With My WaniKani Knowledge?
+Now that you have a general understanding of WaniKani and how it works [it's time to do your first lesson](/1.%20getting%20started/first-lesson/).
