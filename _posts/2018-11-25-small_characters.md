@@ -22,9 +22,9 @@ You'll see these small characters most on WaniKani in contractions. If you don't
 
 This is a super important difference not only because of pronunciation, but because of the meanings as well. じゆう means "freedom" and じゅう means "ten."
 
-Typing small characters is easier than you might think. We have another guide just for [typing all of the different characters in Japanese](https://www.tofugu.com/japanese/how-to-type-in-japanese/), which you should check out. This includes small kana.
+Typing small characters is easier than you might think. We have another guide just for [typing all of the different characters in Japanese](https://www.tofugu.com/japanese/how-to-type-in-japanese/), which you should check out. This includes small kana. Here's a preview:
 
-`screenshot of guide`
+![How to type contractions](/images/how-to-type-contractions.png)
 
 This isn't just us either, all standard Japanese IMEs use this method of typing contractions, so getting the hang of it now will help you later.
 
