@@ -9,6 +9,14 @@ set-order: 2
 type: Document
 ---
 
+Now that you have a basic understanding of [how WaniKani works](/1.%20getting%20started/how-wanikani-works/), it's time to actually get started. First, hit the Lessons button.
+
+`image of lessons button - or a gif?`
+
+This will take you to your available Lessons.
+
+
+,
 * How Does WaniKani Work?
   - basic outline
   - radicals and what they are
