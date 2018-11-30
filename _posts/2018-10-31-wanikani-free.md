@@ -1,11 +1,11 @@
 ---
-date: 2018-10-31 9:00
-title: WaniKani Premium Membership
+date: 2018-10-31 10:00
+title: Is WaniKani Free?
 categories:
   - 1. Getting Started
 description:
 set: getting-started
-set-order: 10
+set-order: 9
 type: Document
 ---
 
