@@ -45,7 +45,7 @@ If you just need a quick refresher, here are some of examples of how to type con
 じゆう = jiyuu \\
 じゅう = juu [or] jyuu
 
-じよ = jiyo
+じよ = jiyo \\
 じょ = jo [or] jyo
 
 If you're having a really hard time remember how to type the contraction you want, you can also add an x before the character to make it smaller:
