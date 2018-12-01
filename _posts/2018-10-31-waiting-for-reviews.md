@@ -15,12 +15,10 @@ Actually, you have to wait.
 
 ![Waiting for Wanikani Reviews](/images/boring.gif)
 
-As you know,
+As you know, WaniKani's review timings use a [spaced repetition system](#). That is, the better you do, the longer it will be until you see an item again. Our goal is to give you a review right before you forget something. By doing this, your brain places greater importance on memorizing it, so essentially you are able to review the item fewer overall times with the same or better results.
 
-Turns out, you have to wait a bit. As you know, review timings use a [spaced repetition system](/1.%20getting%20started/how-wanikani-works/#spaced-repetition-system). We're trying to give you a review right before you're about to forget something. This is the most efficient timing for memorizing information. Your brain places more importance on it as something to remember, and you are able to review the item fewer times with the same or better results.
+When you have more items in your review pile, you'll never be bored and rarely have to wait (or, you'll learn to enjoy the quiet times). But, since each kanji relies on past, proven knowledge of radicals to unlock, you can't just jump into kanji right away. Learning this much kanji is going to be a longish-term effort no matter what, so what's a couple of weeks of "slowness" in exchange for a much faster overall speed?
 
-When you have more items in your review pile, you'll have a lot to do. But, since learning every kanji and vocabulary word relies on proven, past knowledge, you can't just do reviews whenever you want. Especially in the beginning it will feel like you're doing a lot of waiting. But actually you're solidifying the building blocks that you'll be using to learn kanji. Learning this much kanji is a long-term effort, so what's a couple weeks of "slowness" in exchange for a much faster overall speed?
-
-To minimize the amount of waiting you do in the early levels, we recommend you do all your available lessons and then do your reviews when they're available. Your first set of radicals will start [unlocking kanji](#) in a few days if you keep it up.
+To minimize the amount of waiting you do in the early levels, we recommend you do all your available lessons and do your reviews when they become available. If you get things right, your first set of radicals will begin [unlocking kanji](#) in a few days.
 
 Check your dashboard to see how long until your next set of reviews become available. In the meantime, you can read about [doing your first reviews](/1.%20getting%20started/first-reviews/). For more things to do between reviews, check our our page of [things to do while you're waiting for reviews](#).
