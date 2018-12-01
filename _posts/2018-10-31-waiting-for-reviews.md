@@ -9,7 +9,13 @@ set-order: 3
 type: Document
 ---
 
-You've [finished your first lessons](/1.%20getting%20started/first-lessons/). Now what?
+You've [finished your first lessons](#). Now what?
+
+Actually, you have to wait.
+
+![Waiting for Wanikani Reviews](/images/boring.gif)
+
+As you know,
 
 Turns out, you have to wait a bit. As you know, review timings use a [spaced repetition system](/1.%20getting%20started/how-wanikani-works/#spaced-repetition-system). We're trying to give you a review right before you're about to forget something. This is the most efficient timing for memorizing information. Your brain places more importance on it as something to remember, and you are able to review the item fewer times with the same or better results.
 

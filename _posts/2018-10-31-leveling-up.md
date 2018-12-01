@@ -1,5 +1,5 @@
 ---
-date: 2018-10-31
+date: 2018-10-31 16:00
 title: How Do I Level Up?
 categories:
   - 1. Getting Started
