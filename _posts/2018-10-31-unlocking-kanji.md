@@ -25,7 +25,7 @@ Kanji Reading Mnemonics
 
 Doing your kanji reviews
 
-Doing your radical reviews at the same time [srs timings]
+Doing your radical reviews at the same time [srs timings](#)
 
 Moving on to the next level
 
