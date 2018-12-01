@@ -9,11 +9,11 @@ set-order: 4
 type: Document
 ---
 
-[After you've finished waiting for your reviews](/1.%20getting%20started/waiting-for-reviews/), it's time to do them. Start by clicking "Reviews" in the top menu.
+[After you've finished waiting for your reviews](#), it's time to actually do them. Start by clicking "Reviews" in the top menu.
 
 ![Clicking the reviews button](/images/reviews-click.gif)
 
-From there, you'll see a quiz screen that's very similar to the Lessons quiz you did earlier. A radical will be displayed for you to answer.
+From there, you'll see a quiz screen that's very similar to the Lessons quiz you did in your lessons. You should see a radical will be displayed for you to answer.
 
 ![WaniKani Review with an empty field](/images/review-radical-empty.jpg)
 
