@@ -14,16 +14,14 @@ For starters, WaniKani has a built in [IME](https://en.wikipedia.org/wiki/Input_
 
 (If you _want_ to install a Japanese IME for other purposes, check out our [guide](http://www.tofugu.com/japanese/how-to-install-japanese-keyboard/) over on Tofugu. Just remember not to use it when doing your Lessons or Reviews on WaniKani.)
 
-`screenshot of guide`
-
 That's all well and good, but you still need to know how to type in Japanese! If this is your first time using the world-wide-web for Japanese, read through our [guide to typing in Japanese](http://www.tofugu.com/japanese/how-to-type-in-japanese/). There are some unusual characters in there, so if what you're typing and what you're seeing don't match up, check there first!
+
+![How to type in Japanese](/images/typing-in-japanese.png)
 
 If you're in the middle of a Lesson Quiz or a Review and you blank, there's a handy dropdown menu of all of the kana characters right here:
 
-`screenshot of shortcut`
-
-`screenshot of expanded keyboard`
+![Kana shortcut keyboard](/images/kana-shortcut.gif)
 
 Just click on the one you need and it will appear in the input bar. Or just take a look at the spelling below each one and you'll be able to type it yourself.
 
-Just remember that this tab is no replacement for learning to type yourself, so don't rely on it for everything, okay? Okay. I trust you.
+Remember: this tab is no replacement for learning to type yourself, so don't rely on it for everything, okay? Okay. I trust you.

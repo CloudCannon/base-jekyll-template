@@ -6,6 +6,12 @@ categories:
 description:
 type: Document
 ---
-We don't, and there's a couple reasons for it. One, WaniKani teaches kanji using radicals, so we don’t want you focusing too much on strokes. Two, odds are you won't be handwriting kanji very much in the digital age, so knowing the stroke order isn't as useful.
 
-If you want to learn stroke order for learning writing by hand, we recommend that you [learn the rules of stroke order](http://www.tofugu.com/japanese/kanji-stroke-order/) instead, which gives you a much better bang for your buck then memorizing all those individual storkes like most people are forced to.
+WaniKani does not teach stroke order or handwriting.
+
+There are a few reasons for this:
+
+1. We teach kanji using radicals, so we don't want you focusing too much on strokes.
+2. It's the future and everything is digital! Okay, not everything, but odds are you'll be typing in Japanese more than you'll be writing things by hand.
+
+One more thing! Stroke order isn't something you need to learn one kanji at a time. If you learn [the rules of stroke order](http://www.tofugu.com/japanese/kanji-stroke-order/), you should be able to write just about anything without having to think about it. That leaves your brain free and open to learn kanji faster. Efficiency is key, my young apprentice.
