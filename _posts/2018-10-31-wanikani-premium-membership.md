@@ -11,21 +11,18 @@ set-order: 10
 type: Document
 ---
 
-You tried out [the free levels of WaniKani](#) and now you're ready to continue.
+You tried out [the free levels of WaniKani](#) and now you're ready to subject yourself to more. To do that, you'll need to upgrade to some kind of premium membership.
 
+Any premium membership type gives you access to all of the content on WaniKani, though you still need to progress through the levels as usual (i.e. [money doesn't let you skip ahead](#)). Every new piece of content relies on past knowledge, after all.
 
----
+The current premium membership options are:
 
-The first three levels are free. This gets you around one month (if you're using WaniKani every day), ~90 kanji, and ~200 vocabulary words, which should be a big enough sample size to figure out if our system is for you.
+* Monthly ($9/month)
+* Annual ($89/year)
+* Lifetime ($299/once)
 
-To unlock levels 4+ (as well as some other perks), you can upgrade to a premium account in your subscription settings. If you aren’t near the end of level 3 yet, please don’t subscribe! (Unless you’re in the mood to give us extra money, but we’d rather you save it and spend it on yourself. You deserve something nice.)
+Wow! That's the price of a $299 cup of coffee!
 
-WaniKani has three subscriptions plans you can choose from:
+Please note that all subscriptions amounts are in USD (if you're in another country, payment will be converted automatically) and monthly/annual subscriptions are recurring. If you [cancel your monthly or annual subscription](#), you'll be able to use your premium subscription until it expires. You paid for it, after all.
 
- + $9/month
- + $89/year USD
- + $299/Lifetime (pay once, get access forever).
-
- Monthly and Yearly subscriptions are recurring charges, so please be sure to cancel after subscribing if you don’t want to be billed automatically. You'll still be able to use WaniKani for the rest of the time you paid for, but you won't be charged again at the end of it.
-
- You can cancel your subscription from the [Subscription>Billing](https://www.wanikani.com/account/subscription/billing) page.
+If you have any questions about upgrading, feel free to write a handwritten letter or [email us at hello@wanikani.com](mailto:hello@wanikani.com).
