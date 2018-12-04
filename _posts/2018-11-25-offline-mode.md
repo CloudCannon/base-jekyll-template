@@ -6,4 +6,9 @@ categories:
 description:
 type: Document
 ---
-Yup. WaniKani is a web-based application, so you'll need an active internet connection to use it. Sorry, no offline mode.
+
+You need to have an internet connection to use WaniKani.
+
+WaniKani is a web-based application that relies heavily on pinging the server each time you complete a lesson or review, so that your [SRS](#) times are accurate.
+
+There is currently no offline mode.
