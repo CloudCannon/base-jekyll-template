@@ -9,7 +9,7 @@ set-order: 2
 type: Document
 ---
 
-Now that you have a basic understanding of [how WaniKani works](/1.%20getting%20started/how-wanikani-works/), it's time to learn something. To begin, hit the "Lessons" button in the top left corner of your screen.
+Now that you have a basic understanding of [how WaniKani works](#), it's time to learn something. To begin, hit the "Lessons" button in the top left corner of your screen.
 
 ![WaniKani lessons button](/images/lessons-button-sq.gif)
 
