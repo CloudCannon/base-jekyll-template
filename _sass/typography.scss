@@ -59,6 +59,12 @@ h1 {
 .tutorial-content h1 {
   font-size: 4.5rem;
   margin: 0 0 .7em 0;
+  border-bottom: 1px solid #2E2E2E;
+
+  @media #{$shrink-point} {
+    font-size: 3rem;
+    text-align: center;
+  }
 }
 
 h2 {
@@ -135,14 +141,15 @@ hr {
 blockquote {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 1.75em 0 1.75em -2.2em;
-  padding: 0 0 0 1.75em;
-  border-left: #4A4A4A 0.4em solid
+  margin: 1.75em 0 1.75em -0.2em;
+  padding: 0 0 0 1em;
+  border-left: #666 0.4em solid
 }
 
 blockquote p {
   margin: 0.8em 0;
-  font-style: italic
+  font-style: italic;
+  color: #666;
 }
 
 blockquote small {

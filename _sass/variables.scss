@@ -1,8 +1,8 @@
 // Breakpoints
-$tablet: "(min-width: 450px)";
-$mid-point: "(min-width: 750px)";
-$desktop: "(min-width: 900px)";
-
+$tablet: "(min-width: 960px)";
+$mid-point: "(min-width: 960px)";
+$desktop: "(min-width: 960px)";
+$shrink-point: "(max-width: 960px)";
 // Colors
 
 $dark-grey: #222;

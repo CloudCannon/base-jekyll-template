@@ -106,7 +106,9 @@
       text-decoration: none;
       display: block;
       -webkit-transition: transform .2s ease;
-      line-height: 1.3em;
+      line-height: 1.2em;
+      font-size: 1em;
+      padding-bottom: 1em;
 
       &.active {
         color: $link-color;
@@ -119,7 +121,8 @@
     width: 100%;
 
     @media #{$mid-point} {
-      margin-left: 230px;
+      width: 700px;
+      margin-left: 200px;
     }
   }
 }
