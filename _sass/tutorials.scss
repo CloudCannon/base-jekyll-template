@@ -107,7 +107,7 @@
       display: block;
       -webkit-transition: transform .2s ease;
       line-height: 1.2em;
-      font-size: 1em;
+      font-size: 1.5rem;
       padding-bottom: 1em;
 
       &.active {
@@ -123,6 +123,7 @@
     @media #{$mid-point} {
       width: 700px;
       margin-left: 200px;
+      padding-left: 25px;
     }
   }
 }

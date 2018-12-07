@@ -2,8 +2,11 @@
 date: 2018-07-30
 title: 在 FydeOS 中进入 Shell
 categories:
-  - 使用技巧
+  - 起步走
 type: Document
+permalink: /getting-started/shell-access/
+redirect_from:
+  - /使用技巧/在FydeOS中进入Shell/
 ---
 
 

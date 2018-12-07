@@ -1,9 +1,12 @@
 ---
 date: 2018-07-15
-title: FydeOS for TKB 安装指南
+title: 首次运行 FydeOS for TKB
 categories:
-  - 安装教程
+  - 起步走
 type: Document
+permalink: /getting-started/fydeos-for-tkb/
+redirect_from:
+  - /安装教程/FydeOS-for-TKB-安装指南/
 ---
 
 ## 极简方式

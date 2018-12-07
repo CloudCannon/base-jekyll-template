@@ -2,8 +2,11 @@
 date: 2018-07-16
 title: 将 FydeOS for PC 安装进硬盘
 categories:
-  - 使用技巧
+  - 起步走
 type: Document
+permalink: /getting-started/install-fydeos-to-hdd/
+redirect_from:
+  - /使用技巧/将FydeOS-for-PC安装进硬盘/
 ---
 >注意！安装 FydeOS 到硬盘上将会抹掉硬盘上所有数据。该功能仍在测试阶段，我们无法对潜在的数据丢失以及安装中可能出现的各种问题负责或者提供及时的技术支持。请三思而后行！
 

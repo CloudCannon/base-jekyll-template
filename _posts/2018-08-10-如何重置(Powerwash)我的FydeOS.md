@@ -4,6 +4,9 @@ title: 如何重置（Powerwash）我的 FydeOS
 categories:
   - 使用技巧
 type: Document
+permalink: /recipes/powerwash/
+redirect_from:
+  - /使用技巧/如何重置(Powerwash)我的FydeOS/
 ---
 
 > 该操作的目的是恢复出厂设置并清空所有用户数据，包括但不限于已经安装的浏览器插件、安卓程序、下载文件夹内的数据以及浏览器缓存文件和历史记录等。该操操作执行成功之后结果不可逆，请三思而后行。

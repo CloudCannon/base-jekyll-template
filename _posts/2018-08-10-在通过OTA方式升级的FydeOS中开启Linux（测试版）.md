@@ -5,6 +5,9 @@ categories:
   - 使用技巧
   - crostini
 type: Document
+permalink: /recipes/enable-crostini-after-ota-update/
+redirect_from:
+  - /使用技巧/crostini/在通过OTA方式升级的FydeOS中开启Linux-测试版/
 ---
 
 本教程针对通过 OTA 方式升级到 v4.2 及更新版本并且之前未能成功启动 Linux（测试版）的用户。

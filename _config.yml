@@ -31,6 +31,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
 
 exclude:
   - Gemfile
@@ -39,7 +43,7 @@ exclude:
   - LICENCE
 
 collections:
-  faq: 
+  faq:
     output: true
 
 # jekyll-archives:
