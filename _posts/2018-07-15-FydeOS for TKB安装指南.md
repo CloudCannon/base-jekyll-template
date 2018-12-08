@@ -7,6 +7,7 @@ type: Document
 permalink: /getting-started/fydeos-for-tkb/
 redirect_from:
   - /安装教程/FydeOS-for-TKB-安装指南/
+  - /起步走/首次运行FydeOS-for-TKB/
 ---
 
 ## 极简方式

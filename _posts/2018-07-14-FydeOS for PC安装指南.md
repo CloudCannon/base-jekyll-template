@@ -7,6 +7,7 @@ type: Document
 permalink: /getting-started/fydeos-for-pc/
 redirect_from:
   - /安装教程/FydeOS-for-PC安装指南/
+  - /起步走/首次运行FydeOS-for-PC/
 ---
 
 我们推荐使用 [etcher](https://etcher.io/) 进行 SD 卡的刻录。etcher 是一款帮助用户快速将镜像文件刻录到 USB 设备或闪存卡中的工具软件，并且可以在 Windows、macOS 和主流 Linux 版本等多种操作系统中使用。该软件设计精美，界面友好，相信你马上就能熟知它简单的三部曲操作：
