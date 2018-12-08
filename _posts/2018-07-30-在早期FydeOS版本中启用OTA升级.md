@@ -4,6 +4,9 @@ title: 在早期 FydeOS 版本中启用 OTA 升级
 categories:
   - 使用技巧
 type: Document
+permalink: /recipes/enable-ota-in-earlier-fydeos-releases/
+redirect_from:
+  - /使用技巧/在早期FydeOS版本中启用OTA升级/
 ---
 
 >注意：本教程假设你对 Linux 命令行操作并不陌生且具备最基本的操作技巧。若你觉得以下内容难以理解，请寻求身边朋友的帮助或者采用 [直接烧写](https://fydeos.com/instructions-pc) 的办法升级你的 FydeOS。

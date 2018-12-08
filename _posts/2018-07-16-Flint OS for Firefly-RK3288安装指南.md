@@ -4,6 +4,9 @@ title: Flint OS for Firefly-RK3288 安装指南
 categories:
   - 早期版本
 type: Document
+permalink: /previous-releases/firefly-rk3288/
+redirect_from:
+  - /早期版本/Flint-OS-for-Firefly-RK3288安装指南/
 ---
 > 注意！早期版本 Flint OS for Firefly-RK3288 需要被烧写到 Firefly-RK3399 的机载高速闪存（eMMC）里才能保证正常稳定运行，这一操作将抹去现 eMMC 里所有的数据且不可逆。如需继续，请事先做好数据备份工作。如需恢复原始系统，请使用官方提供的恢复工具。我们无法对潜在的数据丢失以及安装中可能出现的各种问题负责或者提供及时的技术支持。请三思而后行！
 

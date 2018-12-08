@@ -34,6 +34,8 @@ GEM
       nokogiri (= 1.8.2)
     jekyll-feed (0.9.3)
       jekyll (~> 3.3)
+    jekyll-redirect-from (0.14.0)
+      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.4.0)
@@ -75,8 +77,9 @@ DEPENDENCIES
   jekyll-archives (= 2.1.1)
   jekyll-extract-element (= 0.0.7)
   jekyll-feed (= 0.9.3)
+  jekyll-redirect-from (= 0.14.0)
   jekyll-seo-tag (= 2.4.0)
   jekyll-sitemap (= 1.2.0)
 
 BUNDLED WITH
-   1.16.0
+   1.16.2

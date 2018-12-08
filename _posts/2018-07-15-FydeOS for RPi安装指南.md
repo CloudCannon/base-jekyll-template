@@ -1,9 +1,13 @@
 ---
 date: 2018-07-15
-title: FydeOS for RPi 安装指南
+title: 首次运行 FydeOS for RPi
 categories:
-  - 安装教程
+  - 起步走
+permalink: /getting-started/fydeos-for-rpi/
 type: Document
+redirect_from:
+  - /安装教程/FydeOS-for-RPi-安装指南/
+  - /起步走/首次运行FydeOS-for-RPi/
 ---
 
 ## 极简方式

@@ -60,6 +60,7 @@ h1 {
   font-size: 4.5rem;
   margin: 0 0 .7em 0;
   border-bottom: 1px solid #2E2E2E;
+  padding-bottom: 10px;
 
   @media #{$shrink-point} {
     font-size: 3rem;
