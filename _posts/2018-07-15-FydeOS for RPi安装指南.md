@@ -1,9 +1,9 @@
 ---
 date: 2018-07-15
-title: 首次运行 FydeOS for RPi
+title: 首次运行 Chromium OS for RPi
 categories:
   - 起步走
-permalink: /getting-started/fydeos-for-rpi/
+permalink: /getting-started/chromium-os-for-rpi/
 type: Document
 redirect_from:
   - /安装教程/FydeOS-for-RPi-安装指南/
@@ -18,13 +18,13 @@ redirect_from:
 
 你可以从 [etcher 官网](https://etcher.io/) 下载适配 Windows、macOS 或 Linux 的 etcher 安装包。
 
-请在我们的 [下载页面](https://fydeos.com/download/) 早期版本 (Flint OS) 下载中获取 FydeOS for RPi 的镜像文件。下载完成后，无需解压和重命名，请直接用 etcher 打开该镜像文件；接下来请选择将要用来烧录 FydeOS for RPi 的 SD 卡；最后，你只需要点击「Flash!」按钮，etcher 就会帮你处理完剩下的事情！一切完成后，即可取出 SD 卡并放入你的树莓派中，享受 FydeOS 带来的全新浏览体验。
+请在 Github 上 Chromium OS for Raspberry Pi 项目的 [Releases](https://github.com/FydeOS/chromium_os_for_raspberry_pi/releases) 页面获取 Chromium OS for Raspberry Pi 的镜像文件。下载完成后，无需解压和重命名，请直接用 etcher 打开该镜像文件；接下来请选择将要用来烧录 Chromium OS for Raspberry Pi 的 SD 卡；最后，你只需要点击「Flash!」按钮，etcher 就会帮你处理完剩下的事情！一切完成后，即可取出 SD 卡并放入你的树莓派中，享受 Chromium OS for Raspberry Pi 带来的全新浏览体验。
 
 如果你喜欢更为传统的安装方式，可以按照以下方式进行操作：
 
 ## Windows
 
-1. 请在我们的 [下载页面](https://fydeos.com/download/) 获取 .zip 或者 .xz 格式的镜像文件并使用你喜欢的解压软件解压之，比如 [7zip](https://www.7-zip.org/download.html)。
+1. 请在 Github 上 Chromium OS for Raspberry Pi 项目的 [Releases](https://github.com/FydeOS/chromium_os_for_raspberry_pi/releases) 页面获取 Chromium OS for Raspberry Pi 的镜像文件并使用你喜欢的解压软件解压之，比如 [7zip](https://www.7-zip.org/download.html)。
 
 2. 解压缩后，你应该获得一个 .img 的镜像文件。但若是获得了一个 .bin 的文件，莫慌张！这和 .img 的文件的操作方式是一样的，只需要将其重新命名并修改后缀名即可。
 
@@ -36,7 +36,7 @@ redirect_from:
 
 ## macOS
 
-1. 请在我们的 [下载页面](https://fydeos.com/download/) 获取 .zip 或者 .xz 格式的镜像文件并使用 macOS 自带的解压程序解压之。
+1. 请在 Github 上 Chromium OS for Raspberry Pi 项目的 [Releases](https://github.com/FydeOS/chromium_os_for_raspberry_pi/releases) 下页面获取 Chromium OS for Raspberry Pi 的镜像文件并使用 macOS 自带的解压程序解压之。
 
 2. 解压缩后，你应该获得一个 .img 的镜像文件。但若是获得了一个 .bin 的文件，莫慌张！这和 .img 的文件的操作方式是一样的，只需要将其重新命名并修改后缀名即可。
 
@@ -48,7 +48,7 @@ redirect_from:
 
 ## Linux
 
-1. 请在我们的 [下载页面](https://fydeos.com/download/) 获取 .zip 或者 .xz 格式的镜像文件并使用你喜欢的解压软件解压之，比如 [7zip](https://www.7-zip.org/download.html)。
+1. 请在 Github 上 Chromium OS for Raspberry Pi 项目的 [Releases](https://github.com/FydeOS/chromium_os_for_raspberry_pi/releases) 页面获取 Chromium OS for Raspberry Pi 的镜像文件并使用你喜欢的解压软件解压之，比如 [7zip](https://www.7-zip.org/download.html)。
 
 2. 解压缩后，你应该获得一个 .img 的镜像文件。但若是获得了一个 .bin 的文件，莫慌张！这和 .img 的文件的操作方式是一样的，只需要将其重新命名并修改后缀名即可。
 
@@ -58,4 +58,4 @@ redirect_from:
 
 5. 完成刻录后，就可以将 SD 卡插入树莓派中使用了。
 
-装上 FydeOS 玩转树莓派吧！如果你在安装过程中遇到任何问题，欢迎联系我们！
+装上 Chromium OS for Raspberry Pi 玩转树莓派吧！如果你在安装过程中遇到任何问题，欢迎联系我们！
