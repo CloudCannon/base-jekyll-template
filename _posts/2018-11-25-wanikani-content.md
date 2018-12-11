@@ -2,7 +2,7 @@
 date: 2018-11-25
 title: What will WaniKani teach me?
 categories:
-  - 4. WaniKani
+  - wanikani
 description:
 type: Document
 ---

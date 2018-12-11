@@ -2,8 +2,8 @@
 date: 2018-11-25
 title: The WaniKani Method
 categories:
-  - 4. WaniKani
-  - 1. Getting Started
+  - wanikani
+  - getting-started
 description:
 type: Document
 ---

@@ -2,7 +2,7 @@
 date: 2018-11-25
 title: "The WaniKani Android App"
 categories:
-  - 6. API & Third–Party Apps
+  - api-and-third-party-apps
 description: Why doesn't the iOS or Android app work properly?
 type: Document
 ---

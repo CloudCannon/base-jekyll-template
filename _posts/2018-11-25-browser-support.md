@@ -2,7 +2,7 @@
 date:  2018-11-25
 title: Supported Browsers
 categories:
-  - 4. WaniKani
+  - wanikani
 description:
 type: Document
 ---

@@ -2,7 +2,7 @@
 date: 2018-11-25
 title: How do I type...?
 categories:
-  - 1. Getting Started
+  - getting-started
 description:
 type: Document
 ---

@@ -2,7 +2,7 @@
 date: 2018-10-31 19:00
 title: Doing Your First Reviews
 categories:
-  - 1. Getting Started
+  - getting-started
 description:
 set: getting-started
 set-order: 4

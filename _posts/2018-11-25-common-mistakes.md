@@ -2,7 +2,7 @@
 date: 2018-11-25
 title: Why is my answer marked wrong?
 categories:
-  - 4. WaniKani
+  - wanikani
 description:
 type: Document
 ---

@@ -2,7 +2,7 @@
 date: 2018-10-31 22:00
 title: What is WaniKani?
 categories:
-  - 1. Getting Started
+  - getting-started
 description:
 set: getting-started
 set-order: 1

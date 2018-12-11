@@ -2,7 +2,7 @@
 date: 2018-11-25
 title: Changing Subscription Plans
 categories:
-  - 3. Payment & Billing
+  - payment-and-billing
 description:
 type: Document
 ---
