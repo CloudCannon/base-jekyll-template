@@ -2,8 +2,8 @@
 date: 2018-11-25
 title: How long does it take to finish WaniKani?
 categories:
-  - 2. Account & Membership
-  - 1. Getting Started
+  - account-and-membership
+  - getting-started
 description:
 type: Document
 ---

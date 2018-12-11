@@ -2,9 +2,9 @@
 date: 2018-10-31 9:00
 title: WaniKani Premium Membership
 categories:
-  - 1. Getting Started
-  - 2. Account & Membership
-  - 3. Payment & Billing
+  - getting-started
+  - account-and-membership
+  - payment-and-billing
 description:
 set: getting-started
 set-order: 10

@@ -2,9 +2,9 @@
 date: 2018-11-25
 title: What are radicals, kanji, and vocabulary?
 categories:
-  - 1. Getting Started
-  - 4. WaniKani
-  - 5. Japanese
+  - getting-started
+  - wanikani
+  - japanese
 description:
 type: Document
 ---

@@ -1,4 +1,4 @@
 ---
-title: 1. Getting Started
+title: Getting Started
 description: This series guides you through getting started on our platform.
 ---

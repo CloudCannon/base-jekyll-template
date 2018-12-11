@@ -2,7 +2,7 @@
 date: 2018-11-25
 title: Do I need to be online to use WaniKani?
 categories:
-  - 4. WaniKani
+  - wanikani
 description:
 type: Document
 ---

@@ -2,8 +2,8 @@
 date: 2018-11-25
 title: Subscription Types
 categories:
-  - 2. Account & Membership
-  - 3. Payment & Billing
+  - account-and-membership
+  - payment-and-billing
 description:
 type: Document
 ---
