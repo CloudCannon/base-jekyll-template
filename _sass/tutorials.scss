@@ -119,7 +119,9 @@
 		width: 100%;
 
 		@media #{$mid-point} {
-			margin-left: 230px;
+			&.tutorial-content-with-sidebar {
+				margin-left: 230px;				
+			}
 		}
 	}
 }
