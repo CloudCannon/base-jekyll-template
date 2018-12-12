@@ -11,10 +11,10 @@
 </div>
 
 <section class="categories">
-	{% assign categories = site.categories | sort %}
-	{% for category in categories %}
-		{% assign name = category[0] %}
-		{% assign posts = category[1] %}
+	{% assign categories_data = site.data.categories | sort: "order" %}
+	{% for category_data in categories_data %}
+		{% assign name = category_data['title'] %}
+		{% assign posts = site.categories[category_data['slug']] %}
 		{% assign size = posts | size %}
 		<section class="category">
 				<h3>
