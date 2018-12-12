@@ -18,6 +18,10 @@ header {
 
 // _sass/tutorials.scss:22
 .category {
+  @media #{$desktop} {
+		flex: 0 0 50%;
+	}
+
   li {
     a {
       line-height: 1.5em;
