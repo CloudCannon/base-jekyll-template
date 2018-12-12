@@ -32,13 +32,33 @@ header {
   }
 }
 
-// _sass/tutorials.scss
+// _sass/tutorials.scss:72
 .tutorial-content {
   img {
     display: block;
     margin: 0 auto;
     max-width: 80%;
-    border-radius: 5px;
+    border-radius: $border-radius-size;
     box-shadow: 0 0 20px rgba(#000000, 0.25);
+  }
+}
+
+// _sass/tutorials.scss:309
+.tutorial-series {
+  background-color: $lighter-grey;
+  border-radius: $border-radius-size;
+  box-sizing: border-box;
+  padding: 20px;
+  h3, p, a {
+    //color: #ffffff;
+  }
+  .listing {
+    a {
+      .icon {
+        svg {
+          //fill: #ffffff;
+        }
+      }
+    }
   }
 }
