@@ -15,3 +15,15 @@ header {
     margin-bottom: 4rem;
   }
 }
+
+// _sass/tutorials.scss:22
+.category {
+  li {
+    a {
+      line-height: 1.5em;
+      svg {
+        flex-shrink: 0
+      }
+    }
+  }
+}
