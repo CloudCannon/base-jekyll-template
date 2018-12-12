@@ -12,7 +12,7 @@
     background-color: #ffffff;
     content: " ";
     position: absolute;
-    width: 192px;
+    width: 100%;
     height: 20px;
     bottom: -20px;
     left: 0;
@@ -25,7 +25,7 @@
     width: 192px;
     height: 151.875px;
     bottom: -20px;
-    left: 10px;
+    left: calc(50% - (151.875px / 2) - 20px);
   }
   h2, a {
     color: #ffffff;
@@ -33,7 +33,16 @@
   h2 {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 0;
-    margin-left: 192px;
+    margin-bottom: 120px;
+  }
+
+  @media #{$mid-point} {
+    &:before {
+      left: 10px;
+    }
+    h2 {
+      margin-left: 192px;
+      margin-bottom: 0;
+    }
   }
 }
