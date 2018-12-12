@@ -2,13 +2,16 @@
 date: 2018-11-25
 title: Premium Content
 categories:
-  - account-and-membership
-  - payment-and-billing
+  - 2. Account & Membership
+  - 3. Payment & Billing
 description:
 type: Document
 ---
-You've taken the plunge and signed up for a WaniKani subscription - nice! So what exactly do you _get_ with your shiny new subscription?
 
-Well, the main thing is that you get to keep progressing in WaniKani. Levels 4-60 are considered "premium" content, so they're only available if you have an active subscription. You also get access to [Vacation Mode](https://www.wanikani.com/settings/account), which lets you pause your reviews if you're going to be away.
+WaniKani is a paid service after level 3.
 
-What subscribing _doesn't_ do is make WaniKani go any faster; you'll still need to do your reviews and level up like normal.
+If you decide to [purchase a WaniKani subscription](#), you get access to a lot of (cool) stuff!
+
+ Premium WaniKani content currently includes levels 4-60. You also get access to [Vacation Mode](https://www.wanikani.com/settings/account), which lets you pause your reviews if you're going to be away for more than a day or two.
+
+What subscribing _doesn't_ do is make WaniKani go any faster; you'll still need to do your reviews and level up like everyone else.
