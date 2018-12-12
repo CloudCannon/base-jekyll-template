@@ -5,7 +5,7 @@ help_section:
   - 添加应用和扩展程序
 weight: 4
 type: Document
-permalink: /help/apps/install/linux
+permalink: /help/apps/install/linux/
 ---
 
 你可以在 FydeOS 上安装 Linux 工具、编辑器和 IDE，以供编写代码、创建应用的需求。
