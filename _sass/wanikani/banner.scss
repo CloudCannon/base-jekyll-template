@@ -1,11 +1,13 @@
 .banner {
-  background-color: lighten($header-color, 45%);
+  background-color: lighten(#ff00aa, 45%);
   margin-bottom: 3rem;
   padding: 2rem;
-  h4 {
-    margin-bottom: 0;
-  }
 }
 
+// _sass/tutorials.scss:129
 .banner--getting-started {
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
 }
