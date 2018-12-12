@@ -2,8 +2,8 @@
 date: 2018-11-25
 title: Radical Names
 categories:
-  - 4. WaniKani
-  - 5. Japanese
+  - wanikani
+  - japanese
 description:
 type: Document
 ---

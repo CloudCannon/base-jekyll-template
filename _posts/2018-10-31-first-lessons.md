@@ -2,7 +2,7 @@
 date: 2018-10-31 21:00
 title: Doing Your First Lessons
 categories:
-  - 1. Getting Started
+  - getting-started
 description:
 set: getting-started
 set-order: 2

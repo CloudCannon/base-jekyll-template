@@ -2,7 +2,7 @@
 date: 2018-10-31 18:00
 title: Unlocking Kanji Lessons
 categories:
-  - 1. Getting Started
+  - getting-started
 description:
 set: getting-started
 set-order: 5

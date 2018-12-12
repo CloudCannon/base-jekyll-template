@@ -2,7 +2,7 @@
 date: 2018-11-25
 title: Small vs Big Characters
 categories:
-  - 5. Japanese
+  - japanese
 description:
 type: Document
 ---

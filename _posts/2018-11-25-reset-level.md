@@ -2,7 +2,7 @@
 date: 2018-11-25
 title: Resetting your account
 categories:
-  - 2. Account & Membership
+  - account-and-membership
 description:
 type: Document
 ---

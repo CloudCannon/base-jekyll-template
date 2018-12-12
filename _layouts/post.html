@@ -3,15 +3,17 @@ layout: default
 ---
 
 <section class="tutorial">
-	<section class="sidebar sticky">
-		<ul>
-			{% assign sub_navigation = content | extract_element: 'h2' %}
-			{% for item in sub_navigation %}
-				<li><a href="#{{ item.id }}">{{ item.text }}</a></li>
-			{% endfor %}
-		</ul>
-	</section>
-	<section class="tutorial-content">
+	{% assign sub_navigation = content | extract_element: 'h2' %}
+	{% if sub_navigation.size > 2 %}
+		<section class="sidebar sticky">
+			<ul>
+				{% for item in sub_navigation %}
+					<li><a href="#{{ item.id }}">{{ item.text }}</a></li>
+				{% endfor %}
+			</ul>
+		</section>
+	{% endif %}
+	<section class="tutorial-content{% if sub_navigation.size > 2 %} tutorial-content-with-sidebar{% endif %}">
 		<h1>{{ page.title }}</h1>
 
 		{% if page.type == "Video" %}
@@ -30,12 +32,6 @@ layout: default
 
 		<div class="tutorial-main">
 			{{ content }}
-		</div>
-		<div class="tutorial-share">
-			{% if site.newsletter_action %}
-				<a class="modalOpen no-smooth" href="#subscribe">{% include social-icon.html icon="Email" %} Subscribe</a>
-			{% endif %}
-			<a class="modalOpen no-smooth" href="#share">{% include social-icon.html icon="Share" %} Share</a>
 		</div>
 	</section>
 </section>

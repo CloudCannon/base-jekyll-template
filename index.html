@@ -1,8 +1,13 @@
 ---
 ---
 
-<div class="starting-out" style="margin-bottom:50px; text-align:center; background-color: #ff0000; padding: 20px; color:white; ">
-First time user? - <a href="#" style="color:white;">A Guide for Starting Out Link</a>
+{% assign getting_started_set = site.sets | where: "path", "_sets/getting-started.md" | first %}
+{% assign getting_started_set_posts = site.posts | where: "set", "getting-started" %}
+
+<div class="banner banner--getting-started">
+	<h2>
+		First time user? Check out the <a href="{{ getting_started_set_posts.first.url }}" title="Getting Started set">Getting Started</a> set.
+	<h2>
 </div>
 
 <section class="categories">

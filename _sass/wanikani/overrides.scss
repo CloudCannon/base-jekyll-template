@@ -1,8 +1,32 @@
+// _sass/header.scss:11
 header {
   .top-bar {
     .logo {
       a {
         text-decoration: none;
+      }
+    }
+  }
+}
+
+// _sass/search.scss:1
+#search-results {
+  li {
+    margin-bottom: 4rem;
+  }
+}
+
+// _sass/tutorials.scss:22
+.category {
+  @media #{$desktop} {
+		flex: 0 0 50%;
+	}
+
+  li {
+    a {
+      line-height: 1.5em;
+      svg {
+        flex-shrink: 0
       }
     }
   }
