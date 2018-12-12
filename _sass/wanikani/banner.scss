@@ -1,13 +1,39 @@
 .banner {
-  background-color: lighten(#ff00aa, 45%);
   margin-bottom: 3rem;
   padding: 2rem;
 }
 
 // _sass/tutorials.scss:129
 .banner--getting-started {
+  background-color: $header-color;
+  border-radius: 5px;
+  position: relative;
+  &:after {
+    background-color: #ffffff;
+    content: " ";
+    position: absolute;
+    width: 192px;
+    height: 20px;
+    bottom: -20px;
+    left: 0;
+  }
+  &:before {
+    background-image: url("/images/wanikani-logo.png");
+    background-size: contain;
+    content: " ";
+    position: absolute;
+    width: 192px;
+    height: 151.875px;
+    bottom: -20px;
+    left: 10px;
+  }
+  h2, a {
+    color: #ffffff;
+  }
   h2 {
     font-size: 2rem;
+    font-weight: bold;
     margin-bottom: 0;
+    margin-left: 192px;
   }
 }
