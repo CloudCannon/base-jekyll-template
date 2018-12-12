@@ -3,7 +3,9 @@ title: Search
 sitemap: false
 ---
 
-<p><span id="search-process">Loading</span> results <span id="search-query-container" style="display: none;">for "<strong id="search-query"></strong>"</span></p>
+<p>
+  <span id="search-process">正在载入</span><span id="search-query-container" style="display: none;"> "<strong id="search-query"></strong>" 的搜索结果</span>
+</p>
 <ul id="search-results"></ul>
 
 <script>
@@ -13,7 +15,8 @@ sitemap: false
         {% unless post.excluded_in_search %}
           {% if added %},{% endif %}
           {% assign added = false %}
-          "{{ post.url | slugify }}": {
+          "{{ post.url | slugify }}": 
+          {
             "id": "{{ post.url | slugify }}",
             "title": "{{ post.title | xml_escape }}",
             "categories": "{{ post.categories | join: ", " | xml_escape }}",
@@ -25,6 +28,8 @@ sitemap: false
       {% endif %}
     {% endfor %}
   };
+  console.log("window.data");
+  console.log(window.data);
 </script>
 <script src="{{ site.baseurl }}/js/lunr.min.js"></script>
 <script src="{{ site.baseurl }}/js/search.js"></script>

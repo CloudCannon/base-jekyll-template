@@ -1,0 +1,91 @@
+---
+layout: default
+---
+
+<nav aria-label="breadcrumb" id="nav-breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item first"><a href="">帮助文档</a></li>
+    <li class="breadcrumb-item second active" aria-current="page"></li>
+  </ol>
+</nav>
+
+<section class="tutorial">
+  <section class="sidebar sticky">
+    <ul id="sidebar_content_index">
+    </ul>
+  </section>
+  <section class="tutorial-content">
+    <h1>{{ page.title }}</h1>
+
+    {% if page.type == "Video" %}
+      {% include youtube.html video_id=page.video_id %}
+
+      {% if page.resources %}
+        <div class="resources">
+          <ul>
+            {% for resource in page.resources %}
+              <li><a href="{{ resource.link }}">{{ resource.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    {% endif %}
+    
+    <div class="tutorial-main">
+      {{ content }}
+    </div>
+
+  </section>
+</section>
+
+
+<script src="{{ site.baseurl }}/js/main.js"></script>
+
+<script>
+  var headings = document.querySelectorAll("h2[id]");
+
+  //console.log(headings);
+  for (var i = 0; i < headings.length; i++) {
+    var anchorLink = document.createElement("a");
+    anchorLink.innerText = headings[i].innerText;
+    anchorLink.href = "#" + headings[i].id;
+    anchorLink.classList.add("header-link");
+    //console.log(anchorLink);
+    document.querySelector("#sidebar_content_index").appendChild(anchorLink);
+    //headings[i].appendChild(anchorLink);
+  }
+
+  //fill breadcrumb
+  var arrUrlPath =  window.location.pathname.split('/');
+  arrUrlPath.pop();
+  var strFirstNodeURL = "/" + arrUrlPath[1] + "/#" + arrUrlPath[2];
+
+  console.log(arrUrlPath);
+
+  document.querySelector("ol.breadcrumb li.first a").setAttribute("href", strFirstNodeURL);
+  var docTitle = document.querySelector("section.tutorial-content h1").innerText;
+
+  if (arrUrlPath.length <= 4)
+  {
+    document.querySelector("ol.breadcrumb li.second").innerText = docTitle;
+  }
+  else if (arrUrlPath.length == 5)
+  {
+    var strSecondNodeURL = "/help/" + arrUrlPath[2] + "/" + arrUrlPath[3] + "/";
+    var strSecondNodeText = "{{page.help_section | last}}"
+    var objSecondNode = document.querySelector("ol.breadcrumb li.second");
+    var objSecondLink = document.createElement("a");
+    objSecondLink.setAttribute("href", strSecondNodeURL);
+    objSecondLink.innerText = strSecondNodeText;
+    objSecondNode.classList.remove("active");
+    objSecondNode.append(objSecondLink);
+
+    var objThirdNode = document.createElement("li");
+    objThirdNode.setAttribute("class", "breadcrumb-item third active");
+    objThirdNode.setAttribute("aria-current", "page");
+    var objBreadcrumbOl = document.querySelector("ol.breadcrumb");
+    objBreadcrumbOl.append(objThirdNode);
+    document.querySelector("ol.breadcrumb li.third").innerText = docTitle;
+  }
+
+</script>

@@ -1,0 +1,9 @@
+# EditorConfig is awesome: https://EditorConfig.org
+# Why? Because this project maintainer is a virgo
+
+root = true
+
+[*]
+end_of_line = lf
+indent_style = space
+indent_size = 2

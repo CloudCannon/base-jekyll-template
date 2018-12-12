@@ -1,0 +1,34 @@
+---
+title: Search
+sitemap: false
+---
+
+<p>
+  <span id="search-process">正在载入</span><span id="search-query-container" style="display: none;"> "<strong id="search-query"></strong>" 的搜索结果</span>
+</p>
+<ul id="search-results"></ul>
+
+
+<script>
+  window.data = {
+    {% for help in site.help %}
+      {% if help.title %}
+        {% if added %},{% endif %}
+        {% assign added = false %}
+        "{{ help.url | slugify }}": 
+        {
+          "id": "{{ help.url | slugify }}",
+          "title": "{{ help.title | xml_escape }}",
+          "section": "{{ help.help_section | join: ", " | xml_escape }}",
+          "url": " {{ help.permalink | xml_escape }}",
+          "content": {{ help.content | strip_html | replace_regex: "[\s/\n]+"," " | strip | jsonify }}
+        }
+        {% assign added = true %}
+      {% endif %}
+    {% endfor %}
+  };
+  console.log("window.data");
+  console.log(window.data);
+</script>
+<script src="{{ site.baseurl }}/js/lunr.min.js"></script>
+<script src="{{ site.baseurl }}/js/search.js"></script>

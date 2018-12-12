@@ -1,4 +1,4 @@
-.faq {
+.help {
   div.accordion {
     div.card {
       div.card-header {
@@ -26,7 +26,22 @@
       div.collapse,
       div.collapsing {
         div.card-body {
-          padding: 2rem;
+          padding:1rem 0;
+          div.help-item-row {
+            min-height: 25px;
+            a {
+              padding: 1rem 2rem;
+              display: block;
+              width: 100%;
+            }
+            &:hover {
+              background-color: RGBA(227, 196, 196, .2);
+              color: #850916;
+              a {
+                text-decoration: none;
+              }
+            }
+          }
         }
         &.collapse-item-last {
           div.card-body {

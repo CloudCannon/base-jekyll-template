@@ -40,7 +40,11 @@
         {% include navigation.html %}
       </section>
       <section class="hero_search">
-        {% include search.html %}
+        {% if page.body_class == "show_kb_search" %}
+          {% include search-kb.html %}
+        {% elsif page.body_class == "show_help_search" %}
+          {% include search-help.html %}
+        {% endif %}
       </section>
     </div>
   </header>

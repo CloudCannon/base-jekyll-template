@@ -3,7 +3,8 @@
     display: none;
   }
 
-  .show_hero_search .hero_search {
+  .show_help_search .hero_search,
+  .show_kb_search .hero_search {
     display: block;
   }
 }

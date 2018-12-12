@@ -1,0 +1,63 @@
+---
+---
+
+<section class="help">
+  <div class="accordion" id="accordionHelp">
+    <div class="card">
+    {% assign help_sections = site.data.help_sections %}
+    {% for help_section_item in help_sections %}
+      <div class="card-header" id="heading{{ forloop.index }}">
+        <h5 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="true" aria-controls="collapse{{ forloop.index }}" data-slug="{{ help_section_item.slug }}">
+            {{ help_section_item.name }}
+          </button>
+        </h5>
+      </div>
+
+      <div id="collapse{{ forloop.index }}" class="collapse {% if forloop.last == true %}{{ "collapse-item-last" }}{% endif %}" aria-labelledby="heading{{ forloop.index }}" data-parent="#accordionHelp">
+        <div class="card-body">
+          {% assign sorted_help_items = site.help | sort: 'weight' | reverse %}
+          {% for item in sorted_help_items %}
+            {% if help_section_item.name == item.help_section %}
+              <div class="help-item-row">
+                <a href="{{ site.baseurl }}{{ item.permalink }}">{{ item.title }}</a>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
+
+<script>
+  //init collapse state
+  var currentURL = window.location.href;
+  if (currentURL.indexOf("#") > -1)
+  {
+    var slug = currentURL.substr(currentURL.indexOf("#")+1);
+    var toUnCollapse = document.querySelector("button[data-slug="+slug+"]");
+    var toUnCollapseTarget = toUnCollapse.getAttribute('data-target');
+    document.querySelector(toUnCollapseTarget).classList.add('show');
+
+    var sectionContainer = document.querySelector('section.content');
+    window.scrollTo({
+      left: 0,
+      top: toUnCollapse.offsetTop + document.querySelector('header').offsetHeight,
+      behavior: 'smooth'
+    });
+    console.log("scrolled to");
+    console.log(toUnCollapse.offsetTop + document.querySelector('header').offsetHeight);
+  }
+
+  //handles button click and append slug to URL
+  var buttons = document.querySelectorAll("button.btn-link");
+  buttons.forEach((button) => {
+    button.addEventListener("click", (e)=> {
+      var appendix = "#" + e.target.dataset.slug;
+      window.history.replaceState(null, null, appendix);
+    });
+  });
+</script>

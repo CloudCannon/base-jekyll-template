@@ -19,7 +19,7 @@
         </h5>
       </div>
 
-      <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}" data-parent="#accordionFaq">
+      <div id="collapse{{ forloop.index }}" class="collapse {% if forloop.last == true %}{{ "collapse-item-last" }}{% endif %}" aria-labelledby="heading{{ forloop.index }}" data-parent="#accordionFaq">
         <div class="card-body">
           {{ item | markdownify }}
         </div>

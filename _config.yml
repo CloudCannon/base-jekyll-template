@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: FydeOS 知识库
+title: FydeOS 文档中心
 url: "https://faq.fydeos.com/"
 #baseurl: "https://fydeos.com/"
 google_analytics_key: UA-74826425-9
@@ -10,7 +10,7 @@ newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: images/qnalogo.png
-description: FydeOS的常见问题汇总以及wiki知识库
+description: FydeOS的常见问题、帮助手册及知识库
 author:
   name: Fyde Innovations
   email: hi@fydeos.io
@@ -45,6 +45,8 @@ exclude:
 collections:
   faq:
     output: true
+  help:
+    output: true
 
 # jekyll-archives:
 #   enabled: ['categories']
@@ -72,9 +74,20 @@ defaults:
       layout: answer
   -
     scope:
+      path: ""
+      type: help
+    values:
+      layout: help
+  -
+    scope:
       path: "kb.html"
     values:
-      body_class: "show_hero_search"
+      body_class: "show_kb_search"
+  -
+    scope:
+      path: "help.html"
+    values:
+      body_class: "show_help_search"
 
 # -----------
 # CloudCannon
