@@ -4,7 +4,7 @@ layout: default
 
 <section class="tutorial">
 	{% assign sub_navigation = content | extract_element: 'h2' %}
-	{% if sub_navigation.size > 0 %}
+	{% if sub_navigation.size > 2 %}
 		<section class="sidebar sticky">
 			<ul>
 				{% for item in sub_navigation %}
@@ -13,7 +13,7 @@ layout: default
 			</ul>
 		</section>
 	{% endif %}
-	<section class="tutorial-content{% if sub_navigation.size > 0 %} tutorial-content-with-sidebar{% endif %}">
+	<section class="tutorial-content{% if sub_navigation.size > 2 %} tutorial-content-with-sidebar{% endif %}">
 		<h1>{{ page.title }}</h1>
 
 		{% if page.type == "Video" %}
