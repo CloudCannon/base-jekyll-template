@@ -1,7 +1,7 @@
 #wanikani__brand {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   @media #{$mid-point} {
     justify-content: flex-start;
   }
