@@ -1,5 +1,5 @@
 ---
-weight: 988
+weight: 995
 ---
 Google Play Store 需要 Google 官方授权才能进行分发。通过 Google Play Store 分发的应用通常依赖于 Google 的服务框架，一旦失去 Google 的官方授权将应用安装到操作系统中，这些应用往往会无法正常运行。
 
