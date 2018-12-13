@@ -49,14 +49,27 @@ header {
   border-radius: $border-radius-size;
   box-sizing: border-box;
   padding: 20px;
-  h3, p, a {
-    //color: #ffffff;
+  p {
+    margin-bottom: 0;
   }
   .listing {
     a {
+      margin-bottom: 10px;
+      &:hover {
+        .icon {
+          svg {
+            width: calc(1.5em * (40/30));
+            height: calc(1.5em * (40/30));
+          }
+        }
+      }
+      h3 {
+        font-size: 1em;
+      }
       .icon {
         svg {
-          //fill: #ffffff;
+          width: 1.5em;
+          height: 1.5em;
         }
       }
     }
