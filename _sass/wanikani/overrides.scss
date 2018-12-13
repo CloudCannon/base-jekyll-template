@@ -43,15 +43,8 @@ header {
   }
 }
 
-// _sass/tutorials.scss:309
-.tutorial-series {
-  background-color: $lighter-grey;
-  border-radius: $border-radius-size;
-  box-sizing: border-box;
-  padding: 20px;
-  p {
-    margin-bottom: 0;
-  }
+// _sass/tutorials.scss:298
+.related, .tutorial-series {
   .listing {
     a {
       margin-bottom: 10px;
@@ -73,5 +66,16 @@ header {
         }
       }
     }
+  }
+}
+
+// _sass/tutorials.scss:309
+.tutorial-series {
+  background-color: $lighter-grey;
+  border-radius: $border-radius-size;
+  box-sizing: border-box;
+  padding: 20px;
+  p {
+    margin-bottom: 0;
   }
 }
