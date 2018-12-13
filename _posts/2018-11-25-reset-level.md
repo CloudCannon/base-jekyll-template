@@ -55,7 +55,7 @@ If you aren't sure what to do, take a look at the kanji in your level, then go b
 
 If you're level 60 and you want to do it all again, or prove a point, go for level 1.
 
-And don't worry, resetting your account does **not** remove your user synonyms or custom notes. (You just won't be able to access them until you unlock those items again.)
+And don't worry, resetting your account does **not** remove your [user synonyms](#) or custom notes. (You just won't be able to access them until you unlock those items again.)
 
 ## How to Reset
 
