@@ -41,7 +41,7 @@ layout: default
 	{% assign set = site.sets | where: "path", set_file_name | first %}
 	{% assign series_posts = site.posts | where: "set", page.set %}
 	<div class="tutorial-series">
-		<h3>{{ set.title }} - Series</h3>
+		<h3>{{ set.title }} — Series</h3>
 		<p>{{ set.description }}</p>
 
 		{% include listings.html listings=series_posts numbered=true%}

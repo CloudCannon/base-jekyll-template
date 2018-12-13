@@ -5,8 +5,8 @@
 
 // _sass/tutorials.scss:129
 .banner--getting-started {
-  background-color: #ffaa00;
-  border-radius: 5px;
+  background-color: $wanikani-orange;
+  border-radius: $border-radius-size;
   position: relative;
   &:after {
     background-color: #ffffff;

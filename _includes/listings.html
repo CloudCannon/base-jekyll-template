@@ -6,7 +6,9 @@
 				<article>
 					<div>
 						<h3>{% if include.numbered %}{{ forloop.index }}. {% endif %}{{ item.title }}</h3>
-						<p class="description">{{ item.description }}</p>
+						{% if !item.description.empty? %}
+							<p class="description">{{ item.description }}</p>
+						{% endif %}
 					</div>
 				</article>
 			</a>

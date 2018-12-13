@@ -32,13 +32,57 @@ header {
   }
 }
 
-// _sass/tutorials.scss
+// _sass/tutorials.scss:72
 .tutorial-content {
   img {
     display: block;
     margin: 0 auto;
     max-width: 80%;
-    border-radius: 5px;
+    border-radius: $border-radius-size;
     box-shadow: 0 0 20px rgba(#000000, 0.25);
+  }
+}
+
+// _sass/tutorials.scss:298
+.related, .tutorial-series {
+  .listing {
+    a {
+      margin-bottom: 10px;
+      &:hover {
+        .icon {
+          svg {
+            width: calc(1.5em * (40/30));
+            height: calc(1.5em * (40/30));
+          }
+        }
+      }
+      h3 {
+        font-size: 1em;
+      }
+      .icon {
+        svg {
+          width: 1.5em;
+          height: 1.5em;
+        }
+      }
+    }
+  }
+}
+
+// _sass/tutorials.scss:309
+.tutorial-series {
+  background-color: $lighter-grey;
+  border-radius: $border-radius-size;
+  box-sizing: border-box;
+  padding: 20px;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+// _sass/header.scss:113
+.nav-toggle {
+  &:hover {
+    color: #ffffff;
   }
 }
