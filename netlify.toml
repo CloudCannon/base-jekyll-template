@@ -1,0 +1,7 @@
+[build]
+  base = "/"
+  publish = "_site/"
+  command = "jekyll build && cp netlify_headers _site/_headers"
+
+[context.production]
+  command = "jekyll build"
