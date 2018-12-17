@@ -24,7 +24,6 @@ header {
 
   li {
     a {
-      line-height: 1.5em;
       svg {
         flex-shrink: 0
       }
@@ -48,18 +47,11 @@ header {
   .listing {
     a {
       margin-bottom: 10px;
-      &:hover {
-        .icon {
-          svg {
-            width: calc(1.5em * (40/30));
-            height: calc(1.5em * (40/30));
-          }
-        }
-      }
       h3 {
         font-size: 1em;
       }
       .icon {
+        padding: 0;
         svg {
           width: 1.5em;
           height: 1.5em;
