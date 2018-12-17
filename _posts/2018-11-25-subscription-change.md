@@ -1,6 +1,6 @@
 ---
 date: 2018-11-25
-title: Changing Subscription Plans
+title: Change Subscription Plans
 categories:
   - payment-and-billing
 description:
