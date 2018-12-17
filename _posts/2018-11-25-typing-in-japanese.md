@@ -5,6 +5,9 @@ categories:
   - getting-started
   - japanese
   - wanikani
+description:
+set: typing-in-japanese
+set-order: 1
 type: Document
 ---
 
