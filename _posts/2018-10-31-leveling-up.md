@@ -3,9 +3,8 @@ date: 2018-10-31 16:00
 title: How Do I Level Up?
 categories:
   - getting-started
+  - wanikani
 description:
-set: getting-started
-set-order: 7
 type: Document
 ---
 You've started WaniKani, you're doing your [lessons](x) and [reviews](x), but how do you level up?
