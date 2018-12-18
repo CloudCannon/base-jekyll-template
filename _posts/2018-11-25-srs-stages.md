@@ -1,6 +1,6 @@
 ---
 date: 2018-11-25
-title: WaniKani's SRS
+title: WaniKani's SRS Stages
 categories:
   - wanikani
 description:
