@@ -23,6 +23,4 @@ Simply write in the answer. In the case of the above example, you would type in 
 
 Hit enter or submit to see if you got it right or wrong. Keep doing this until you've cleared all of your Reviews. When you have, it's time to wait again. When reviews become available, you should do them.
 
-For more detailed information about how our Reviews system works, [Reviews tutorial](#).
-
 Assuming you [completed all your lessons already](/getting-started/first-lessons/), all that's left for you to do is keep doing Reviews. Since kanji unlocks are reliant on proving your radical knowledge over longer and longer periods, putting in correct answers here will move you forward faster. More information can be found on our [Leveling Up](/getting-started/leveling-up/) page, but rest assured if you keep doing your reviews on time [you can unlock kanji in 2-3 days](/getting-started/unlocking-kanji/).

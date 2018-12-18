@@ -9,7 +9,7 @@ set-order: 6
 type: Document
 ---
 
-Vocabulary will unlock when you've proven your knowledge of the kanji through Reviews. For example, unlocking the vocabulary word 左右 requires both the kanji 左 and 右 to be at "Guru" status. When a vocabulary word unlocks, it will appear in your Lessons queue. To do them, simply click on "Lessons."
+Vocabulary will unlock when you've proven your knowledge of the kanji through Reviews. For example, unlocking the vocabulary word 左右 requires both the kanji 左 and 右 to be at "Guru" status. When a vocabulary word unlocks, it will appear in your Lessons queue. To do them, simply click on "Lessons" in the menu.
 
 ## Vocabulary Lessons
 
@@ -21,7 +21,7 @@ The first tab is the "Breakdown." This shows you what kanji the word is made up 
 
 ![Vocabulary Lesson Breakdown](/images/vocab-lesson-breakdown.jpg)
 
-Take a look. In your own vocabulary Lessons, you should already know all of the kanji listed in the breakdown!
+Take a look. In your own vocabulary Lessons, you should already know all of the kanji listed in the breakdown (otherwise, it wouldn't have unlocked)!
 
 ### Vocabulary Meaning
 
@@ -29,7 +29,7 @@ The "Meaning" is the English meaning of the vocabulary word.
 
 ![Vocabulary Lesson Breakdown](/images/vocab-lesson-meaning.jpg)
 
-All valid meanings are listed here, with the number one meaning at the top. A meaning mnemonic helps you to memorize the meaning, so read it carefully. It will use your past knowledge of the kanji the vocabulary word is based off of.
+All valid meanings are listed here, with the number one meaning at the top. A mnemonic helps you to memorize the meaning, so read it carefully. It will use your past knowledge of the kanji the vocabulary word is based off of.
 
 ### Vocabulary Reading
 
@@ -39,13 +39,13 @@ The "Reading" tab will show you the accepted reading (i.e. how the word is read 
 
 In the cases where the reading is different from what you learned with the kanji, there will be a special mnemonic to help you.
 
-Below the mnemonic are Context Sentences. While some sentences will be level appropriate for your reading ability, these sentences are meant for _context_, not study. You can use these to figure out the meanings of ambiguous or similar words.
+Below the mnemonic are Context Sentences. While some sentences will be level appropriate for your reading ability, these sentences are meant for _context_, not necessarily study. You should use these sentences to figure out the meanings of ambiguous or similar words.
 
 ## The Vocabulary Lesson Quiz
 
 Upon completing a Lesson Set, you'll be taken to the Lesson Quiz. Here you'll be tested on what you just learned.
 
-Like kanji, vocabulary have a meaning and reading side to them and you'll need to answer both.
+Like kanji, vocabulary have a meaning and reading side to them and you'll need to answer both to complete the connected pair.
 
 The meaning is the English meaning of the vocabulary word:
 
