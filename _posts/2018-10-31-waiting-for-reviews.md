@@ -4,7 +4,7 @@ title: Why Do I Need to Wait for Reviews?
 categories:
   - getting-started
 description:
-set: getting-started
+set: onboarding
 set-order: 3
 type: Document
 ---

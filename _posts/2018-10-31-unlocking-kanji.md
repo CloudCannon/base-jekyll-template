@@ -4,7 +4,7 @@ title: Unlocking Kanji Lessons
 categories:
   - getting-started
 description:
-set: getting-started
+set: onboarding
 set-order: 5
 type: Document
 ---

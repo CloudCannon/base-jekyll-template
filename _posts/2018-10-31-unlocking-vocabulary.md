@@ -4,7 +4,7 @@ title: Unlocking Vocabulary Lessons
 categories:
   - getting-started
 description:
-set: getting-started
+set: onboarding
 set-order: 6
 type: Document
 ---

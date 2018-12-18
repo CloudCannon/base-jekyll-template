@@ -6,7 +6,7 @@ categories:
   - payment-and-billing
   - wanikani
 description:
-set: getting-started
+set: onboarding
 set-order: 7
 type: Document
 ---

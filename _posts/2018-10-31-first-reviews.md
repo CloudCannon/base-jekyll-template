@@ -4,7 +4,7 @@ title: Doing Your First Reviews
 categories:
   - getting-started
 description:
-set: getting-started
+set: onboarding
 set-order: 4
 type: Document
 ---

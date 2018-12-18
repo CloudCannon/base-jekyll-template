@@ -6,7 +6,7 @@ categories:
   - account-and-membership
   - payment-and-billing
 description:
-set: getting-started
+set: onboarding
 set-order: 8
 type: Document
 ---

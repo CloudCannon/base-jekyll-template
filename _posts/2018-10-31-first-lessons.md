@@ -4,7 +4,7 @@ title: Doing Your First Lessons
 categories:
   - getting-started
 description:
-set: getting-started
+set: onboarding
 set-order: 2
 type: Document
 ---
