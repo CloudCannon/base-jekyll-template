@@ -1,0 +1,18 @@
+- title: Getting Started
+  slug: getting-started
+  order: 1
+- title: Account & Membership
+  slug: account-and-membership
+  order: 2
+- title: Payment & Billing
+  slug: payment-and-billing
+  order: 3
+- title: WaniKani
+  slug: wanikani
+  order: 4
+- title: Japanese
+  slug: japanese
+  order: 5
+- title: API & Third–party Apps
+  slug: api-and-third-party-apps
+  order: 6

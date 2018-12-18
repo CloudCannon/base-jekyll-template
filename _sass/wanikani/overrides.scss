@@ -1,3 +1,4 @@
+// _sass/header.scss:11
 header {
   .top-bar {
     .logo {
@@ -5,5 +6,75 @@ header {
         text-decoration: none;
       }
     }
+  }
+}
+
+// _sass/search.scss:1
+#search-results {
+  li {
+    margin-bottom: 4rem;
+  }
+}
+
+// _sass/tutorials.scss:22
+.category {
+  @media #{$desktop} {
+		flex: 0 0 50%;
+	}
+
+  li {
+    a {
+      svg {
+        flex-shrink: 0
+      }
+    }
+  }
+}
+
+// _sass/tutorials.scss:72
+.tutorial-content {
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    border-radius: $border-radius-size;
+    box-shadow: 0 0 20px rgba(#000000, 0.25);
+  }
+}
+
+// _sass/tutorials.scss:298
+.related, .tutorial-series {
+  .listing {
+    a {
+      margin-bottom: 10px;
+      h3 {
+        font-size: 1em;
+      }
+      .icon {
+        padding: 0;
+        svg {
+          width: 1.5em;
+          height: 1.5em;
+        }
+      }
+    }
+  }
+}
+
+// _sass/tutorials.scss:309
+.tutorial-series {
+  background-color: $lighter-grey;
+  border-radius: $border-radius-size;
+  box-sizing: border-box;
+  padding: 20px;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+// _sass/header.scss:113
+.nav-toggle {
+  &:hover {
+    color: #ffffff;
   }
 }

@@ -4,11 +4,17 @@ $mid-point: "(min-width: 750px)";
 $desktop: "(min-width: 900px)";
 
 // Colors
+$wanikani-blue: #00aaff;
+$wanikani-orange: #ffaa00;
 
 $dark-grey: #222;
 $medium-grey: #666;
 $light-grey: #ccc;
-$header-color: #0c92f1;
+$lighter-grey: #eee;
+$header-color: $wanikani-blue;
 
 $link-color: #4A4A4A;
 $link-hover-color: #111;
+
+// Defaults
+$border-radius-size: 5px;

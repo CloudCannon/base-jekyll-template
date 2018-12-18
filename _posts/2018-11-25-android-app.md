@@ -1,0 +1,12 @@
+---
+date: 2018-11-25
+title: "The WaniKani Android App"
+categories:
+  - api-and-third-party-apps
+description: Why doesn't the iOS or Android app work properly?
+type: Document
+---
+
+We currently do **not** have an Android app.
+
+There are a few [third-party mobile apps](https://community.wanikani.com/c/wanikani/api-and-third-party-apps) made by our users that work pretty well. But if you have any questions or issues concerning apps, please contact their creators (not us!).
