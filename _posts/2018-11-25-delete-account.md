@@ -7,7 +7,7 @@ description:
 type: Document
 ---
 
-If you'd like to [change your email](#) or [username](#), you don't need to delete your account!
+If you'd like to [change your email](/account-and-membership/change-email/) or [username](/account-and-membership/change-username/), you don't need to delete your account!
 
 But if you do want to leave us forever, for whatever reason, you can delete your account in the [Danger Zone](https://www.wanikani.com/settings/danger_zone).
 

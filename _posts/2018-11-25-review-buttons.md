@@ -7,7 +7,7 @@ description:
 type: Document
 ---
 
-There are lots of buttons and icons in your Reviews that can make your life easier. This is where you learn about them all.
+There are lots of buttons and icons in your [Reviews](/getting-started/first-reviews/) that can make your life easier. This is where you learn about them all.
 
 ## Wrap Up
 
@@ -49,7 +49,7 @@ You can even click each symbol if you don't want to type the answer out yourself
 
 ![Kana Shortcut](/images/kana-shortcut.gif)
 
-But this is slow! You should just [learn how to type](#) instead.
+But this is slow! You should just [learn how to type](/getting-started/japanese/wanikani/typing-in-japanese/) instead.
 
 ## Play Audio
 

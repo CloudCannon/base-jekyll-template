@@ -7,7 +7,7 @@ description:
 type: Document
 ---
 
-WaniKani’s [SRS](#) spans across nine levels, which are split across five groups.
+WaniKani’s [SRS](/wanikani/srs/) spans across nine levels, which are split across five groups.
 
 ![WaniKani's SRS](/images/wanikani-srs.png)
 

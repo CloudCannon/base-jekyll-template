@@ -1,6 +1,6 @@
 ---
 date: 2018-11-25
-title: Can I Reset My Account?
+title: Can I Reset My Level?
 categories:
   - account-and-membership
 description:
@@ -21,7 +21,7 @@ Let's look at your options!
 
 Let's say you do have 800+ reviews after leaving the site for a while. That's a lot, but remember, that doesn't mean you're going to have 800+ reviews every day!
 
-A lot of those items are heading towards higher [SRS levels](#), and you won't see them as soon. Others may drop down, because you don't remember them, but that's a good thing. Now you'll see them sooner and you'll probably get them right next time.
+A lot of those items are heading towards higher [SRS levels](/wanikani/srs-stages/), and you won't see them as soon. Others may drop down, because you don't remember them, but that's a good thing. Now you'll see them sooner and you'll probably get them right next time.
 
 You also don't need to do all of those reviews at once. Go through and do a chunk of 50, or maybe even 100 at a time, and then take a break. They'll still be there when you get back and the SRS will sort out the rest.
 
@@ -55,7 +55,7 @@ If you aren't sure what to do, take a look at the kanji in your level, then go b
 
 If you're level 60 and you want to do it all again, or prove a point, go for level 1.
 
-And don't worry, resetting your account does **not** remove your [user synonyms](#) or custom notes. (You just won't be able to access them until you unlock those items again.)
+And don't worry, resetting your account does **not** remove your [user synonyms](/account-and-membership/wanikani/user-synonyms/) or custom notes. (You just won't be able to access them until you unlock those items again.)
 
 ## How to Reset
 

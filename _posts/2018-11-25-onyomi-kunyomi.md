@@ -16,7 +16,7 @@ Kanji can have multiple readings: on'yomi readings and kun'yomi readings.
 
 Both of these readings are important when it comes to learning kanji and reading words in Japanese. You should definitely give our [On’yomi and Kun’yomi Guide](https://www.tofugu.com/japanese/onyomi-kunyomi/) a read. It explains the history of these readings, information on how to use them, and some handy tips and tricks when you aren't sure.
 
-In general, **compound words** (two or more kanji put together) use the on'yomi readings, while **kanji with hiragana attached** use the kun'yomi readings. **Single kanji** can use either. (And of course there are plenty of exceptions, which [our lovely mnemonics](#) will help you with.)
+In general, **compound words** (two or more kanji put together) use the on'yomi readings, while **kanji with hiragana attached** use the kun'yomi readings. **Single kanji** can use either. (And of course there are plenty of exceptions, which our lovely mnemonics will help you with.)
 
 WaniKani almost always teaches the on'yomi reading _with_ the kanji. Then you'll learn kun'yomi readings later, with vocabulary words.
 

@@ -11,11 +11,11 @@ type: Document
 
 There are three types of items on WaniKani: radicals, kanji, and vocabulary.
 
-* Radicals have a blue background and only ask for one thing: [their name](#).
-* Kanji have a pink background and ask for their [meaning and reading](#), separately.
+* Radicals have a blue background and only ask for one thing: [their name](/wanikani/japanese/radical-names/).
+* Kanji have a pink background and ask for their [reading and meaning](/wanikani/japanese/readings-vs-meanings/), separately.
 * Vocabulary have a purple background and ask for their meaning and reading, separately.
 
-Kanji usually have at least two readings: [the on’yomi reading and the kun’yomi reading](#). Both of them are correct, but we only want the one we taught to you as “the reading.” If you type the kun’yomi reading, but we asked for the other reading, the text box will wiggle and ask you for the on’yomi reading.
+Kanji usually have at least two readings: [the on’yomi reading and the kun’yomi reading](/wanikani/japanese/onyomi-kunyomi/). Both of them are correct, but we only want the one we taught to you as “the reading.” If you type the kun’yomi reading, but we asked for the other reading, the text box will wiggle and ask you for the on’yomi reading.
 
 ![Wrong Kanji Reading](/images/wrong-kanji-reading.gif)
 

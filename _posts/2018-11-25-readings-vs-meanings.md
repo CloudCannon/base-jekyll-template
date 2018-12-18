@@ -20,7 +20,7 @@ During your reviews, WaniKani will ask you to provide the readings and meanings 
 
 If you aren't sure if WaniKani is asking for a Reading or a Meaning, there are quite a few ways to figure it out:
 
-A **Reading** has:
+## Kanji Reading
 
 ![Kanji reading](/images/kanji-reading.png)
 
@@ -29,7 +29,7 @@ A **Reading** has:
 * "答え" in the text bar
 * Automatically types in Japamese
 
-A **Meaning** has:
+## Kanji Meaning
 
 ![Kanji meaning](/images/kanji-meaning.png)
 
@@ -48,4 +48,4 @@ Likewise, if you start to type "こう" and end up looking at "kou" you need to 
 
 If you're still having trouble figuring out what WaniKani wants, slow down! It will take a couple hours, maybe even a few days to get used to this system. Once you get used to it, though, your brain will be able to recognize what's being asked for, and you won't have to actively think about it ever again!
 
-Of course, you'll still need to know _what_ to type, so make sure you've brushed up on how to [type in Japanese](#).
+Of course, you'll still need to know _what_ to type, so make sure you've brushed up on how to [type in Japanese](/getting-started/japanese/wanikani/typing-in-japanese/).

@@ -9,6 +9,6 @@ type: Document
 
 You need to have an internet connection to use WaniKani.
 
-WaniKani is a web-based application that relies heavily on pinging the server each time you complete a lesson or review, so that your [SRS](#) times are accurate.
+WaniKani is a web-based application that relies heavily on pinging the server each time you complete a lesson or review, so that your [SRS](/wanikani/srs-stages/) times are accurate.
 
 There is currently no offline mode.

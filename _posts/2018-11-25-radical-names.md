@@ -16,7 +16,7 @@ A "radical" is a single piece of a kanji used for organization, like in a dictio
 
 If you'd like to learn more about standard Japanese radicals, [read our guide on how to find them](https://www.tofugu.com/japanese/how-to-find-the-kanji-radical/).
 
-`image of traditional radicals chart?`
+![Radicals](/images/radicals.png)
 
 We use "radicals" as a catch-all term for the components that make up each kanji. Remembering kanji by their radical components is much easier than traditional methods of rote memorization using stroke order.
 
@@ -40,4 +40,4 @@ With all of this factored in, our radicals are a combination of the traditional 
 
 Hopefully, this makes them easy to understand, remember, and use for memorable mnemonics.
 
-If there is a radical here or there that you can't wrap your head around because you learned the traditional Japanese name or its English translation, you can always add those to your [user synonyms](#). Just remember that all of the kanji mnemonics are going to use our radical names!
+If there is a radical here or there that you can't wrap your head around because you learned the traditional Japanese name or its English translation, you can always add those to your [user synonyms](/account-and-membership/wanikani/user-synonyms/). Just remember that all of the kanji mnemonics are going to use our radical names!

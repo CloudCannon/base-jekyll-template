@@ -15,7 +15,7 @@ WaniKani accepts most major credit cards. These ones:
 
 ![Accepted card types](/images/accepted-card-types.png)
 
-If you don’t have access to a credit or debit/bank card, we can manually accept PayPal for one-time yearly and Lifetime memberships. If you’re interested in this method, please send an email us at [hello@wanikani.com](hello@wanikani.com).
+If you don’t have access to a credit or debit/bank card, we can manually accept PayPal for one-time yearly and Lifetime memberships. If you’re interested in this method, please send an email us at [hello@wanikani.com](mailto:hello@wanikani.com).
 
 ## Can I use other currencies?
 
@@ -31,4 +31,4 @@ Some prepaid cards really don’t like being used online, and some do. It’s a 
 
 Nope! If it isn't a credit/bank card or PayPal, we cannot accept it.
 
-(Though I heard a rumor Koichi is willing to talk to people with Dogecoin. Just a rumor though, probably unfounded.)
+<small><small>Though I heard a rumor Koichi is willing to talk to people with Dogecoin. Just a rumor though, probably unfounded.
