@@ -9,7 +9,7 @@ set-order: 3
 type: Document
 ---
 
-You've [finished your first lessons](#). Now what?
+You've [finished your first lessons](/getting-started/first-lessons/). Now what?
 
 Actually, you have to wait.
 

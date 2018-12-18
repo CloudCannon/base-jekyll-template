@@ -21,7 +21,7 @@ You'll be able to see the number count down as you go and you can click it again
 
 ## Last 10
 
-If you're curious about the reviews you've just done, click the checkmark below the answer bar and it will show you the last ten reviews you did, including how it moved in the [SRS](#).
+If you're curious about the reviews you've just done, click the checkmark below the answer bar and it will show you the last ten reviews you did, including how it moved in the [SRS](/wanikani/srs-stages/).
 
 ![Last 10](/images/last-ten.gif)
 

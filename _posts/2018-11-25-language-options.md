@@ -13,4 +13,4 @@ Supporting other languages would be great, but it would take an incredible amoun
 
 Plus, we're a tiny team and none of us have the language knowledge needed to venture outside of the English⇔Japanese world right now.
 
-If you aren't a native English speaker, and you're having trouble learning Japanese and English at the same time, you can always add the translations for radicals, kanji, and vocabulary words in your language with the [user synonyms feature](#).
+If you aren't a native English speaker, and you're having trouble learning Japanese and English at the same time, you can always add the translations for radicals, kanji, and vocabulary words in your language with the [user synonyms feature](/account-and-membership/wanikani/user-synonyms/).

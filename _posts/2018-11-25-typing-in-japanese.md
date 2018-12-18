@@ -13,11 +13,11 @@ type: Document
 
 You've Guru'd your first set of radicals and finally unlocked real kanji. That's great! But now WaniKani wants you to type _in Japanese_, and you don't know how! Don't worry, it's pretty easy.
 
-For starters, WaniKani has a built in [IME](https://en.wikipedia.org/wiki/Input_method) that will handle all the conversions from roman characters to hiragana for you. There's no need to install an IME or buy a Japanese keyboard for your computer or device. Whenever we ask you for a [reading](#), anything you type will be converted automatically.
+For starters, WaniKani has a built in [IME](https://en.wikipedia.org/wiki/Input_method) that will handle all the conversions from roman characters to hiragana for you. There's no need to install an IME or buy a Japanese keyboard for your computer or device. Whenever we ask you for a [reading](/wanikani/japanese/readings-vs-meanings/), anything you type will be converted automatically.
 
-(If you _want_ to install a Japanese IME for other purposes, check out our [guide](http://www.tofugu.com/japanese/how-to-install-japanese-keyboard/) over on Tofugu. Just remember not to use it when doing your Lessons or Reviews on WaniKani.)
+(If you _want_ to install a Japanese IME for other purposes, check out our [guide](https://www.tofugu.com/japanese/how-to-install-japanese-keyboard/) over on Tofugu. Just remember not to use it when doing your Lessons or Reviews on WaniKani.)
 
-That's all well and good, but you still need to know how to type in Japanese! If this is your first time using the world-wide-web for Japanese, read through our [guide to typing in Japanese](http://www.tofugu.com/japanese/how-to-type-in-japanese/). There are some unusual characters in there, so if what you're typing and what you're seeing don't match up, check there first!
+That's all well and good, but you still need to know how to type in Japanese! If this is your first time using the world-wide-web for Japanese, read through our [guide to typing in Japanese](https://www.tofugu.com/japanese/how-to-type-in-japanese/). There are some unusual characters in there, so if what you're typing and what you're seeing don't match up, check there first!
 
 ![How to type in Japanese](/images/typing-in-japanese.png)
 
