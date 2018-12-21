@@ -14,11 +14,12 @@
 	{% assign categories_data = site.data.categories | sort: "order" %}
 	{% for category_data in categories_data %}
 		{% assign name = category_data['title'] %}
+		{% assign slug = category_data['slug'] %}
 		{% assign posts = site.categories[category_data['slug']] %}
 		{% assign size = posts | size %}
 		<section class="category">
 				<h3>
-					<a href="{{ site.baseurl }}/category/{{ name | slugify }}/">{{ name | replace: "-", " " }}</a>
+					<a href="{{ site.baseurl }}/category/{{ slug | slugify }}/">{{ name | replace: "-", " " }}</a>
 				</h3>
 
 			<ul>
@@ -27,7 +28,7 @@
 					<li><a href="{{ site.baseurl }}{{ tutorial.url }}">{% include document-icon.html icon=tutorial.type %}{{ tutorial.title }}</a></li>
 				{% endfor %}
 				{% if size > 5 %}
-					<li><a href="{{ site.baseurl }}/category/{{ name | slugify }}/">{{ size | minus: 5 }} more...</a></li>
+					<li><a href="{{ site.baseurl }}/category/{{ slug | slugify }}/">{{ size | minus: 5 }} more...</a></li>
 				{% endif %}
 			</ul>
 		</section>
