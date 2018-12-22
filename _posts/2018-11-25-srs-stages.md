@@ -56,4 +56,4 @@ Guru 2 → **2 weeks** → Master \\
 Master → **1 month** → Enlightened \\
 Enlightened → **4 months** → Burned
 
-Reviews are also floored to the beginning of the hour, so you won't get new reviews every couple minutes. Instead, you'll get (hopefully), a nice manageable chunk.
+Review times are also rounded down to the beginning of the hour, so you won't get new reviews every couple minutes. Instead, you'll get (hopefully), a nice manageable chunk.
