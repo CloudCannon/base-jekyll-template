@@ -45,7 +45,7 @@ After learning radical, kanji, and vocabulary meanings/readings, you need to pra
 
 To practice your recall, WaniKani utilizes a flashcard system that seems simple at first but is actually doing a lot of that  "science stuff" behind the scenes. The biggest thing is the frequency at which individual items appear in your Reviews.
 
-Take, for example, _Item A_. You keep getting it wrong. The WaniKani system knows this, so it will quiz you on _Item A_ more often. On the other hand, say you're really good at _Item B_. You've gotten in correct many times in a row. Each time you get _Item B_ correct, the WaniKani system increases the time between reviews for that item. This is good because when you recall a piece of information just before you're about to forget it, your brain actually tags it as more important, making it easier to recall next time. This series of longer and longer spaces between correct recalls is how we get a radical, kanji, and vocabulary to automatic in your brain (in other words, a state of fluency).
+Take, for example, _Item A_. You keep getting it wrong. The WaniKani system knows this, so it will quiz you on _Item A_ more often. On the other hand, say you're really good at _Item B_. You've gotten incorrect many times in a row. Each time you get _Item B_ correct, the WaniKani system increases the time between reviews for that item. This is good because when you recall a piece of information just before you're about to forget it, your brain actually tags it as more important, making it easier to recall next time. This series of longer and longer spaces between correct recalls is how we get a radical, kanji, and vocabulary to automatic in your brain (in other words, a state of fluency).
 
 ## Let the Pain Begin!
 
