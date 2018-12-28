@@ -18,7 +18,7 @@ A monthly subscription is $9/month and is a recurring charge. That means it will
 
 ## Annual Subscription
 
-An annual subscription is $89/month and is a recurring charge. That's like getting two months free compared to paying for a monthly subscription for an entire year!
+An annual subscription is $89/year and is a recurring charge. That's like getting two months free compared to paying for a monthly subscription for an entire year!
 
 This plan automatically charges your card each year and renews itself ([unless it's canceled](/account-and-membership/payment-and-billing/cancel-subscription/)).
 
