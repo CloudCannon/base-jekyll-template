@@ -9,7 +9,7 @@ set-order: 5
 type: Document
 ---
 
-By reviewing your radicals and proving you really do know them (despite how much time has gone by between reviews), kanji will begin to unlock and show up in your Lessons. More information can be found about leveling up on our [How Do I Level Up?](/getting-started/wanikani/leveling-up/) page.
+By reviewing your radicals and proving you really do know them (despite how much time has gone by between reviews), kanji will begin to unlock and show up in your Lessons. More information can be found about leveling up on our [How Do I Level Up?](/wanikani/getting-started/level-up/) page.
 
 All kanji in WaniKani are based off of radicals you learned and reviewed. Some kanji are made up of a single radical, so the radical and kanji will be the same. Other kanji will be made up of three or four radicals. In the case of Level 1, you'll see a lot of kanji that consist of a single radical which makes them quite easy to learn. You'll need to advance to Levels 2 or 3 to really see how effective the radical mnemonic method is.
 
