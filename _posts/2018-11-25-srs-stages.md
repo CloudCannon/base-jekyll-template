@@ -7,27 +7,39 @@ description:
 type: Document
 ---
 
-WaniKani’s [SRS](/wanikani/srs/) spans across nine levels, which are split across five groups.
+WaniKani’s [SRS](/wanikani/srs/) spans across nine stages, which are split across five groups.
 
 ![WaniKani's SRS](/images/wanikani-srs.png)
 
 Apprentice → Guru → Master → Enlightened → Burned
 
-Apprentice consists of the first four SRS levels. Guru consists of two levels. Master, Enlightened, and Burned represent single levels.
+Apprentice consists of the first four SRS stages. Guru consists of two stages. Master, Enlightened, and Burned represent single stages.
 
-In order to reach Guru from Apprentice, you must get an item to level 5 on the SRS scale. If you get an item correct, it goes up one level. If you get an item incorrect, it goes down one or more levels, depending on how far along you are, the type of review (radical, kanji, or vocabulary), and how many times you answer the review incorrectly. The lowest level is level 1, so even if you answer something incorrectly a ton, that's as far down the scale as it will go.
+In order to reach Guru from Apprentice, you must get an item to stage 5 on the SRS scale. If you get an item correct, it goes up one stage. If you get an item incorrect, it goes down one or more stages, depending on how far along you are, the type of review (radical, kanji, or vocabulary), and how many times you answer the review incorrectly.
+
+The lowest stage is stage 1, so even if you answer something incorrectly a ton, that's as far down the scale as it will go.
 
 ## How does it work?
 
+How are the SRS stage decrement calculated? The following formula is used:
+
+```
+new_srs_stage = current_srs_stage - (incorrect_adjustment_count * srs_penalty_factor)
+```
+\\
+`incorrect_adjustment_count` is the number of incorrect times you have answered divided by two and rounded up.
+`srs_penalty_factor` is 2 if the `current_srs_stage` is at or above 5. Otherwise it is 1.
+
 Let’s pretend you are trying to get the kanji 大 to guru, and you've already learned 大 during lessons. Here are your answers:
 
-Correct (+1 level, so it's now at SRS level 2) \\
-Correct (+1 level, SRS level 3) \\
-Correct (+1 level, SRS level 4) \\
-Incorrect once before getting it correct (-2 levels, SRS level 2) \\
-Correct (+1 level, SRS level 3) \\
-Correct (+1 level, SRS level 4) \\
-Correct (+1 level, SRS level 5 **GURU**)
+1. Correct (+1 stage, so it's now at SRS stage 2)
+2. Correct (+1 stage, SRS stage 3)
+3. Correct (+1 stage, SRS stage 4)
+4. Incorrect once before getting it correct (-1 stage, SRS stage 3)
+5. Correct (+1 stage, SRS stage 4)
+6. Correct (+1 stage, SRS stage 5 **GURU**)
+7. Correct (+1 stage, SRS stage 6)
+8. Incorrect three times before getting it correct (-4 stage, SRS stage 2)
 
 When an item reaches Guru, that means you know that item fairly well, but not great. Enough to unlock available associated items, like kanji that use a radical, or vocabulary that use a kanji, etc.
 
