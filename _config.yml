@@ -2,7 +2,7 @@
 # Site
 
 title: Base
-url: "https://orange-ape.cloudvent.net/"
+url: "https://supportcloud365vn.github.io/"
 baseurl:
 google_analytics_key:
 disqus_shortname:
@@ -18,7 +18,7 @@ author:
 social:
   name: Base Template
   links:
-    - https://github.com/CloudCannon/base-jekyll-template
+    - https://supportcloud365vn.github.io/
 
 # -----
 # Build
