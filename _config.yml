@@ -2,7 +2,7 @@
 # Site
 
 title: Base
-url: "https://supportcloud365vn.github.io/"
+url: "http://supportcloud365vn.github.io/"
 baseurl:
 google_analytics_key:
 disqus_shortname:
@@ -18,7 +18,7 @@ author:
 social:
   name: Base Template
   links:
-    - https://supportcloud365vn.github.io/
+    - http://supportcloud365vn.github.io/
 
 # -----
 # Build
