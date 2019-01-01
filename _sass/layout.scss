@@ -6,6 +6,9 @@
 }
 
 .logo {
+	display: flex;
+    	flex-direction: column;
+	justify-content: center;
 	img {
 		height: 30px;
 	}
