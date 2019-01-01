@@ -1,9 +1,9 @@
 ---
-date: 2017-01-16
-title: Cloudflare
+date: 2019-01-01
+title: Thay đổi mật khẩu
 categories:
-  - deployment
-description: Deploy your Jekyll site on Cloudflare
+  - account-settings
+description: "Thay đổi mật khẩu portal"
 type: Document
 ---
 Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.
