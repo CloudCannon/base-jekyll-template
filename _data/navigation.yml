@@ -1,8 +1,10 @@
-- name: Tutorials
+- name: Hướng dẫn
   link: /
+- name: Blog
+  link: https://blog.cloud365.vn
 - name: Videos
   link: /videos/
 - name: FAQ
   link: /faq/
-- name: Login
+- name: Đăng nhập
   link: https://portal.cloud365.vn
