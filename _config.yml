@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Trang365
+title: Cloud365
 url: "http://supportcloud365vn.github.io/"
 baseurl:
 google_analytics_key:
@@ -10,13 +10,13 @@ newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Knowledge base template for Jekyll.
+description: Trang hỗ trợ dành cho cloud365.vn.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Base Template
+  name: Cloud365.vn
   links:
     - http://supportcloud365vn.github.io/
 
