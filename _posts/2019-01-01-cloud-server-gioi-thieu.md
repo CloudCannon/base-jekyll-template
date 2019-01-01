@@ -1,5 +1,5 @@
 ---
-date: 2017-01-16
+date: 2019-01-02
 title: Giới thiệu về cloud server
 categories:
   - cloud-server
