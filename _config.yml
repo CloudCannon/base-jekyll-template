@@ -16,7 +16,7 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Cloud365.vn
+  name: cloud365.vn
   links:
     - http://supportcloud365vn.github.io/
 
@@ -53,6 +53,7 @@ defaults:
       path: ""
     values:
       layout: "default"
+      comments: true
   -
     scope:
       type: "posts"
