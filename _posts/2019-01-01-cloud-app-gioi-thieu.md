@@ -1,6 +1,6 @@
 ---
 date: 2019-01-02
-title: Giới thiệu về cloud application
+title: Giới thiệu về cloud App
 categories:
   - cloud-app
 description: Các tính năng của cloud application
