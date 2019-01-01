@@ -2,7 +2,7 @@
 date: 2019-01-01
 title: Thay đổi mật khẩu
 categories:
-  - Tài-khoản
+  - account-settings
 description: "Thay đổi mật khẩu portal"
 type: Document
 ---
