@@ -2,7 +2,7 @@
 date: 2019-01-02
 title: Giới thiệu về cloud application
 categories:
-  - cloud-server
+  - cloud-app
 description: Các tính năng của cloud application
 type: Document
 ---
