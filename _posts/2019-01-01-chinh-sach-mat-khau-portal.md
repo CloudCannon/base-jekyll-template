@@ -1,6 +1,6 @@
 ---
 date: 2019-01-01
-title: Chính sách mật khẩu của portal
+title: Mật khẩu của portal
 categories:
   - Policy
 description: Mô tả các chính sách về mật khẩu khoản portal
