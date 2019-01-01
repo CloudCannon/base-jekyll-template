@@ -5,7 +5,7 @@ title: Trang365
 url: "http://supportcloud365vn.github.io/"
 baseurl:
 google_analytics_key:
-disqus_shortname:
+disqus_shortname: congto
 newsletter_action:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
