@@ -37,12 +37,12 @@ Portal yêu cầu bạn đổi mật khẩu sau khi active tài khoản, bạn c
 
 ## Bước 4: Login portal
 
-Sau khi thực hiện active tài khoản bạn có thể đăng nhập vào portal bằng tài khoản (email/password).
++ Sau khi thực hiện active tài khoản bạn có thể đăng nhập vào portal bằng tài khoản (email/password).
 
 ![](/images/img-active-account-portal/Screenshot_538.png)
 
-Login thành công
++ Login thành công
 
 ![](/images/img-active-account-portal/Screenshot_539.png)
 
-Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
+### Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
