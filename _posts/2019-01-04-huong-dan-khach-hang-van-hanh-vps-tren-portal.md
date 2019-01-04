@@ -37,7 +37,7 @@ Chức năng giám sát cho phép bạn giám giát tổng quan về VPS RAM, DI
 
 ![](/images/img-vanhanh-vps/Screenshot_544.png)
 
-+ Clik "Giám sát" -> Lựa chọn khoảng thời gian hiển thị
++ Click "Giám sát" -> Lựa chọn khoảng thời gian hiển thị
 
 ![](/images/img-vanhanh-vps/Screenshot_545.png)
 
@@ -45,7 +45,25 @@ Chức năng giám sát cho phép bạn giám giát tổng quan về VPS RAM, DI
 
 ![](/images/img-vanhanh-vps/Screenshot_546.png)
 
-[3. Truy cập Console VPS](#consolemayao)
+[3. Truy cập remote VPS](#consolemayao)
+
+Chức năng remote VPS cho phép bạn truy cập vào VPS của mình trong trường hợp bạn thao tác trên VPS làm mất kết nối tới VPS, không thể remote vào VPS từ xa thông qua các tool như Puty, MobaXterm.
+
++ Click "Danh sách server"
+
+![](/images/img-vanhanh-vps/Screenshot_543.png)
+
++ Click vào tên VPS cần xem thông tin
+
+![](/images/img-vanhanh-vps/Screenshot_544.png)
+
++ Click "Remote"
+
+![](/images/img-vanhanh-vps/Screenshot_547.png)
+
++ Hiển thị giao diện remote
+
+![](/images/img-vanhanh-vps/Screenshot_548.png)
 
 [4. Điều khiển trạng thái VPS(#statusmayao)
 
