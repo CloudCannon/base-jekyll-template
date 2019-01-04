@@ -173,7 +173,7 @@ OS VPS trước khi rebuild
 
 Chọn hệ điều hành và xác nhận rebuild
 
-![](/images/img-vanhanh-vps/Screenshot_563.png)
+![](/images/img-vanhanh-vps/Screenshot_560.png)
 
 Xác nhận và chờ quá trình rebuil VPS hoàn tất.
 
@@ -185,12 +185,11 @@ Xác nhận và chờ quá trình rebuil VPS hoàn tất.
 
 Bạn sử dụng thông tin Nhân Hòa gửi về sau khi rebuild VPS thành công để thao tác với VPS của mình.
 
+![](/images/img-vanhanh-vps/Screenshot_565.png)
+
 VPS sau khi rebuild sang OS mới.
 
-
-
-
-
+![](/images/img-vanhanh-vps/Screenshot_567.png)
 
 ### Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
 
