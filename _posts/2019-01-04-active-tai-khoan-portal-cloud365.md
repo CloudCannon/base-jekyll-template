@@ -2,7 +2,7 @@
 date: 2019-01-04
 title: Hướng dẫn active tài khoản Nhân Hòa portal
 categories:
-  - cloud-server
+  - account-settings
 description: Hướng dẫn active tài khoản Nhân Hòa portal
 type: Document
 ---
