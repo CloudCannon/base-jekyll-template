@@ -25,7 +25,9 @@ Click vào link trong email
 
 ## Bước 3: Đổi password lần đầu tiên
 
-+ Nhập mật khẩu của bạn (Lưu ý độ mạnh mật khẩu:)
+Portal yêu cầu bạn đổi mật khẩu sau khi active tài khoản, bạn có thể đặt password cá nhân và tuân thủ chính sách về password 
+
++ Nhập mật khẩu của bạn
 
 ![](/images/img-active-account-portal/Screenshot_536.png)
 
@@ -35,8 +37,12 @@ Click vào link trong email
 
 ## Bước 4: Login portal
 
+Sau khi thực hiện active tài khoản bạn có thể đăng nhập vào portal bằng tài khoản (email/password).
+
 ![](/images/img-active-account-portal/Screenshot_538.png)
 
 Login thành công
 
 ![](/images/img-active-account-portal/Screenshot_539.png)
+
+Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
