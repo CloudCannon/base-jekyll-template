@@ -24,6 +24,8 @@ Bạn đăng ký sử dụng dịch vụ Cloud VPS / Cloud Server của Nhân H�
 
 [6. Quản lý mật khẩu VPS](#matkhauVPS)
 
+[7. Rebuid VPS](#rebuildVPS)
+
 <a name="thongtin"></a>
 ## 1. Kiểm tra thông tin VPS
 
@@ -136,6 +138,58 @@ Chỉ định mật khẩu theo ý của bạn (Lưu ý: Mật khẩu cần có 
 Auto generate password
 
 ![](/images/img-vanhanh-vps/Screenshot_543.png)
+
+<a name="rebuildVPS"></a>
+## 7. Rebuid VPS
+
+Chức năng Rebuild là tính năng cho phép thay đổi hệ điều hành của máy chủ và giữ nguyên các thông số như: IP, RAM, CPU, dung lượng ổ cứng. Chức năng sẽ giúp bạn cài mới lại VPS của mình khi quá trình sử dụng bạn cài đặt có những lỗi ứng dụng hay bạn muốn chuyển sang sử dụng hệ điều hành khác để đáp ứng nhu cầu sử dụng của mình.
+
+Lưu ý: Khi rebuild dữ liệu ổ cứng sẽ không được giữ lại. Máy chủ sẽ chạy với hệ điều hành mà bạn xác nhận lựa chọn để rebuild.
+
+Bạn có thể rebuil sang hệ điều hành Windows, Linux trắng và Linux có cài đặt ứng dụng (Plesk, Direct Admin, WHM).
+
+Bạn không thể rebuil sang hệ điều hành Windows server có cài đặt ứng dụng.
+
++ Click "Danh sách server"
+
+![](/images/img-vanhanh-vps/Screenshot_554.png)
+
++ Click vào tên VPS cần xem thông tin
+
+![](/images/img-vanhanh-vps/Screenshot_555.png)
+
++ Click "Quản lý máy ảo"
+
+![](/images/img-vanhanh-vps/Screenshot_557.png)
+
+![](/images/img-vanhanh-vps/Screenshot_558.png)
+
+
++ Lựa chọn hệ điều hành muốn rebuild sang
+
+OS VPS trước khi rebuild
+
+![](/images/img-vanhanh-vps/Screenshot_559.png)
+
+Chọn hệ điều hành và xác nhận rebuild
+
+![](/images/img-vanhanh-vps/Screenshot_563.png)
+
+Xác nhận và chờ quá trình rebuil VPS hoàn tất.
+
+![](/images/img-vanhanh-vps/Screenshot_561.png)
+
++ Rebuild thành công bạn sẽ nhận được thông báo qua email
+
+![](/images/img-vanhanh-vps/Screenshot_562.png)
+
+Bạn sử dụng thông tin Nhân Hòa gửi về sau khi rebuild VPS thành công để thao tác với VPS của mình.
+
+VPS sau khi rebuild sang OS mới.
+
+
+
+
 
 
 ### Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
