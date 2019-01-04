@@ -14,6 +14,19 @@ Bạn đăng ký sử dụng dịch vụ Cloud VPS / Cloud Server của Nhân H�
 
 [1. Kiểm tra thông tin VPS](#thongtin)
 
+[2. Giám sát VPS](#giamsatmayao)
+
+[3. Truy cập remote VPS](#consolemayao)
+
+[4. Điều khiển trạng thái VPS(#statusmayao)
+
+[5. Xem log hành động đối với VPS](#logVPS)
+
+[6. Quản lý mật khẩu VPS](#matkhauVPS)
+
+<a name="thongtin"></a>
+## 1. Kiểm tra thông tin VPS
+
 + Thông tin về máy ảo của bạn sẽ được Nhân Hòa gửi vào email đăng ký của bạn.
 
 ![](/images/img-vanhanh-vps/Screenshot_540.png)
@@ -25,7 +38,8 @@ Sau khi nhận được thông tin VPS tùy thuộc vào VPS của bạn chạy 
 
 ![](/images/img-vanhanh-vps/Screenshot_542.png)
 
-[2. Giám sát VPS](#giamsatmayao)
+<a name="giamsatmayao"></a>
+## 2. Giám sát VPS
 
 Chức năng giám sát cho phép bạn giám giát tổng quan về VPS RAM, DISK, CPU, Network theo cơ chế real time và có khả năng chọn khoảng thời gian view các metric (30 phút, 1 giờ, 6 giờ, 12 giờ, 24 giờ, 7 ngày, 30 ngày).
 
@@ -45,7 +59,8 @@ Chức năng giám sát cho phép bạn giám giát tổng quan về VPS RAM, DI
 
 ![](/images/img-vanhanh-vps/Screenshot_546.png)
 
-[3. Truy cập remote VPS](#consolemayao)
+<a name="consolemayao"></a>
+## 3. Truy cập remote VPS
 
 Chức năng remote VPS cho phép bạn truy cập vào VPS của mình trong trường hợp bạn thao tác trên VPS làm mất kết nối tới VPS, không thể remote vào VPS từ xa thông qua các tool như Puty, MobaXterm.
 
@@ -65,9 +80,63 @@ Chức năng remote VPS cho phép bạn truy cập vào VPS của mình trong tr
 
 ![](/images/img-vanhanh-vps/Screenshot_548.png)
 
-[4. Điều khiển trạng thái VPS(#statusmayao)
+<a name="statusmayao"></a>
+## 4. Điều khiển trạng thái VPS
 
-[5. Xem log hành động đối với VPS](#logVPS)
+Chức năng điều khiển VPS cho phép bạn điều khiển VPS của mình. Có các trạng thái như : Bật máy chủ ảo tương ứng với nút Start, tạm ngưng sử dụng tương ứng với Pause, muốn tiếp tục sử dụng sử dụng Resume tuy nhiên Resume chỉ được sử dụng khi máy chủ đang ở trạng thái tạm ngưng, khởi động lại máy ảo tương ứng với Restart, Tắt máy chủ tương ứng với Stop.
 
-[6. Quản lý mật khẩu VPS](#matkhauVPS)
++ Click "Danh sách server"
+
+![](/images/img-vanhanh-vps/Screenshot_543.png)
+
++ Click vào tên VPS cần xem thông tin
+
+![](/images/img-vanhanh-vps/Screenshot_544.png)
+
++ Click "Điều khiển"
+
+![](/images/img-vanhanh-vps/Screenshot_549.png)
+
+<a name="logVPS"></a>
+## 5. Xem log hành động đối với VPS
+
+Chức năng Log cho phép bạn theo dõi  thao tác với VPS (tạo, stop, start)
+
++ Click "Danh sách server"
+
+![](/images/img-vanhanh-vps/Screenshot_543.png)
+
++ Click vào tên VPS cần xem thông tin
+
+![](/images/img-vanhanh-vps/Screenshot_544.png)
+
++ Click "Log"
+
+![](/images/img-vanhanh-vps/Screenshot_550.png)
+
+<a name="matkhauVPS"></a>
+6. Quản lý mật khẩu VPS
+
+Chức năng quản lý mật khẩu cho phép bạn đổi password mới một cách nhanh chóng trong trường hợp bạn không như password VPS của mình.
+
++ Click "Danh sách server"
+
+![](/images/img-vanhanh-vps/Screenshot_543.png)
+
++ Click vào tên VPS cần xem thông tin
+
+![](/images/img-vanhanh-vps/Screenshot_544.png)
+
++ Click "Quản lý mật khẩu"
+
+Chỉ định mật khẩu theo ý của bạn (Lưu ý: Mật khẩu cần có ít nhất 8 ký tự bao gồm 1 ký tự thường, 1 ký tự hoa, 1 số. )
+
+![](/images/img-vanhanh-vps/Screenshot_542.png)
+
+Auto generate password
+
+![](/images/img-vanhanh-vps/Screenshot_543.png)
+
+
+### Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
 
