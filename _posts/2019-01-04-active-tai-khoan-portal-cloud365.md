@@ -17,7 +17,7 @@ Nhân Hòa sẽ gửi link active tài khoản và email đăng ký của bạn.
 
 ## Bước 2: Thực hiện active tài khoản
 
-Click vào link trong email
++ Click vào link trong email
 
 ![](/images/img-active-account-portal/Screenshot_534.png)
 
