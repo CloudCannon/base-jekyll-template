@@ -117,7 +117,7 @@ Chức năng Log cho phép bạn theo dõi  thao tác với VPS (tạo, stop, st
 ![](/images/img-vanhanh-vps/Screenshot_550.png)
 
 <a name="matkhauVPS"></a>
-6. Quản lý mật khẩu VPS
+## 6. Quản lý mật khẩu VPS
 
 Chức năng quản lý mật khẩu cho phép bạn đổi password mới một cách nhanh chóng trong trường hợp bạn không như password VPS của mình.
 
