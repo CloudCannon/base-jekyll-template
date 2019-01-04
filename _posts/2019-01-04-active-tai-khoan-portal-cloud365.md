@@ -36,3 +36,7 @@ Click vào link trong email
 ## Bước 4: Login portal
 
 ![](/images/img-active-account-portal/Screenshot_538.png)
+
+Login thành công
+
+![](/images/img-active-account-portal/Screenshot_539.png)
