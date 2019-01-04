@@ -18,7 +18,7 @@ Bạn đăng ký sử dụng dịch vụ Cloud VPS / Cloud Server của Nhân H�
 
 [3. Truy cập remote VPS](#consolemayao)
 
-[4. Điều khiển trạng thái VPS(#statusmayao)
+[4. Điều khiển trạng thái VPS](#statusmayao)
 
 [5. Xem log hành động đối với VPS](#logVPS)
 
