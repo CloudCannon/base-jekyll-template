@@ -96,3 +96,5 @@ Sau khi rebuild thành công thông tin sẽ được gửi về email của b�
 Quá trình rebuild hoàn thành.
 
 ### [cloud365.vn](https://cloud365.vn/)
+
+*Nếu bạn muốn hỗ trợ thêm, xin vui lòng liên hệ hotline 19006680!*
