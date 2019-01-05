@@ -1,9 +1,9 @@
 ---
 date: 2019-01-04
-title: Hướng dẫn khách hàng vận hành VPS trên portal
+title: Vận hành Cloud Server
 categories:
   - cloud-server
-description: Hướng dẫn khách hàng vận hành VPS trên portal
+description: Vận hành Cloud Server
 type: Document
 ---
 
