@@ -13,12 +13,28 @@ Hướng tới sự thuận tiện nhất cho khách hàng Nhân Hòa cung cấp
 
 Chi tiết cách thức rebuild VPS bạn thực hiện theo hướng dẫn dưới đây. Ở bài hướng dẫn này thực hiện rebuild VPS hệ điều hành CentOS 6 sang VPS hệ điều hành Windows 10.
 
+### Các bước thực hiện
+
+[Bước 1: Truy cập vào Nhân Hòa portal](#truycap)
+
+[Bước 2: Lựa chọn VPS cần rebuild](#chon)
+
+[Bước 3: Lựa chọn hệ điều hành rebuild](#os)
+
+[Bước 4: Xác nhận rebuild](#xacnhan)
+
+[Bước 5: Lấy thông tin VPS sau khi rebuild](#thongtin)
+
+[Bước 6: Kiểm tra](#kiemtra)
+
+<a name="truycap"></a>
 ## Bước 1: Truy cập vào Nhân Hòa portal
 
 Bạn sử dụng thông tin đăng nhập bao gồm email/password để đăng nhập
 
 ![](/images/img-rebuild-vps/Screenshot_568.png)
 
+<a name="chon"></a>
 ## Bước 2: Lựa chọn VPS cần rebuild
 
 + Click "**Danh sách server**"
@@ -35,6 +51,7 @@ Bạn sử dụng thông tin đăng nhập bao gồm email/password để đăng
 
 ![](/images/img-rebuild-vps/Screenshot_574.png)
 
+<a name="os"></a>
 ## Bước 3: Lựa chọn hệ điều hành rebuild
 
 Bạn lựa chọn hệ điều hành muốn rebuild cho VPS của mình.
@@ -47,6 +64,7 @@ Bạn lựa chọn hệ điều hành muốn rebuild cho VPS của mình.
 
 ![](/images/img-rebuild-vps/Screenshot_575.png)
 
+<a name="xacnhan"></a>
 ## Bước 4: Xác nhận rebuild
 
 Bạn nên đọc những cảnh bảo trước khi xác nhận rebuild.
@@ -55,6 +73,7 @@ Bạn nên đọc những cảnh bảo trước khi xác nhận rebuild.
 
 Chờ một vài phút để quá trình rebuild hoàn tất. 
 
+<a name="thongtin"></a>
 ## Bước 5: Lấy thông tin VPS sau khi rebuild
 
 Sau khi rebuild thành công thông tin sẽ được gửi về email của bạn.
@@ -63,6 +82,7 @@ Sau khi rebuild thành công thông tin sẽ được gửi về email của b�
 
 ![](/images/img-rebuild-vps/Screenshot_578.png)
 
+<a name="kiemtra"></a>
 ## Bước 6: Kiểm tra
 
 + VPS trước khi rebuild
@@ -73,6 +93,7 @@ Sau khi rebuild thành công thông tin sẽ được gửi về email của b�
 
 ![](/images/img-rebuild-vps/Screenshot_579.png)
 
+Quá trình rebuild hoàn thành.
 
 ### Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
 
