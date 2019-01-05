@@ -42,7 +42,7 @@ Sau khi nhận được thông tin cloud server tùy thuộc vào cloud server c
 
 ### Bạn truy cập vào portal để thực hiện một số chức năng vận hành cloud server
 
-+ Click 'Danh sách server'
++ Click `Danh sách server`
 
 ![](/images/img-vanhanh-vps/Screenshot_543.png)
 
@@ -57,7 +57,7 @@ Bạn lựa chọn thực hiện 1 trong các chức năng: **giám sát, remote
 
 Chức năng giám sát cho phép bạn giám giát tổng quan về cloud server RAM, DISK, CPU, Network theo cơ chế real time và có khả năng chọn khoảng thời gian view các metric (30 phút, 1 giờ, 6 giờ, 12 giờ, 24 giờ, 7 ngày, 30 ngày).
 
-+ Click 'Giám sát' -> Lựa chọn khoảng thời gian hiển thị
++ Click `Giám sát` -> Lựa chọn khoảng thời gian hiển thị
 
 ![](/images/img-vanhanh-vps/Screenshot_545.png)
 
@@ -70,7 +70,7 @@ Chức năng giám sát cho phép bạn giám giát tổng quan về cloud serve
 
 Chức năng remote cloud server cho phép bạn truy cập vào cloud server của mình trong trường hợp bạn thao tác trên cloud server làm mất kết nối tới cloud server, không thể remote vào cloud server từ xa thông qua các tool như Puty, MobaXterm.
 
-+ Click 'Remote'
++ Click `Remote`
 
 ![](/images/img-vanhanh-vps/Screenshot_547.png)
 
@@ -83,7 +83,7 @@ Chức năng remote cloud server cho phép bạn truy cập vào cloud server c�
 
 Chức năng điều khiển cloud server cho phép bạn điều khiển cloud server của mình. Có các trạng thái như : Bật máy chủ ảo tương ứng với nút Start, tạm ngưng sử dụng tương ứng với Pause, muốn tiếp tục sử dụng sử dụng Resume tuy nhiên Resume chỉ được sử dụng khi máy chủ đang ở trạng thái tạm ngưng, khởi động lại máy ảo tương ứng với Restart, Tắt máy chủ tương ứng với Stop.
 
-+ Click 'Điều khiển'
++ Click `Điều khiển`
 
 ![](/images/img-vanhanh-vps/Screenshot_549.png)
 
@@ -92,7 +92,7 @@ Chức năng điều khiển cloud server cho phép bạn điều khiển cloud 
 
 Chức năng Log cho phép bạn theo dõi  thao tác với cloud server (tạo, stop, start)
 
-+ Click 'Log'
++ Click `Log`
 
 ![](/images/img-vanhanh-vps/Screenshot_550.png)
 
@@ -101,7 +101,7 @@ Chức năng Log cho phép bạn theo dõi  thao tác với cloud server (tạo,
 
 Chức năng quản lý mật khẩu cho phép bạn đổi password mới một cách nhanh chóng trong trường hợp bạn không như password cloud server của mình.
 
-+ Click 'Quản lý mật khẩu'
++ Click `Quản lý mật khẩu`
 
 Chỉ định mật khẩu theo ý của bạn (Lưu ý: Mật khẩu cần có ít nhất 8 ký tự bao gồm 1 ký tự thường, 1 ký tự hoa, 1 số. )
 
@@ -122,7 +122,7 @@ Bạn có thể rebuil sang hệ điều hành Windows, Linux trắng và Linux 
 
 Bạn không thể rebuil sang hệ điều hành Windows server có cài đặt ứng dụng.
 
-+ Click 'Quản lý máy ảo'
++ Click `Quản lý máy ảo`
 
 ![](/images/img-vanhanh-vps/Screenshot_557.png)
 
@@ -156,6 +156,3 @@ cloud server sau khi rebuild sang OS mới.
 ![](/images/img-vanhanh-vps/Screenshot_567.png)
 
 ### Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
-
-
-
