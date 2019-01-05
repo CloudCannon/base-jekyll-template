@@ -40,18 +40,20 @@ Sau khi nhận được thông tin VPS tùy thuộc vào VPS của bạn chạy 
 
 ![](/images/img-vanhanh-vps/Screenshot_542.png)
 
++ Bạn truy cập vào portal để thực hiện một số chức năng vận hành VPS
+
+Click "**Danh sách server**"
+
+![](/images/img-vanhanh-vps/Screenshot_543.png)
+
+Click vào tên VPS cần xem thông tin
+
+![](/images/img-vanhanh-vps/Screenshot_544.png)
+
 <a name="giamsatmayao"></a>
 ## 2. Giám sát VPS
 
 Chức năng giám sát cho phép bạn giám giát tổng quan về VPS RAM, DISK, CPU, Network theo cơ chế real time và có khả năng chọn khoảng thời gian view các metric (30 phút, 1 giờ, 6 giờ, 12 giờ, 24 giờ, 7 ngày, 30 ngày).
-
-+ Click "Danh sách server"
-
-![](/images/img-vanhanh-vps/Screenshot_543.png)
-
-+ Click vào tên VPS cần xem thông tin
-
-![](/images/img-vanhanh-vps/Screenshot_544.png)
 
 + Click "Giám sát" -> Lựa chọn khoảng thời gian hiển thị
 
@@ -66,14 +68,6 @@ Chức năng giám sát cho phép bạn giám giát tổng quan về VPS RAM, DI
 
 Chức năng remote VPS cho phép bạn truy cập vào VPS của mình trong trường hợp bạn thao tác trên VPS làm mất kết nối tới VPS, không thể remote vào VPS từ xa thông qua các tool như Puty, MobaXterm.
 
-+ Click "Danh sách server"
-
-![](/images/img-vanhanh-vps/Screenshot_543.png)
-
-+ Click vào tên VPS cần xem thông tin
-
-![](/images/img-vanhanh-vps/Screenshot_544.png)
-
 + Click "Remote"
 
 ![](/images/img-vanhanh-vps/Screenshot_547.png)
@@ -87,14 +81,6 @@ Chức năng remote VPS cho phép bạn truy cập vào VPS của mình trong tr
 
 Chức năng điều khiển VPS cho phép bạn điều khiển VPS của mình. Có các trạng thái như : Bật máy chủ ảo tương ứng với nút Start, tạm ngưng sử dụng tương ứng với Pause, muốn tiếp tục sử dụng sử dụng Resume tuy nhiên Resume chỉ được sử dụng khi máy chủ đang ở trạng thái tạm ngưng, khởi động lại máy ảo tương ứng với Restart, Tắt máy chủ tương ứng với Stop.
 
-+ Click "Danh sách server"
-
-![](/images/img-vanhanh-vps/Screenshot_543.png)
-
-+ Click vào tên VPS cần xem thông tin
-
-![](/images/img-vanhanh-vps/Screenshot_544.png)
-
 + Click "Điều khiển"
 
 ![](/images/img-vanhanh-vps/Screenshot_549.png)
@@ -104,14 +90,6 @@ Chức năng điều khiển VPS cho phép bạn điều khiển VPS của mình
 
 Chức năng Log cho phép bạn theo dõi  thao tác với VPS (tạo, stop, start)
 
-+ Click "Danh sách server"
-
-![](/images/img-vanhanh-vps/Screenshot_543.png)
-
-+ Click vào tên VPS cần xem thông tin
-
-![](/images/img-vanhanh-vps/Screenshot_544.png)
-
 + Click "Log"
 
 ![](/images/img-vanhanh-vps/Screenshot_550.png)
@@ -120,14 +98,6 @@ Chức năng Log cho phép bạn theo dõi  thao tác với VPS (tạo, stop, st
 ## 6. Quản lý mật khẩu VPS
 
 Chức năng quản lý mật khẩu cho phép bạn đổi password mới một cách nhanh chóng trong trường hợp bạn không như password VPS của mình.
-
-+ Click "Danh sách server"
-
-![](/images/img-vanhanh-vps/Screenshot_543.png)
-
-+ Click vào tên VPS cần xem thông tin
-
-![](/images/img-vanhanh-vps/Screenshot_544.png)
 
 + Click "Quản lý mật khẩu"
 
@@ -149,14 +119,6 @@ Lưu ý: Khi rebuild dữ liệu ổ cứng sẽ không được giữ lại. M�
 Bạn có thể rebuil sang hệ điều hành Windows, Linux trắng và Linux có cài đặt ứng dụng (Plesk, Direct Admin, WHM).
 
 Bạn không thể rebuil sang hệ điều hành Windows server có cài đặt ứng dụng.
-
-+ Click "Danh sách server"
-
-![](/images/img-vanhanh-vps/Screenshot_554.png)
-
-+ Click vào tên VPS cần xem thông tin
-
-![](/images/img-vanhanh-vps/Screenshot_555.png)
 
 + Click "Quản lý máy ảo"
 
