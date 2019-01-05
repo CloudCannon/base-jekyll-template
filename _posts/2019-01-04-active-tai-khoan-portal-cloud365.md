@@ -2,7 +2,7 @@
 date: 2019-01-04
 title: Hướng dẫn active tài khoản Nhân Hòa portal
 categories:
-  - cloud-server
+  - account-settings
 description: Hướng dẫn active tài khoản Nhân Hòa portal
 type: Document
 ---
@@ -25,7 +25,7 @@ Nhân Hòa sẽ gửi link active tài khoản và email đăng ký của bạn.
 
 ## Bước 3: Đổi password lần đầu tiên
 
-Portal yêu cầu bạn đổi mật khẩu sau khi active tài khoản, bạn có thể đặt password cá nhân và tuân thủ chính sách về password 
+Portal yêu cầu bạn đổi mật khẩu sau khi active tài khoản, bạn có thể đặt password cá nhân và tuân thủ chính sách về password (độ dài tối thiểu 8 ký tự, 1 ký tự hoa, 1 thường, 1 số)
 
 + Nhập mật khẩu của bạn
 
