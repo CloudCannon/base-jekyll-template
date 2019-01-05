@@ -105,7 +105,7 @@ Quá trình rebuild hoàn thành.
 
 *Chi nhánh HCM: **270 Cao Thắng (nối dài), Phường 12,Quận 10, TP HCM**.*
 
-*Hotline: [19006680]()*
+*Hotline: [19006680](#)*
 
 
 
