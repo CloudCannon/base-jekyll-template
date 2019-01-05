@@ -37,7 +37,7 @@ Bạn sử dụng thông tin đăng nhập bao gồm email/password để đăng
 <a name="chon"></a>
 ## Bước 2: Lựa chọn cloud server cần rebuild
 
-+ Click "**Danh sách server**"
++ Click `Danh sách server`
 
 ![](/images/img-rebuild-vps/Screenshot_569.png)
 
@@ -45,7 +45,7 @@ Bạn sử dụng thông tin đăng nhập bao gồm email/password để đăng
 
 ![](/images/img-rebuild-vps/Screenshot_570.png)
 
-+ Click "**Quản lý máy ảo**"
++ Click `Quản lý máy ảo`
 
 ![](/images/img-rebuild-vps/Screenshot_571.png)
 
@@ -96,9 +96,3 @@ Sau khi rebuild thành công thông tin sẽ được gửi về email của b�
 Quá trình rebuild hoàn thành.
 
 ### Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
-
-
-
-
-
-

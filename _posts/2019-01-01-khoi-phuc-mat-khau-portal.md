@@ -14,7 +14,7 @@ https://portal.cloud365.vn/
 
 ![](/images/img-lay-pass-portal/Screenshot_587.png)
 
-## Bước 2: Click "Quên mật khẩu"
+## Bước 2: Click `Quên mật khẩu`
 
 ![](/images/img-lay-pass-portal/Screenshot_588.png)
 

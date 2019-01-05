@@ -15,7 +15,7 @@ Nhân Hòa cung cấp cho bạn portal để quản trị cloud server của mì
 
 ![](/images/img-change-pass-portal/Screenshot_568.png)
 
-## Bước 2: Click "**Thông tin cá nhân**"
+## Bước 2: Click `Thông tin cá nhân`
 
 ![](/images/img-change-pass-portal/Screenshot_580.png)
 
