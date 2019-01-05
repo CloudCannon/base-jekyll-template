@@ -7,7 +7,7 @@ description: Đổi mật khẩu tài khoản portal
 type: Document
 ---
 
-Nhân Hòa cung cấp cho bạn portal để quản trị VPS của mình. Quá trình sử dụng portal để quản trị VPS của mình vì một lý do nào đó bạn muốn thay đổi mật khẩu truy cập portal để đảm bảo tính an toàn cho tài khoản của bạn. Bạn thực hiện theo các bước dưới đây.
+Nhân Hòa cung cấp cho bạn portal để quản trị cloud server của mình. Quá trình sử dụng portal để quản trị cloud server của mình vì một lý do nào đó bạn muốn thay đổi mật khẩu truy cập portal để đảm bảo tính an toàn cho tài khoản của bạn. Bạn thực hiện theo các bước dưới đây.
 
 ## Bước 1: Đăng nhập portal
 

@@ -7,7 +7,7 @@ description: Đổi thông tin tài khoản portal
 type: Document
 ---
 
-Nhân Hòa cung cấp cho bạn portal để quản trị VPS của mình. Quá trình sử dụng portal để quản trị VPS của mình bạn muốn thay đổi thông tin cá nhân như: Họ và tên, giới tính, ngày sinh, số điện thoại, tên công ty, địa chỉ bạn thực hiện theo hướng dẫn dưới đây.
+Nhân Hòa cung cấp cho bạn portal để quản trị cloud server của mình. Quá trình sử dụng portal để quản trị cloud server của mình bạn muốn thay đổi thông tin cá nhân như: Họ và tên, giới tính, ngày sinh, số điện thoại, tên công ty, địa chỉ bạn thực hiện theo hướng dẫn dưới đây.
 
 ## Bước 1: Đăng nhập portal
 

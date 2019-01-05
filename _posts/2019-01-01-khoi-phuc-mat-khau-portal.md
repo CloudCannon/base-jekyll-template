@@ -3,10 +3,10 @@ date: 2019-01-01
 title: Khôi phục mật khẩu portal
 categories:
   - account-settings
-description: "Hướng dẫn thay đổi mật khẩu portal"
+description: "Khôi phục mật khẩu portal"
 type: Document
 ---
-Nhân Hòa cung cấp cho bạn portal để quản trị Cloud Server của mình. Vì một lý do nào đó bạn quên mật khẩu login vào portal. Bạn làm theo các bước dưới đây để lấy lại mật khẩu của mình.
+Nhân Hòa cung cấp cho bạn portal để quản trị cloud server của mình. Vì một lý do nào đó bạn quên mật khẩu login vào portal. Bạn làm theo các bước dưới đây để lấy lại mật khẩu của mình.
 
 ## Bước 1: Truy cập trang portal
 
