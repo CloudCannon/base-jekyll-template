@@ -15,17 +15,12 @@ Chi tiết cách thức rebuild cloud server bạn thực hiện theo hướng d
 
 ### Các bước thực hiện
 
-[Bước 1: Truy cập vào Nhân Hòa portal](#truycap)
-
-[Bước 2: Lựa chọn cloud server cần rebuild](#chon)
-
-[Bước 3: Lựa chọn hệ điều hành rebuild](#os)
-
-[Bước 4: Xác nhận rebuild](#xacnhan)
-
-[Bước 5: Lấy thông tin cloud server sau khi rebuild](#thongtin)
-
-[Bước 6: Kiểm tra](#kiemtra)
+[Bước 1: Truy cập vào Nhân Hòa portal](#truycap)<br>
+[Bước 2: Lựa chọn cloud server cần rebuild](#chon)<br>
+[Bước 3: Lựa chọn hệ điều hành rebuild](#os)<br>
+[Bước 4: Xác nhận rebuild](#xacnhan)<br>
+[Bước 5: Lấy thông tin cloud server sau khi rebuild](#thongtin)<br>
+[Bước 6: Kiểm tra](#kiemtra)<br>
 
 <a name="truycap"></a>
 ## Bước 1: Truy cập vào Nhân Hòa portal
