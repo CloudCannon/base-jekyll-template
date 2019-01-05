@@ -56,11 +56,7 @@ Bạn sử dụng thông tin đăng nhập bao gồm email/password để đăng
 
 Bạn lựa chọn hệ điều hành muốn rebuild cho cloud server của mình.
 
-**Lưu ý: Khi rebuild dữ liệu ổ cứng sẽ không được giữ lại. Máy chủ sẽ chạy với hệ điều hành mà bạn xác nhận lựa chọn để rebuild.**
-
-**Bạn có thể rebuil sang hệ điều hành Windows, Linux trắng và Linux có cài đặt ứng dụng (Plesk, Direct Admin, WHM).**
-
-**Bạn không thể rebuil sang hệ điều hành Windows server có cài đặt ứng dụng.**
+**Lưu ý: Khi rebuild dữ liệu ổ cứng sẽ không được giữ lại. Máy chủ sẽ chạy với hệ điều hành mà bạn xác nhận lựa chọn để rebuild.<br>Bạn có thể rebuil sang hệ điều hành Windows, Linux trắng và Linux có cài đặt ứng dụng (Plesk, Direct Admin, WHM).<br>Bạn không thể rebuil sang hệ điều hành Windows server có cài đặt ứng dụng.**
 
 ![](/images/img-rebuild-vps/Screenshot_575.png)
 
