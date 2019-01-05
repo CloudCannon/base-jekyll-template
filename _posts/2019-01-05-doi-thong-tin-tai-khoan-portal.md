@@ -32,6 +32,6 @@ Nhân Hòa cung cấp cho bạn portal để quản trị VPS của mình. Quá 
 
 ![](/images/img-change-info-portal/Screenshot_583.png)
 
-Quá trình thay đổi thông tin cá nhân hoàn tất
+Quá trình thay đổi thông tin cá nhân hoàn tất.
 
 ### Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
