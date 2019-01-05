@@ -1,29 +1,29 @@
 ---
 date: 2019-01-05
-title: Rebuild VPS
+title: Rebuild cloud server
 categories:
   - cloud-server
-description: Rebuild VPS
+description: Rebuild cloud server
 type: Document
 ---
 
-Khi đăng ký sử dụng dịch vụ Cloud VPS / Cloud server của Nhân Hòa bạn sẽ được cung cấp portal để hoàn toàn chủ động thao tác quản trị, cài đặt đối với VPS của mình. Một số nhà cung cấp cấp dịch vụ VPS khác trường hợp bạn thao tác trên VPS của mình bị lỗi mà bạn muốn cài đặt lại hệ điều hành hay chuyển sang hệ điều hành khác để phù hợp với ứng dụng của mình bạn phải liên lệ với nhà cung cấp để được hỗ trợ, thời gian chờ đợi lâu và thâm chí bạn còn phải trả phí cho những yêu cầu này.
+Khi đăng ký sử dụng dịch vụ cloud server của Nhân Hòa bạn sẽ được cung cấp portal để hoàn toàn chủ động thao tác quản trị, cài đặt đối với cloud server của mình. Một số nhà cung cấp cấp dịch vụ cloud server khác trường hợp bạn thao tác trên cloud server của mình bị lỗi mà bạn muốn cài đặt lại hệ điều hành hay chuyển sang hệ điều hành khác để phù hợp với ứng dụng của mình bạn phải liên lệ với nhà cung cấp để được hỗ trợ, thời gian chờ đợi lâu và thâm chí bạn còn phải trả phí cho những yêu cầu này.
 
-Hướng tới sự thuận tiện nhất cho khách hàng Nhân Hòa cung cấp chức năng rebuild VPS cho bạn để bạn tự thao tác và lựa chọn hệ điều hành muốn thay đổi. Bạn có thể cài lại chính hệ điều hành cũ cho VPS hoặc chuyển đổi sang hệ điều hành mới mà vẫn giữ nguyên gói cấu hình và đặt biệt là nhanh chóng và không phải trả phí.
+Hướng tới sự thuận tiện nhất cho khách hàng Nhân Hòa cung cấp chức năng rebuild cloud server cho bạn để bạn tự thao tác và lựa chọn hệ điều hành muốn thay đổi. Bạn có thể cài lại chính hệ điều hành cũ cho cloud server hoặc chuyển đổi sang hệ điều hành mới mà vẫn giữ nguyên gói cấu hình và đặt biệt là nhanh chóng và không phải trả phí.
 
-Chi tiết cách thức rebuild VPS bạn thực hiện theo hướng dẫn dưới đây. Ở bài hướng dẫn này thực hiện rebuild VPS hệ điều hành **CentOS 6** sang VPS hệ điều hành **Windows 10**.
+Chi tiết cách thức rebuild cloud server bạn thực hiện theo hướng dẫn dưới đây. Ở bài hướng dẫn này thực hiện rebuild cloud server hệ điều hành **CentOS 6** sang cloud server hệ điều hành **Windows 10**.
 
 ### Các bước thực hiện
 
 [Bước 1: Truy cập vào Nhân Hòa portal](#truycap)
 
-[Bước 2: Lựa chọn VPS cần rebuild](#chon)
+[Bước 2: Lựa chọn cloud server cần rebuild](#chon)
 
 [Bước 3: Lựa chọn hệ điều hành rebuild](#os)
 
 [Bước 4: Xác nhận rebuild](#xacnhan)
 
-[Bước 5: Lấy thông tin VPS sau khi rebuild](#thongtin)
+[Bước 5: Lấy thông tin cloud server sau khi rebuild](#thongtin)
 
 [Bước 6: Kiểm tra](#kiemtra)
 
@@ -35,13 +35,13 @@ Bạn sử dụng thông tin đăng nhập bao gồm email/password để đăng
 ![](/images/img-rebuild-vps/Screenshot_568.png)
 
 <a name="chon"></a>
-## Bước 2: Lựa chọn VPS cần rebuild
+## Bước 2: Lựa chọn cloud server cần rebuild
 
 + Click "**Danh sách server**"
 
 ![](/images/img-rebuild-vps/Screenshot_569.png)
 
-+ Click vào tên VPS cần xem thông tin
++ Click vào tên cloud server cần xem thông tin
 
 ![](/images/img-rebuild-vps/Screenshot_570.png)
 
@@ -54,7 +54,7 @@ Bạn sử dụng thông tin đăng nhập bao gồm email/password để đăng
 <a name="os"></a>
 ## Bước 3: Lựa chọn hệ điều hành rebuild
 
-Bạn lựa chọn hệ điều hành muốn rebuild cho VPS của mình.
+Bạn lựa chọn hệ điều hành muốn rebuild cho cloud server của mình.
 
 **Lưu ý: Khi rebuild dữ liệu ổ cứng sẽ không được giữ lại. Máy chủ sẽ chạy với hệ điều hành mà bạn xác nhận lựa chọn để rebuild.**
 
@@ -74,7 +74,7 @@ Bạn nên đọc những cảnh bảo trước khi xác nhận rebuild.
 Chờ một vài phút để quá trình rebuild hoàn tất. 
 
 <a name="thongtin"></a>
-## Bước 5: Lấy thông tin VPS sau khi rebuild
+## Bước 5: Lấy thông tin cloud server sau khi rebuild
 
 Sau khi rebuild thành công thông tin sẽ được gửi về email của bạn.
 
@@ -85,11 +85,11 @@ Sau khi rebuild thành công thông tin sẽ được gửi về email của b�
 <a name="kiemtra"></a>
 ## Bước 6: Kiểm tra
 
-+ VPS trước khi rebuild
++ Cloud server trước khi rebuild
 
 ![](/images/img-rebuild-vps/Screenshot_572.png)
 
-+ VPS sau khi rebuild
++ Cloud server sau khi rebuild
 
 ![](/images/img-rebuild-vps/Screenshot_579.png)
 
