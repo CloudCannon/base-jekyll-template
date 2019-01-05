@@ -11,9 +11,9 @@ Khi bạn sử dụng dịch vụ cloud server Nhân Hòa cung cấp bạn hoàn
 
 Nhân Hòa port cung cấp cho bạn chức năng điều khiển server cho phép bạn thao tác restart, stop, pause, resume cloud server.
 
-Bạn có thể thực hiện điểu khiển cloud server của mình ở 2 màn giao diện.
+##Bạn có thể thực hiện điểu khiển cloud server của mình ở 2 màn giao diện.
 
-Bạn phải truy cập vào portal
++ Bạn phải truy cập vào portal
 
 ![](/images/img-control-cloud-server/Screenshot_600.png)
 
