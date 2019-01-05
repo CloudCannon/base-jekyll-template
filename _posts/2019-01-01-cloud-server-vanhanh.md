@@ -12,19 +12,13 @@ Bạn đăng ký sử dụng dịch vụ cloud server của Nhân Hòa. Bạn s�
 
 ### Mục lục
 
-[1. Kiểm tra thông tin cloud server](#thongtin)
-
-[2. Giám sát cloud server](#giamsatmayao)
-
-[3. Truy cập remote cloud server](#consolemayao)
-
-[4. Điều khiển trạng thái cloud server](#statusmayao)
-
-[5. Xem log hành động đối với cloud server](#logVPS)
-
-[6. Quản lý mật khẩu cloud server](#matkhauVPS)
-
-[7. Rebuid cloud server](#rebuildVPS)
+[1. Kiểm tra thông tin cloud server](#thongtin)<br>
+[2. Giám sát cloud server](#giamsatmayao)<br>
+[3. Truy cập remote cloud server](#consolemayao)<br>
+[4. Điều khiển trạng thái cloud server](#statusmayao)<br>
+[5. Xem log hành động đối với cloud server](#logVPS)<br>
+[6. Quản lý mật khẩu cloud server](#matkhauVPS)<br>
+[7. Rebuid cloud server](#rebuildVPS)<br>
 
 <a name="thongtin"></a>
 ## 1. Kiểm tra thông tin cloud server
