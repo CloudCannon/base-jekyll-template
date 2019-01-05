@@ -95,4 +95,4 @@ Sau khi rebuild thành công thông tin sẽ được gửi về email của b�
 
 Quá trình rebuild hoàn thành.
 
-### Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
+### [cloud365.vn](https://cloud365.vn/)
