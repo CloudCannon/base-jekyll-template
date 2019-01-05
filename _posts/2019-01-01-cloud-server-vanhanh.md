@@ -40,7 +40,7 @@ Sau khi nhận được thông tin VPS tùy thuộc vào VPS của bạn chạy 
 
 ![](/images/img-vanhanh-vps/Screenshot_542.png)
 
-+ Bạn truy cập vào portal để thực hiện một số chức năng vận hành VPS
+### Bạn truy cập vào portal để thực hiện một số chức năng vận hành VPS
 
 Click "**Danh sách server**"
 
