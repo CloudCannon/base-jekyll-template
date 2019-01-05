@@ -1,9 +1,9 @@
 ---
 date: 2019-01-01
-title: Mật khẩu của máy ảo
+title: Chính sách mật khẩu cloud server
 categories:
   - Policy
-description: Mô tả các chính sách về mật khẩu khoản máy ảo
+description: Chính sách mật khẩu cloud server
 type: Document
 ---
 Tài khoản của máy ảo được hệ thống tự động sinh ra và đáp ứng các chính sách dưới đây.
@@ -22,3 +22,5 @@ Người dùng lưu ý khi đổi mật khẩu cần đảm bảo đáp ứng ch
 
 ## Cam kết của nhà cung cấp dịch vụ
 Chúng tôi cam kết đảm bảo an toàn và không tự ý thay đổi mật khẩu của khách hàng.
+
+### Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
