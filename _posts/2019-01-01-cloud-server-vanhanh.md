@@ -50,6 +50,8 @@ Sau khi nhận được thông tin VPS tùy thuộc vào VPS của bạn chạy 
 
 ![](/images/img-vanhanh-vps/Screenshot_544.png)
 
+Bạn lựa chọn thực hiện 1 trong các chức năng: **giám sát, remote, điều khiển, log, quản lý mật khẩu, quản lý máy ảo** theo hướng dẫn ở dưới để vận hành VPS của mình.
+
 <a name="giamsatmayao"></a>
 ## 2. Giám sát VPS
 
