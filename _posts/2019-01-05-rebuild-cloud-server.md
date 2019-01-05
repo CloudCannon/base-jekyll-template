@@ -97,7 +97,7 @@ Quá trình rebuild hoàn thành.
 
 ### [cloud365.vn](https://cloud365.vn/)
 
-*Trong qua trình thao tác nếu bạn muốn hỗ trợ thêm, xin vui lòng liên hệ với chúng tôi qua các thông tin sau:*
+*Trong qua trình thực hiện nếu bạn muốn hỗ trợ thêm, xin vui lòng liên hệ với chúng tôi qua các thông tin sau:*
 
 *Công ty phần mềm Nhân Hòa*
 
