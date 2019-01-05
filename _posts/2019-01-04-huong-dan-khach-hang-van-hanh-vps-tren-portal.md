@@ -7,7 +7,7 @@ description: Hướng dẫn khách hàng vận hành VPS trên portal
 type: Document
 ---
 
-Bạn đăng ký sử dụng dịch vụ Cloud VPS / Cloud Server của Nhân Hòa. Bạn sẽ thực hiển quản trị, vận hành VPS của mình qua portal do Nhân Hòa phát triển. Thực hiện một số thao tác vận hành VPS như giám sát các thông số (RAM, Disk, CPU. Disk I/O), remote, quản lý mật khẩu, điểu khiển VPS (Start, Stop, Restart, Pause, Resume). Chi tiết vận hành bạn thực hiện theo hướng dẫn ở dưới.
+Bạn đăng ký sử dụng dịch vụ Cloud VPS / Cloud Server của Nhân Hòa. Bạn sẽ thực hiện quản trị, vận hành VPS của mình qua portal do Nhân Hòa phát triển. Thực hiện một số thao tác vận hành VPS như giám sát các thông số (RAM, Disk, CPU. Disk I/O), remote, quản lý mật khẩu, điểu khiển VPS (Start, Stop, Restart, Pause, Resume). Chi tiết vận hành bạn thực hiện theo hướng dẫn ở dưới.
 
 
 ### Mục lục
