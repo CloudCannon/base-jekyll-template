@@ -1,9 +1,9 @@
 ---
 date: 2019-01-04
-title: Hướng dẫn active tài khoản Nhân Hòa portal
+title: Kích hoạt tài khoản portal
 categories:
   - account-settings
-description: Hướng dẫn active tài khoản Nhân Hòa portal
+description: Kích hoạt tài khoản portal
 type: Document
 ---
 
