@@ -25,7 +25,7 @@ Nhân Hòa cung cấp cho bạn portal để quản trị VPS của mình. Quá 
 
 ## Bước 4: Nhập mật khẩu cũ và xác nhận mật khẩu mới
 
-Lưu ý: Bạn có thể đặt password cá nhân và tuân thủ chính sách về password (độ dài tối thiểu 8 ký tự, 1 ký tự hoa, 1 thường, 1 số)
+Lưu ý: Bạn có thể đặt password cá nhân và phải tuân thủ chính sách về password (độ dài tối thiểu 8 ký tự, 1 ký tự hoa, 1 thường, 1 số).
 
 ![](/images/img-change-pass-portal/Screenshot_585.png)
 
