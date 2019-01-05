@@ -9,7 +9,6 @@ type: Document
 
 Nhân Hòa cung cấp cho bạn portal để quản trị VPS của mình. Quá trình sử dụng portal để quản trị VPS của mình bạn muốn thay đổi thông tin cá nhân như: Họ và tên, giới tính, ngày sinh, số điện thoại, tên công ty, địa chỉ bạn thực hiện theo hướng dẫn dưới đây.
 
-<a name="truycap"></a>
 ## Bước 1: Đăng nhập portal
 
 + Bạn sử dụng thông tin đăng nhập bao gồm email/password để đăng nhập
