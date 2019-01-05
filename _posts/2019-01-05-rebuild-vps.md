@@ -11,7 +11,7 @@ Khi đăng ký sử dụng dịch vụ Cloud VPS / Cloud server của Nhân Hòa
 
 Hướng tới sự thuận tiện nhất cho khách hàng Nhân Hòa cung cấp chức năng rebuild VPS cho bạn để bạn tự thao tác và lựa chọn hệ điều hành muốn thay đổi. Bạn có thể cài lại chính hệ điều hành cũ cho VPS hoặc chuyển đổi sang hệ điều hành mới mà vẫn giữ nguyên gói cấu hình và đặt biệt là nhanh chóng và không phải trả phí.
 
-Chi tiết cách thức rebuild VPS bạn thực hiện theo hướng dẫn dưới đây.
+Chi tiết cách thức rebuild VPS bạn thực hiện theo hướng dẫn dưới đây. Ở bài hướng dẫn này thực hiện rebuild VPS hệ điều hành CentOS 6 sang VPS hệ điều hành Windows 10.
 
 ## Bước 1: Truy cập vào Nhân Hòa portal
 
@@ -53,7 +53,30 @@ Bạn nên đọc những cảnh bảo trước khi xác nhận rebuild.
 
 ![](/images/img-rebuild-vps/Screenshot_576.png)
 
-Chờ một vài phút để quá trình rebuild hoàn tất. Sau khi rebuild thành công thông tin sẽ được gửi về email của bạn.
+Chờ một vài phút để quá trình rebuild hoàn tất. 
+
+## Bước 5: Lấy thông tin VPS sau khi rebuild
+
+Sau khi rebuild thành công thông tin sẽ được gửi về email của bạn.
+
+![](/images/img-rebuild-vps/Screenshot_577.png)
+
+![](/images/img-rebuild-vps/Screenshot_578.png)
+
+## Bước 6: Kiểm tra
+
++ VPS trước khi rebuild
+
+![](/images/img-rebuild-vps/Screenshot_572.png)
+
++ VPS sau khi rebuild
+
+![](/images/img-rebuild-vps/Screenshot_579.png)
+
+
+### Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
+
+
 
 
 
