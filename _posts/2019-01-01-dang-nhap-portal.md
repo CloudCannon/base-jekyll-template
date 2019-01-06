@@ -27,4 +27,14 @@ Khi sử dụng dịch vụ cloud server Nhân Hòa cung cấp bạn có thể c
 
 Quá trình login portal hoàn tất.
 
-### Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
+Trong trường hợp bạn bị quên tài khoản, xin vui lòng xem hướng dẫn [tại đây](https://support.cloud365.vn/account-settings/khoi-phuc-mat-khau-portal/)
+
+---
+[cloud365.vn](https://cloud365.vn/)
+
+*Trong quá trình thực hiện nếu bạn muốn hỗ trợ thêm, xin vui lòng liên hệ với chúng tôi qua các thông tin sau:<br>
+
+**Công ty phần mềm Nhân Hòa**<br>
+- Trụ sở Hà Nội: **32 Võ Văn Dũng, Đống Đa, Hà Nội**.<br>
+- Chi nhánh HCM: **270 Cao Thắng (nối dài), Phường 12,Quận 10, TP HCM**.<br>
+- Hotline: `19006680`
