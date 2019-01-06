@@ -45,7 +45,7 @@ Khi nhận được thông tin về cloud server đã đăng ký sử dụng c�
 
 ![](/images/img-remote-cloud-server/Screenshot_611.png)
 
-+ Bạn có thể thao tác trên cloud server
++ Bạn có thể thao tác trên cloud server.
 
 ![](/images/img-remote-cloud-server/Screenshot_612.png)
 
