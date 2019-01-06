@@ -12,19 +12,13 @@ Bạn đăng ký sử dụng dịch vụ cloud server của Nhân Hòa. Bạn s�
 
 ### Mục lục
 
-[1. Kiểm tra thông tin cloud server](#thongtin)
-
-[2. Giám sát cloud server](#giamsatmayao)
-
-[3. Truy cập remote cloud server](#consolemayao)
-
-[4. Điều khiển trạng thái cloud server](#statusmayao)
-
-[5. Xem log hành động đối với cloud server](#logVPS)
-
-[6. Quản lý mật khẩu cloud server](#matkhauVPS)
-
-[7. Rebuid cloud server](#rebuildVPS)
+[1. Kiểm tra thông tin cloud server](#thongtin)<br>
+[2. Giám sát cloud server](#giamsatmayao)<br>
+[3. Truy cập remote cloud server](#consolemayao)<br>
+[4. Điều khiển trạng thái cloud server](#statusmayao)<br>
+[5. Xem log hành động đối với cloud server](#logVPS)<br>
+[6. Quản lý mật khẩu cloud server](#matkhauVPS)<br>
+[7. Rebuid cloud server](#rebuildVPS)<br>
 
 <a name="thongtin"></a>
 ## 1. Kiểm tra thông tin cloud server
@@ -116,11 +110,7 @@ Auto generate password
 
 Chức năng Rebuild là tính năng cho phép thay đổi hệ điều hành của máy chủ và giữ nguyên các thông số như: IP, RAM, CPU, dung lượng ổ cứng. Chức năng sẽ giúp bạn cài mới lại cloud server của mình khi quá trình sử dụng bạn cài đặt có những lỗi ứng dụng hay bạn muốn chuyển sang sử dụng hệ điều hành khác để đáp ứng nhu cầu sử dụng của mình.
 
-Lưu ý: Khi rebuild dữ liệu ổ cứng sẽ không được giữ lại. Máy chủ sẽ chạy với hệ điều hành mà bạn xác nhận lựa chọn để rebuild.
-
-Bạn có thể rebuil sang hệ điều hành Windows, Linux trắng và Linux có cài đặt ứng dụng (Plesk, Direct Admin, WHM).
-
-Bạn không thể rebuil sang hệ điều hành Windows server có cài đặt ứng dụng.
+Lưu ý: Khi rebuild dữ liệu ổ cứng sẽ không được giữ lại. Máy chủ sẽ chạy với hệ điều hành mà bạn xác nhận lựa chọn để rebuild.<br>Bạn có thể rebuil sang hệ điều hành Windows, Linux trắng và Linux có cài đặt ứng dụng (Plesk, Direct Admin, WHM).<br>Bạn không thể rebuil sang hệ điều hành Windows server có cài đặt ứng dụng.
 
 + Click `Quản lý máy ảo`
 
@@ -155,4 +145,10 @@ cloud server sau khi rebuild sang OS mới.
 
 ![](/images/img-vanhanh-vps/Screenshot_567.png)
 
-### Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
+### [cloud365.vn](https://cloud365.vn/)
+
+*Trong quá trình thực hiện nếu bạn muốn hỗ trợ thêm, xin vui lòng liên hệ với chúng tôi qua các thông tin sau:<br>
+**Công ty phần mềm Nhân Hòa**<br>
+Trụ sở Hà Nội: **32 Võ Văn Dũng, Đống Đa, Hà Nội**.<br>
+Chi nhánh HCM: **270 Cao Thắng (nối dài), Phường 12,Quận 10, TP HCM**.<br>
+Hotline: [19006680](#)*

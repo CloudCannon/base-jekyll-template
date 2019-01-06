@@ -15,17 +15,12 @@ Chi tiết cách thức rebuild cloud server bạn thực hiện theo hướng d
 
 ### Các bước thực hiện
 
-[Bước 1: Truy cập vào Nhân Hòa portal](#truycap)
-
-[Bước 2: Lựa chọn cloud server cần rebuild](#chon)
-
-[Bước 3: Lựa chọn hệ điều hành rebuild](#os)
-
-[Bước 4: Xác nhận rebuild](#xacnhan)
-
-[Bước 5: Lấy thông tin cloud server sau khi rebuild](#thongtin)
-
-[Bước 6: Kiểm tra](#kiemtra)
+[Bước 1: Truy cập vào Nhân Hòa portal](#truycap)<br>
+[Bước 2: Lựa chọn cloud server cần rebuild](#chon)<br>
+[Bước 3: Lựa chọn hệ điều hành rebuild](#os)<br>
+[Bước 4: Xác nhận rebuild](#xacnhan)<br>
+[Bước 5: Lấy thông tin cloud server sau khi rebuild](#thongtin)<br>
+[Bước 6: Kiểm tra](#kiemtra)<br>
 
 <a name="truycap"></a>
 ## Bước 1: Truy cập vào Nhân Hòa portal
@@ -56,11 +51,7 @@ Bạn sử dụng thông tin đăng nhập bao gồm email/password để đăng
 
 Bạn lựa chọn hệ điều hành muốn rebuild cho cloud server của mình.
 
-**Lưu ý: Khi rebuild dữ liệu ổ cứng sẽ không được giữ lại. Máy chủ sẽ chạy với hệ điều hành mà bạn xác nhận lựa chọn để rebuild.**
-
-**Bạn có thể rebuil sang hệ điều hành Windows, Linux trắng và Linux có cài đặt ứng dụng (Plesk, Direct Admin, WHM).**
-
-**Bạn không thể rebuil sang hệ điều hành Windows server có cài đặt ứng dụng.**
+**Lưu ý: Khi rebuild dữ liệu ổ cứng sẽ không được giữ lại. Máy chủ sẽ chạy với hệ điều hành mà bạn xác nhận lựa chọn để rebuild.<br>Bạn có thể rebuil sang hệ điều hành Windows, Linux trắng và Linux có cài đặt ứng dụng (Plesk, Direct Admin, WHM).<br>Bạn không thể rebuil sang hệ điều hành Windows server có cài đặt ứng dụng.**
 
 ![](/images/img-rebuild-vps/Screenshot_575.png)
 
@@ -95,4 +86,14 @@ Sau khi rebuild thành công thông tin sẽ được gửi về email của b�
 
 Quá trình rebuild hoàn thành.
 
-### Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
+### [cloud365.vn](https://cloud365.vn/)
+
+*Trong quá trình thực hiện nếu bạn muốn hỗ trợ thêm, xin vui lòng liên hệ với chúng tôi qua các thông tin sau:<br>
+**Công ty phần mềm Nhân Hòa**<br>
+Trụ sở Hà Nội: **32 Võ Văn Dũng, Đống Đa, Hà Nội**.<br>
+Chi nhánh HCM: **270 Cao Thắng (nối dài), Phường 12,Quận 10, TP HCM**.<br>
+Hotline: [19006680](#)*
+
+
+
+
