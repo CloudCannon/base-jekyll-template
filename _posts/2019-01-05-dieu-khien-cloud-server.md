@@ -62,9 +62,9 @@ Hy vọng chức năng điều khiển cloud server giúp bạn quản trị tha
 ---
 [cloud365.vn](https://cloud365.vn/)
 
-*Trong quá trình thực hiện nếu bạn muốn hỗ trợ thêm, xin vui lòng liên hệ với chúng tôi qua các thông tin sau:<br>
+Trong quá trình thực hiện nếu bạn muốn hỗ trợ thêm, xin vui lòng liên hệ với chúng tôi qua các thông tin sau:
 
-**Công ty phần mềm Nhân Hòa**<br>
-- Trụ sở Hà Nội: **32 Võ Văn Dũng, Đống Đa, Hà Nội**.<br>
-- Chi nhánh HCM: **270 Cao Thắng (nối dài), Phường 12,Quận 10, TP HCM**.<br>
+**Công ty phần mềm Nhân Hòa**
+- Trụ sở Hà Nội: 32 Võ Văn Dũng, Đống Đa, Hà Nội
+- Chi nhánh HCM: 270 Cao Thắng (nối dài), Phường 12,Quận 10, TP HCM
 - Hotline: `19006680`

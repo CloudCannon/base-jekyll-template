@@ -45,4 +45,12 @@ Portal yêu cầu bạn đổi mật khẩu sau khi active tài khoản, bạn c
 
 ![](/images/img-active-account-portal/Screenshot_539.png)
 
-### Đội ngũ kỹ thuật Nhân Hòa xin chân thành cảm ơn!
+---
+[cloud365.vn](https://cloud365.vn/)
+
+Trong quá trình thực hiện nếu bạn muốn hỗ trợ thêm, xin vui lòng liên hệ với chúng tôi qua các thông tin sau:
+
+**Công ty phần mềm Nhân Hòa**
+- Trụ sở Hà Nội: 32 Võ Văn Dũng, Đống Đa, Hà Nội
+- Chi nhánh HCM: 270 Cao Thắng (nối dài), Phường 12,Quận 10, TP HCM
+- Hotline: `19006680`
