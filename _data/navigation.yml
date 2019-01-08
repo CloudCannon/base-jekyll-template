@@ -7,4 +7,10 @@
 - name: Home
   link: https://cloud365.vn
   new_window: true
+- name: Blog
+  link: https://blog.cloud365.vn
+  new_window: true
+- name: Portal
+  link: https://portal.cloud365.vn
+  new_window: true
 
