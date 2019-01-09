@@ -27,7 +27,7 @@ If you aren't sure if WaniKani is asking for a Reading or a Meaning, there are q
 * A black background
 * The word "Reading"
 * "答え" in the text bar
-* Automatically types in Japamese
+* Automatically types in Japanese
 
 ## Kanji Meaning
 

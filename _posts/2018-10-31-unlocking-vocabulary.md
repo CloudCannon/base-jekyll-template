@@ -59,4 +59,4 @@ Learn how to tell the difference between meaning and reading reviews on our [Mea
 
 ## Doing Your Vocabulary Reviews
 
-When you complete a set of Lessons, those items will be sent to your Reviews queue. As with everything else, you should try to complete your Reviews as they are available. Although vocabulary items don't contribute to you [leveling up](/getting-started/wanikani/level-up/) they are important for reinforcing your kanji knowledge and teaching you the other readings of a kanji.
+When you complete a set of Lessons, those items will be sent to your Reviews queue. As with everything else, you should try to complete your Reviews as they are available. Although vocabulary items don't contribute to you [leveling up](/wanikani/getting-started/level-up/) they are important for reinforcing your kanji knowledge and teaching you the other readings of a kanji.
