@@ -7,8 +7,11 @@ description: Chính sách mật khẩu cho khách hàng khi sử dụng cloud365
 type: Document
 ---
 
-Nội dung
+Khi bạn sử dụng dịch vụ cloud server cloud365 cung cấp bạn sẽ được bảo mật một số thông tin:
 
++ Bảo mật thông tin cá nhân như: Họ và tên, ngày sinh, email, số điện thoại, mã số thuế.
+
++ Thông tin về tài khoản portal, cloud server (remote/ssh) được bảo mật hoàn toàn do bạn quản lý.
 
 ---
 [cloud365.vn](https://cloud365.vn/)
