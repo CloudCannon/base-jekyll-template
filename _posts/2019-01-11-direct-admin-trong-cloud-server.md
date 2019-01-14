@@ -7,7 +7,7 @@ description: Giới thiệu về DirectAdmin  trong cloud server
 type: Document
 ---
 
-Khi bạn là người quản trị website cho cá nhân bạn hay tổ chức, doanh nghiệp mà bạn quản lý, thì việc upload, chỉnh sửa source code lên hosting/server để website của bạn có thể hoạt động làm một việc làm bắt buộc. Cách thức truyền thống để bạn upload source lên hosting/server là bạn phải truy cập vào hosting/server đó và thực hiện các dòng lệnh, thao tác trên chính hosting/server đó. Mỗi lần có sự thay đổi bạn phải thao tác rất nhiều nhưng rất dễ có sự thao tác cấu hình sai. Chính vì thế để thuận tiện trong quá trình vận hành người quản trị trường sử dụng những trình quản trị hosting trong việc thao tác với mã nguồn cũng như phân chi tài nguyên máy chủ. Ngày này `DirectAdmin` được sử dụng phổ biến trong việc làm control panel.
+Khi bạn là người quản trị website cho cá nhân bạn hay tổ chức, doanh nghiệp mà bạn quản lý, thì việc upload, chỉnh sửa source code lên hosting/server để website của bạn có thể hoạt động làm một việc làm bắt buộc. Cách thức truyền thống để bạn upload source lên hosting/server là bạn phải truy cập vào hosting/server đó và thực hiện các dòng lệnh, thao tác trên chính hosting/server đó. Mỗi lần có sự thay đổi bạn phải thao tác rất nhiều nhưng rất dễ có sự thao tác cấu hình sai. Chính vì thế để thuận tiện trong quá trình vận hành người quản trị trường sử dụng những trình quản trị hosting trong việc thao tác với mã nguồn cũng như phân chia tài nguyên máy chủ. Ngày này `DirectAdmin` được sử dụng phổ biến trong việc làm control panel.
 
 ## 1. DirectAdmin là gì ?
 
