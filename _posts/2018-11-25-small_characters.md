@@ -20,7 +20,7 @@ Small characters are exactly what they sound like—smaller versions of certain 
 You'll see these small characters most on WaniKani in contractions. If you don't know what a contraction is in Japanese, feast your eyes on our guide for [how to read hiragana](https://www.tofugu.com/japanese/learn-hiragana/)!
 
 じゆう (all normal-sized characters) is pronounced ji-yuu. \\
-じゅう (ゅ is a small character) is pronounce juu, because it's a contraction.
+じゅう (ゅ is a small character) is pronounced juu, because it's a contraction.
 
 This is a super important difference not only because of pronunciation, but because of the meanings as well. じゆう means "freedom" and じゅう means "ten."
 
