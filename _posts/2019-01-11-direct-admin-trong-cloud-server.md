@@ -21,8 +21,6 @@ Khi bạn là người quản trị website cho cá nhân bạn hay tổ chức,
 
 -	Đảm bảo tính sẵn sàng cao: Hệ thống được phục hồi ở khoảng thời gian nhanh nhất hạn chế mức tối da thời gian hệ thống hoạt động không có hiệu quả.
 
--	Đảm bảo tính bí mật: Do sử dụng hệ điều hành Linux nên tăng cường khả năng bảo mật dữ liệu, DirectAdmin tự khởi động lại các dịch vụ cung cấp cần thiết khi dịch vụ đó bị lỗi.
-
 ## 3. Tính năng và các cấp độ quản lý DirectAdmin
 
 **Tính năng cho người quản trị (admin)**
