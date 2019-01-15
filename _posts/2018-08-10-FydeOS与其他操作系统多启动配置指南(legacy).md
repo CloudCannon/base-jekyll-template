@@ -1,13 +1,19 @@
 ---
 date: 2018-07-30
-title: FydeOS 与其它操作系统多启动配置指南
+title: FydeOS（早期版本）与其它操作系统多启动配置指南
 categories:
   - 使用技巧
 type: Document
-permalink: /recipes/dual-boot/
+permalink: /recipes/legacy-dual-boot/
 redirect_from:
   - /使用技巧/FydeOS与其他操作系统多启动配置指南/
 ---
+
+## 警告：
+本教程仅使用 FydeOS 早期版本（v5.2及更早），该方案和所涉及的脚本已不再被更新和维护。在 FydeOS for PC v5.3 之后的版本我们推出了新的多启动方案，详见[这篇教程](/recipes/dual-boot/)。
+
+<br>
+
 
 > 注意：本教程假设你对 Linux 命令行操作并不陌生且具备最基本的操作技巧。若你觉得以下内容难以理解，请寻求身边朋友的帮助或者到 [FydeOS 中文社区](https://fydeos.com/community) 寻求帮助。
 
