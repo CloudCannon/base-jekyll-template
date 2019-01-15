@@ -69,7 +69,7 @@ User là cấp quản lý hosting cho người dùng. Đây là mức thấp nh�
 + Cài đặt xác thực SSL, xem các thông tin về máy chủ...
 
 
-## 4. Thông tin quản trị DirectAdmin từ Nhân Hòa**
+## 4. Thông tin quản trị DirectAdmin từ Nhân Hòa
 
 Khi đăng ký sử dụng dịch vụ cloud server có kèm cloud app DirectAdmin của Nhân Hòa, Nhân Hòa sẽ cũng cấp qua email cho bạn một cloud server có cài đặt DirectAdmin với cấu hình (Disk Space, Bandwidth, Database, Ftp Accounts) đúng với lựa chọn của bạn. Nhân Hòa sẽ gửi 1 “đường link”, “tài khoản” để người dùng login vào trang DriectAdmin.
 
