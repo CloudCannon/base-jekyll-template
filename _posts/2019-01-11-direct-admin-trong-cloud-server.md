@@ -7,7 +7,7 @@ description: Giới thiệu về DirectAdmin  trong cloud server
 type: Document
 ---
 
-Khi bạn là người quản trị website cho cá nhân bạn hay tổ chức, doanh nghiệp mà bạn quản lý, thì việc upload, chỉnh sửa source code lên hosting/server để website của bạn có thể hoạt động làm một việc làm bắt buộc. Cách thức truyền thống để bạn upload source lên hosting/server là bạn phải truy cập vào hosting/server đó và thực hiện các dòng lệnh, thao tác trên chính hosting/server đó. Mỗi lần có sự thay đổi bạn phải thao tác rất nhiều nhưng rất dễ có sự thao tác cấu hình sai. Chính vì thế để thuận tiện trong quá trình vận hành người quản trị trường sử dụng những trình quản trị hosting trong việc thao tác với mã nguồn cũng như phân chi tài nguyên máy chủ. Ngày này `DirectAdmin` được sử dụng phổ biến trong việc làm control panel.
+Khi bạn là người quản trị website cho cá nhân bạn hay tổ chức, doanh nghiệp mà bạn quản lý, thì việc upload, chỉnh sửa source code lên hosting/server để website của bạn có thể hoạt động làm một việc làm bắt buộc. Cách thức truyền thống để bạn upload source lên hosting/server là bạn phải truy cập vào hosting/server đó và thực hiện các dòng lệnh, thao tác trên chính hosting/server đó. Mỗi lần có sự thay đổi bạn phải thao tác rất nhiều nhưng rất dễ có sự thao tác cấu hình sai. Chính vì thế để thuận tiện trong quá trình vận hành người quản trị trường sử dụng những trình quản trị hosting trong việc thao tác với mã nguồn cũng như phân chia tài nguyên máy chủ. Ngày này `DirectAdmin` được sử dụng phổ biến trong việc làm control panel.
 
 ## 1. DirectAdmin là gì ?
 
@@ -20,8 +20,6 @@ Khi bạn là người quản trị website cho cá nhân bạn hay tổ chức,
 -	Tốc độ quản lý nhanh không đòi hỏi về nhiều tài nguyên so với các hệ thống quản lý máy chủ khác.
 
 -	Đảm bảo tính sẵn sàng cao: Hệ thống được phục hồi ở khoảng thời gian nhanh nhất hạn chế mức tối da thời gian hệ thống hoạt động không có hiệu quả.
-
--	Đảm bảo tính bí mật: Do sử dụng hệ điều hành Linux nên tăng cường khả năng bảo mật dữ liệu, DirectAdmin tự khởi động lại các dịch vụ cung cấp cần thiết khi dịch vụ đó bị lỗi.
 
 ## 3. Tính năng và các cấp độ quản lý DirectAdmin
 
@@ -71,7 +69,7 @@ User là cấp quản lý hosting cho người dùng. Đây là mức thấp nh�
 + Cài đặt xác thực SSL, xem các thông tin về máy chủ...
 
 
-## 4. Thông tin quản trị DirectAdmin từ Nhân Hòa**
+## 4. Thông tin quản trị DirectAdmin từ Nhân Hòa
 
 Khi đăng ký sử dụng dịch vụ cloud server có kèm cloud app DirectAdmin của Nhân Hòa, Nhân Hòa sẽ cũng cấp qua email cho bạn một cloud server có cài đặt DirectAdmin với cấu hình (Disk Space, Bandwidth, Database, Ftp Accounts) đúng với lựa chọn của bạn. Nhân Hòa sẽ gửi 1 “đường link”, “tài khoản” để người dùng login vào trang DriectAdmin.
 
