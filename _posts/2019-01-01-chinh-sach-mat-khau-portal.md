@@ -11,14 +11,14 @@ Tài khoản portal của dịch vụ cloud365 được cung cấp dành cho kh�
 ```bash
 - Có độ dài từ 08 ký tự trở lên
 - Có ít nhất một ký tự viết hoa
-- Có chưa ít nhất một ký tự số
+- Có chứa ít nhất một ký tự số
 - Có chứa ít nhất một ký tự đặc biệt.
 ```
 
 ---
 [cloud365.vn](https://cloud365.vn/)
 
-Trong quá trình thực hiện nếu bạn muốn hỗ trợ thêm, xin vui lòng liên hệ với chúng tôi qua các thông tin sau:
+Khi cần hỗ trợ xin liên hệ với chúng tôi:
 
 **Công ty phần mềm Nhân Hòa**
 - Trụ sở Hà Nội: 32 Võ Văn Dũng, Đống Đa, Hà Nội
