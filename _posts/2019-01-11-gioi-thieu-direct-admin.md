@@ -1,6 +1,6 @@
 ---
 date: 2019-01-12
-title: DirectAdmin  trong cloud server
+title: DirectAdmin trong cloud server
 categories:
   - cloud-app
 description: Giới thiệu về DirectAdmin  trong cloud server
