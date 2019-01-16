@@ -7,7 +7,16 @@ description: Giới thiệu về ứng dụng DirectAdmin trong cloud365.vn
 type: Document
 ---
 
-`DirectAdmin` (DA) 
+`DirectAdmin` (DA) Nhân Hòa cung cấp được triển khai hoàn toàn tự động, đảm bảo đầy đủ tính năng có trong DirectAdmin cho người sử dụng. Ngoài ra còn có một số điểm nổi bật như:
+
++ Tự động khởi tạo khi khách hàng đăng ký.
++ Tự động gửi thông tin quản trị cloud server, `DirectAdmin` sau khi cài đặt thành công.
++ Áp dụng chính sách mật khẩu mạnh (Có độ dài lớn hơn 8 ký tự bao gồm: ít nhất một ký tự viết hoa, số, ký tự đặc biệt).
++ Bảo mật thông tin khách hàng.
++ Khách hàng chủ động cho việc quản trị cloud server DirectAdmin.
++ DirectAdmin hỗ trợ mutiple distributions linux (Centos, Ubuntu), bạn có thể tự động chuyển đổi distributions linux cho DirectAdmin thông qua [portal](https://support.cloud365.vn/account-settings/dang-nhap-portal/)
+
+Bạn tìm hiểu thêm về DirectAdmin [tại đây](https://support.cloud365.vn/cloud-app/direct-admin-trong-cloud-server/)!
 
 `DirectAdmin` (DA) là một trình quản lý hosting, DA được cài đặt trên hệ điều hành Linux, quá trình cài đặt triển khai dễ dàng, gọn nhẹ và hỗ trợ đầy đủ các tính năng cho phép người quản trị dễ dàng quản lý cloud server của mình, người quản trị có thể thực hiện các thao tác qua một giao diện web.
 

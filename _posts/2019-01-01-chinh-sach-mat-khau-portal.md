@@ -11,7 +11,7 @@ Tài khoản portal của dịch vụ cloud365 được cung cấp dành cho kh�
 ```bash
 - Có độ dài từ 08 ký tự trở lên
 - Có ít nhất một ký tự viết hoa
-- Có chưa ít nhất một ký tự số
+- Có chứa ít nhất một ký tự số
 - Có chứa ít nhất một ký tự đặc biệt.
 ```
 
