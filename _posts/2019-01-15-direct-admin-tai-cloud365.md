@@ -9,18 +9,20 @@ type: Document
 
 `DirectAdmin` (DA) Nhân Hòa cung cấp được triển khai hoàn toàn tự động, đảm bảo đầy đủ tính năng có trong DirectAdmin cho người sử dụng. Ngoài ra còn có một số điểm nổi bật như:
 
-+ Tự động khởi tạo khi khách hàng đăng ký.
-+ Tự động gửi thông tin quản trị cloud server, `DirectAdmin` sau khi cài đặt thành công.
-+ Áp dụng chính sách mật khẩu mạnh (Có độ dài lớn hơn 8 ký tự bao gồm: ít nhất một ký tự viết hoa, số, ký tự đặc biệt).
-+ Bảo mật thông tin khách hàng.
-+ Khách hàng chủ động cho việc quản trị cloud server DirectAdmin.
-+ DirectAdmin hỗ trợ mutiple distributions linux (Centos, Ubuntu), bạn có thể tự động chuyển đổi distributions linux cho DirectAdmin thông qua [portal](https://support.cloud365.vn/account-settings/dang-nhap-portal/)
++ Tự động khởi tạo khi khách hàng đăng ký.<br>
++ Tự động gửi thông tin quản trị cloud server, `DirectAdmin` sau khi cài đặt thành công.<br>
++ Áp dụng chính sách mật khẩu mạnh (Có độ dài lớn hơn 8 ký tự bao gồm: ít nhất một ký tự viết hoa, một số, một ký tự đặc biệt).<br>
++ Bảo mật thông tin khách hàng.<br>
++ Khách hàng chủ động cho việc quản trị cloud server DirectAdmin.<br>
++ DirectAdmin hỗ trợ mutiple distributions linux (Centos, Ubuntu), bạn có thể tự động chuyển đổi distributions linux cho DirectAdmin thông qua [Nhân Hòa](https://nhanhoa.com/) [portal](https://support.cloud365.vn/account-settings/dang-nhap-portal/)<br>
 
-Bạn tìm hiểu thêm về DirectAdmin [tại đây](https://support.cloud365.vn/cloud-app/direct-admin-trong-cloud-server/)!
+Bạn tìm hiểu thêm về DirectAdmin [tại đây](https://support.cloud365.vn/cloud-app/gioi-thieu-cloud365/)!
 
-`DirectAdmin` (DA) là một trình quản lý hosting, DA được cài đặt trên hệ điều hành Linux, quá trình cài đặt triển khai dễ dàng, gọn nhẹ và hỗ trợ đầy đủ các tính năng cho phép người quản trị dễ dàng quản lý cloud server của mình, người quản trị có thể thực hiện các thao tác qua một giao diện web.
+Có 2 cách để bạn có thể sử dụng DirectAdmin Nhân Hòa cung cấp: Đăng ký mới cloud server `DirectAdmin`, chuyển đổi sử dụng cloud server `DirectAdmin`
 
-## 1. Đăng ký cloud server DirectAdmin
+## 1. Đăng ký  mới cloud server DirectAdmin
+
+### 1.1. Lựa chọn distributions linux DirectAdmin
 
 Như một số nhà cung cấp khác bạn chỉ có thể đăng ký những cloud server trắng và bạn phải tự cài đặt ứng dụng `DirectAdmin` để sử dụng. Cloud server Nhân Hòa cung cấp đã được tích hợp sẵn vào cloud server, bạn có thể lên trang chủ [nhanhoa.com](https://nhanhoa.com/)
 
@@ -34,25 +36,25 @@ Bạn kiểm tra email để lấy thông tin.
 
 ![](/images/img-da-cloud365/Screenshot_761.png)
 
-## 2. Đăng nhập quản trị DirectAdmin
+### 2. Đăng nhập quản trị DirectAdmin
 
 Với thông tin Nhân Hòa cung cấp qua email bạn có thể truy cập và quản trị DirectAdmin trên cloud server của mình.
 
 ```
-http://ip:2222
+http://ip-cloud-server:2222
 ```
 ![](/images/img-da-cloud365/Screenshot_762.png)
 
-## 3. Rebuild cloud server sử dụng DirectAdmin
+## 3. Chuyển đổi sử dụng cloud server DirectAdmin
 
-Với portal được Nhân Hòa phát triển mang lại sự chủ động và tiện lợi cho khách hàng. Bạn có thể hoàn toàn chủ động thay đổi hệ điều hành cho Cloud server của mình mà vẫn giữ nguyên các thông số cấu hình Cloud.
-Tham khảo sử dụng đăng portal tại: https://support.cloud365.vn/account-settings/dang-nhap-portal/
+Với `portal` được Nhân Hòa phát triển mang lại sự chủ động và tiện lợi cho khách hàng. Bạn có thể hoàn toàn chủ động thay đổi hệ điều hành cho Cloud server của mình mà vẫn giữ nguyên các thông số cấu hình cloud sever.<br>
+Tham khảo sử dụng đăng nhập sử dụng portal [tại đây](https://support.cloud365.vn/account-settings/dang-nhap-portal/)!
 
-Bạn có sử dụng cloud server của Nhân Hòa, nếu có nhu cầu chuyển đổi sang cloud server có cài đặt DirectAdmin bạn có thể chủ động rebuild cloud server của mình với lựa chọn cloud server có cài đặt DirectAdmin.
+Bạn có sử dụng cloud server của Nhân Hòa, nếu có nhu cầu chuyển đổi sang cloud server DirectAdmin bạn có thể chủ động rebuild cloud server của mình với lựa chọn cloud server có cài đặt DirectAdmin.
 
 ![](/images/img-da-cloud365/Screenshot_763.png)
 
-Chi tiết quá trình rebuild bạn xem thêm tại: https://support.cloud365.vn/cloud-server/rebuild-cloud-server/
+Chi tiết quá trình [rebuild](https://support.cloud365.vn/cloud-server/rebuild-cloud-server/)
 
 Quá trình rebuild hoàn tất thông tin quản trị cloud server, DirectAdmin được gửi vể email của bạn.
 
