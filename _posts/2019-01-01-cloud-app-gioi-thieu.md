@@ -17,7 +17,7 @@ Là một hình thức nâng cao của dịch vụ `cloud server`. Dịch vụ n
 + Một số app sẽ được tự động cài đặt để tiết kiệm thời gian cho người sử dụng, ví dụ như: DirectAdmin, Plesk, WHM, Wordpress, SQL server, LAMP, LEMP, PHP, MySQL, Nginx.<br>
 + Tự động gửi thông tin quản trị cho khách hàng sau khi cài đặt thành công.
 + Thông tin mật khẩu cho cloud application tuân thủ chính sách mật khẩu mạnh.
-
++ Khách hàng có thể chủ động chuyển đổi giữa các cloud application khách nhau trong chính sách cho phép.
 ---
 [cloud365.vn](https://cloud365.vn/)
 
