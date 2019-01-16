@@ -51,13 +51,15 @@ Khi nhận được thông tin về cloud server đã đăng ký sử dụng c�
 
 Hy vọng chức năng remote cloud server giúp bạn quản trị thao tác được tuận tiện hơn.
 
-### [cloud365.vn](https://cloud365.vn/)
+---
+[cloud365.vn](https://cloud365.vn/)
 
-*Trong quá trình thực hiện nếu bạn muốn hỗ trợ thêm, xin vui lòng liên hệ với chúng tôi qua các thông tin sau:<br>
-**Công ty phần mềm Nhân Hòa**<br>
-Trụ sở Hà Nội: **32 Võ Văn Dũng, Đống Đa, Hà Nội**.<br>
-Chi nhánh HCM: **270 Cao Thắng (nối dài), Phường 12,Quận 10, TP HCM**.<br>
-Hotline: [19006680](#)*
+Khi cần hỗ trợ xin liên hệ với chúng tôi:
+
+**Công ty phần mềm Nhân Hòa**
+- Trụ sở Hà Nội: 32 Võ Văn Dũng, Đống Đa, Hà Nội
+- Chi nhánh HCM: 270 Cao Thắng (nối dài), Phường 12,Quận 10, TP HCM
+- Hotline: `19006680`
 
 
 
