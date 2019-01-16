@@ -45,7 +45,7 @@ http://ip-cloud-server:2222
 ```
 ![](/images/img-da-cloud365/Screenshot_762.png)
 
-## 3. Chuyển đổi sử dụng cloud server DirectAdmin
+## 2. Chuyển đổi sử dụng cloud server DirectAdmin
 
 Với `portal` được Nhân Hòa phát triển mang lại sự chủ động và tiện lợi cho khách hàng. Bạn có thể hoàn toàn chủ động thay đổi hệ điều hành cho Cloud server của mình mà vẫn giữ nguyên các thông số cấu hình cloud sever.<br>
 Tham khảo sử dụng sử dụng portal [tại đây](https://support.cloud365.vn/category/cloud-server/)!
