@@ -1,11 +1,13 @@
 ---
 date: 2019-01-15
-title: DirectAdmin cloud365.vn
+title: DirectAdmin tại cloud365
 categories:
   - cloud-app
 description: Giới thiệu về ứng dụng DirectAdmin trong cloud365.vn
 type: Document
 ---
+
+`DirectAdmin` (DA) 
 
 `DirectAdmin` (DA) là một trình quản lý hosting, DA được cài đặt trên hệ điều hành Linux, quá trình cài đặt triển khai dễ dàng, gọn nhẹ và hỗ trợ đầy đủ các tính năng cho phép người quản trị dễ dàng quản lý cloud server của mình, người quản trị có thể thực hiện các thao tác qua một giao diện web.
 
