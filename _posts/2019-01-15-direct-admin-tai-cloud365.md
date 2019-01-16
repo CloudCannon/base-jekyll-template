@@ -36,7 +36,7 @@ Bạn kiểm tra email để lấy thông tin.
 
 ![](/images/img-da-cloud365/Screenshot_761.png)
 
-### 2. Đăng nhập quản trị DirectAdmin
+### 1.2. Đăng nhập quản trị DirectAdmin
 
 Với thông tin Nhân Hòa cung cấp qua email bạn có thể truy cập và quản trị DirectAdmin trên cloud server của mình.
 
@@ -48,7 +48,7 @@ http://ip-cloud-server:2222
 ## 3. Chuyển đổi sử dụng cloud server DirectAdmin
 
 Với `portal` được Nhân Hòa phát triển mang lại sự chủ động và tiện lợi cho khách hàng. Bạn có thể hoàn toàn chủ động thay đổi hệ điều hành cho Cloud server của mình mà vẫn giữ nguyên các thông số cấu hình cloud sever.<br>
-Tham khảo sử dụng đăng nhập sử dụng portal [tại đây](https://support.cloud365.vn/account-settings/dang-nhap-portal/)!
+Tham khảo sử dụng sử dụng portal [tại đây](https://support.cloud365.vn/category/cloud-server/)!
 
 Bạn có sử dụng cloud server của Nhân Hòa, nếu có nhu cầu chuyển đổi sang cloud server DirectAdmin bạn có thể chủ động rebuild cloud server của mình với lựa chọn cloud server có cài đặt DirectAdmin.
 
@@ -56,7 +56,7 @@ Bạn có sử dụng cloud server của Nhân Hòa, nếu có nhu cầu chuyể
 
 Chi tiết quá trình [rebuild](https://support.cloud365.vn/cloud-server/rebuild-cloud-server/)
 
-Quá trình rebuild hoàn tất thông tin quản trị cloud server, DirectAdmin được gửi vể email của bạn.
+Quá trình rebuild hoàn tất thông tin quản trị cloud server, DirectAdmin được gửi về email của bạn.
 
 ![](/images/img-da-cloud365/Screenshot_764.png)
 
