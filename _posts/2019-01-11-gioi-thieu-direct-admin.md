@@ -15,11 +15,9 @@ Khi bạn là người quản trị website cho cá nhân bạn hay tổ chức,
 
 ## 2. Ưu điểm của DirectAdmin
 
--	Dễ dàng sử dụng trong quản lý, dành riêng cho các loại máy chủ chia sẻ, dễ thực hiện việc phân chia tài nguyên máy chủ.
-
--	Tốc độ quản lý nhanh không đòi hỏi về nhiều tài nguyên so với các hệ thống quản lý máy chủ khác.
-
--	Đảm bảo tính sẵn sàng cao: Hệ thống được phục hồi ở khoảng thời gian nhanh nhất hạn chế mức tối da thời gian hệ thống hoạt động không có hiệu quả.
++ Dễ dàng sử dụng trong quản lý, dành riêng cho các loại máy chủ chia sẻ, dễ thực hiện việc phân chia tài nguyên máy chủ.<br>
++ Tốc độ quản lý nhanh không đòi hỏi về nhiều tài nguyên so với các hệ thống quản lý máy chủ khác.<br>
++ Đảm bảo tính sẵn sàng cao: Hệ thống được phục hồi ở khoảng thời gian nhanh nhất hạn chế mức tối da thời gian hệ thống hoạt động không có hiệu quả.<br>
 
 ## 3. Tính năng và các cấp độ quản lý DirectAdmin
 
@@ -68,10 +66,9 @@ User là cấp quản lý hosting cho người dùng. Đây là mức thấp nh�
 + Bảo vệ thư mục: Người dùng có thể tạo các tài khoản và mật khẩu để hạn chế quyền truy cập vào một số thư mục nhất định.<br>
 + Cài đặt xác thực SSL, xem các thông tin về máy chủ...
 
-
 ## 4. Thông tin quản trị DirectAdmin từ Nhân Hòa
 
-Khi đăng ký sử dụng dịch vụ cloud server có kèm cloud app DirectAdmin của Nhân Hòa, Nhân Hòa sẽ cũng cấp qua email cho bạn một cloud server có cài đặt DirectAdmin với cấu hình (Disk Space, Bandwidth, Database, Ftp Accounts) đúng với lựa chọn của bạn. Nhân Hòa sẽ gửi 1 “đường link”, “tài khoản” để người dùng login vào trang DriectAdmin.
+Khi đăng ký sử dụng dịch vụ cloud server có kèm cloud app DirectAdmin của Nhân Hòa, Nhân Hòa sẽ cũng cấp qua email cho bạn một cloud server có cài đặt DirectAdmin với cấu hình (Disk Space, Bandwidth, Database, Ftp Accounts) đúng với lựa chọn của bạn. Nhân Hòa sẽ gửi 1 `đường link`, `tài khoản` để bạn login vào trang DriectAdmin.
 
 ![](/images/img-da-cloud-app/Screenshot_706.png)
 
