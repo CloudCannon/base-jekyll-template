@@ -26,8 +26,6 @@ Có 2 cách để bạn có thể sử dụng DirectAdmin Nhân Hòa cung cấp:
 
 Như một số nhà cung cấp khác bạn chỉ có thể đăng ký những cloud server trắng và bạn phải tự cài đặt ứng dụng `DirectAdmin` để sử dụng. Cloud server Nhân Hòa cung cấp đã được tích hợp sẵn vào cloud server, bạn có thể lên trang chủ [nhanhoa.com](https://nhanhoa.com/)
 
-<a href="https://nhanhoa.com/" target="_blank">nhanhoa.com</a>
-
 ![](/images/img-da-cloud365/Screenshot_759.png)
 
 Sau khi bạn lựa chọn cloud server có ứng dụng DA và hoàn tất các thủ tục đăng ký, bạn sẽ nhận được thông tin quản trị cloud server, DirectAdmin qua email đăng ký của bạn.
