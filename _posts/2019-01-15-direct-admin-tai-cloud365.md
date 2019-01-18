@@ -24,7 +24,7 @@ Có 2 cách để bạn có thể sử dụng DirectAdmin Nhân Hòa cung cấp:
 
 ### 1.1. Lựa chọn distributions linux DirectAdmin
 
-Như một số nhà cung cấp khác bạn chỉ có thể đăng ký những cloud server trắng và bạn phải tự cài đặt ứng dụng `DirectAdmin` để sử dụng. Cloud server Nhân Hòa cung cấp đã được tích hợp sẵn vào cloud server, bạn có thể lên trang chủ [nhanhoa.com](https://nhanhoa.com/){:target="_blank"}     
+Như một số nhà cung cấp khác bạn chỉ có thể đăng ký những cloud server trắng và bạn phải tự cài đặt ứng dụng `DirectAdmin` để sử dụng. Cloud server Nhân Hòa cung cấp đã được tích hợp sẵn vào cloud server, bạn có thể lên trang chủ [nhanhoa.com](https://nhanhoa.com/) {:target="_blank"}
 
 <a href="https://nhanhoa.com/" target="_blank">nhanhoa.com</a>
 
