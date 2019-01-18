@@ -14,9 +14,9 @@ type: Document
 + Áp dụng chính sách mật khẩu mạnh (Có độ dài lớn hơn 8 ký tự bao gồm: ít nhất một ký tự viết hoa, một số, một ký tự đặc biệt).<br>
 + Bảo mật thông tin khách hàng.<br>
 + Khách hàng chủ động cho việc quản trị cloud server DirectAdmin.<br>
-+ DirectAdmin hỗ trợ mutiple distributions linux (Centos, Ubuntu), bạn có thể tự động chuyển đổi distributions linux cho DirectAdmin thông qua [Nhân Hòa](https://nhanhoa.com/may-chu/may-chu-ao-vps.html) [portal](https://support.cloud365.vn/account-settings/dang-nhap-portal/)<br>
++ DirectAdmin hỗ trợ mutiple distributions linux (Centos, Ubuntu), bạn có thể tự động chuyển đổi distributions linux cho DirectAdmin thông qua <a href="https://nhanhoa.com/" target="_blank">Nhân Hòa</a> <a href="https://support.cloud365.vn/account-settings/dang-nhap-portal/" target="_blank">portal</a>
 
-Bạn tìm hiểu thêm về DirectAdmin [tại đây](https://support.cloud365.vn/cloud-app/gioi-thieu-direct-admin/)
+Bạn tìm hiểu thêm về DirectAdmin <a href="https://support.cloud365.vn/cloud-app/gioi-thieu-direct-admin/" >tại đây</a>!
 
 Có 2 cách để bạn có thể sử dụng DirectAdmin Nhân Hòa cung cấp: Đăng ký mới cloud server `DirectAdmin`, chuyển đổi sử dụng cloud server `DirectAdmin`
 
@@ -24,7 +24,7 @@ Có 2 cách để bạn có thể sử dụng DirectAdmin Nhân Hòa cung cấp:
 
 ### 1.1. Lựa chọn distributions linux DirectAdmin
 
-Như một số nhà cung cấp khác bạn chỉ có thể đăng ký những cloud server trắng và bạn phải tự cài đặt ứng dụng `DirectAdmin` để sử dụng. Cloud server Nhân Hòa cung cấp đã được tích hợp sẵn vào cloud server, bạn có thể lên trang chủ [nhanhoa.com](https://nhanhoa.com/)
+Như một số nhà cung cấp khác bạn chỉ có thể đăng ký những cloud server trắng và bạn phải tự cài đặt ứng dụng `DirectAdmin` để sử dụng. Cloud server Nhân Hòa cung cấp đã được tích hợp sẵn vào cloud server, bạn có thể lên trang <a href="https://nhanhoa.com/may-chu/may-chu-ao-vps.html" target="_blank">nhanhoa.com</a>
 
 ![](/images/img-da-cloud365/Screenshot_759.png)
 
@@ -48,13 +48,13 @@ http://ip-cloud-server:2222
 ## 2. Chuyển đổi sử dụng cloud server DirectAdmin
 
 Với `portal` được Nhân Hòa phát triển mang lại sự chủ động và tiện lợi cho khách hàng. Bạn có thể hoàn toàn chủ động thay đổi hệ điều hành cho Cloud server của mình mà vẫn giữ nguyên các thông số cấu hình cloud sever.<br>
-Tham khảo sử dụng sử dụng portal [tại đây](https://support.cloud365.vn/category/cloud-server/)!
+Tham khảo sử dụng sử dụng portal <a href="https://support.cloud365.vn/category/cloud-server/" target="_blank">tại đây</a>
 
 Bạn có sử dụng cloud server của Nhân Hòa, nếu có nhu cầu chuyển đổi sang cloud server DirectAdmin bạn có thể chủ động rebuild cloud server của mình với lựa chọn cloud server có cài đặt DirectAdmin.
 
 ![](/images/img-da-cloud365/Screenshot_763.png)
 
-Chi tiết quá trình [rebuild](https://support.cloud365.vn/cloud-server/rebuild-cloud-server/)
+Chi tiết quá trình <a href="https://support.cloud365.vn/cloud-server/rebuild-cloud-server/" target="_blank">rebuild</a>
 
 Quá trình rebuild hoàn tất thông tin quản trị cloud server, DirectAdmin được gửi về email của bạn.
 
@@ -63,7 +63,7 @@ Quá trình rebuild hoàn tất thông tin quản trị cloud server, DirectAdmi
 ![](/images/img-da-cloud365/Screenshot_765.png)
 
 ---
-[cloud365.vn](https://cloud365.vn/)
+<a href="https://cloud365.vn/" target="_blank">cloud365.vn</a>
 
 Khi cần hỗ trợ xin liên hệ với chúng tôi:
 
