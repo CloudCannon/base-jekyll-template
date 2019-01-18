@@ -16,7 +16,7 @@ type: Document
 + Khách hàng chủ động cho việc quản trị cloud server DirectAdmin.<br>
 + DirectAdmin hỗ trợ mutiple distributions linux (Centos, Ubuntu), bạn có thể tự động chuyển đổi distributions linux cho DirectAdmin thông qua [Nhân Hòa](https://nhanhoa.com/may-chu/may-chu-ao-vps.html) [portal](https://support.cloud365.vn/account-settings/dang-nhap-portal/)<br>
 
-Bạn tìm hiểu thêm về DirectAdmin [tại đây](https://support.cloud365.vn/cloud-app/gioi-thieu-direct-admin/)!
+Bạn tìm hiểu thêm về DirectAdmin [tại đây](https://support.cloud365.vn/cloud-app/gioi-thieu-direct-admin/){:target="_blank"}
 
 Có 2 cách để bạn có thể sử dụng DirectAdmin Nhân Hòa cung cấp: Đăng ký mới cloud server `DirectAdmin`, chuyển đổi sử dụng cloud server `DirectAdmin`
 
@@ -24,7 +24,7 @@ Có 2 cách để bạn có thể sử dụng DirectAdmin Nhân Hòa cung cấp:
 
 ### 1.1. Lựa chọn distributions linux DirectAdmin
 
-Như một số nhà cung cấp khác bạn chỉ có thể đăng ký những cloud server trắng và bạn phải tự cài đặt ứng dụng `DirectAdmin` để sử dụng. Cloud server Nhân Hòa cung cấp đã được tích hợp sẵn vào cloud server, bạn có thể lên trang chủ [nhanhoa.com](https://nhanhoa.com/) {:target="_blank"}
+Như một số nhà cung cấp khác bạn chỉ có thể đăng ký những cloud server trắng và bạn phải tự cài đặt ứng dụng `DirectAdmin` để sử dụng. Cloud server Nhân Hòa cung cấp đã được tích hợp sẵn vào cloud server, bạn có thể lên trang chủ [nhanhoa.com](https://nhanhoa.com/)
 
 <a href="https://nhanhoa.com/" target="_blank">nhanhoa.com</a>
 
