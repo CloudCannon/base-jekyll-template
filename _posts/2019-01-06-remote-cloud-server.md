@@ -52,7 +52,7 @@ Khi nhận được thông tin về cloud server đã đăng ký sử dụng c�
 Hy vọng chức năng remote cloud server giúp bạn quản trị thao tác được tuận tiện hơn.
 
 ---
-[cloud365.vn](https://cloud365.vn/)
+<a href="https://cloud365.vn/" target="_blank">cloud365.vn</a>
 
 Khi cần hỗ trợ xin liên hệ với chúng tôi:
 

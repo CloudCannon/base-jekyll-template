@@ -24,7 +24,7 @@ Người dùng lưu ý khi đổi mật khẩu cần đảm bảo đáp ứng ch
 Chúng tôi cam kết đảm bảo an toàn và không tự ý thay đổi mật khẩu của khách hàng.
 
 ---
-[cloud365.vn](https://cloud365.vn/)
+<a href="https://cloud365.vn/" target="_blank">cloud365.vn</a>
 
 Khi cần hỗ trợ xin liên hệ với chúng tôi:
 

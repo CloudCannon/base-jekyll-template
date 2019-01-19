@@ -60,7 +60,7 @@ Bạn thực hiện các thao tác điều khiển khác tương tự.
 Hy vọng chức năng điều khiển cloud server giúp bạn quản trị thao tác được tuận tiện hơn.
 
 ---
-[cloud365.vn](https://cloud365.vn/)
+<a href="https://cloud365.vn/" target="_blank">cloud365.vn</a>
 
 Khi cần hỗ trợ xin liên hệ với chúng tôi:
 

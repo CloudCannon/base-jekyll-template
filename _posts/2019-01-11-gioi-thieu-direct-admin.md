@@ -79,7 +79,7 @@ Khi đăng ký sử dụng dịch vụ cloud server có kèm cloud app DirectAdm
 ![](/images/img-da-cloud-app/Screenshot_708.png)
 
 ---
-[cloud365.vn](https://cloud365.vn/)
+<a href="https://cloud365.vn/" target="_blank">cloud365.vn</a>
 
 Khi cần hỗ trợ xin liên hệ với chúng tôi:
 

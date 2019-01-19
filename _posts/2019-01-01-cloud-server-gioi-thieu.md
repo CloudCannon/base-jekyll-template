@@ -19,7 +19,7 @@ Cloud server là các máy chủ ảo, ngoài các tính năng cốt lõi của 
 - Tính năng thay đổi mật khẩu.
 
 ---
-[cloud365.vn](https://cloud365.vn/)
+<a href="https://cloud365.vn/" target="_blank">cloud365.vn</a>
 
 Khi cần hỗ trợ xin liên hệ với chúng tôi:
 

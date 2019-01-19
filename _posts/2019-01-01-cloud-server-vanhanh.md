@@ -146,7 +146,7 @@ cloud server sau khi rebuild sang OS mới.
 ![](/images/img-vanhanh-vps/Screenshot_567.png)
 
 ---
-[cloud365.vn](https://cloud365.vn/)
+<a href="https://cloud365.vn/" target="_blank">cloud365.vn</a>
 
 Khi cần hỗ trợ xin liên hệ với chúng tôi:
 
