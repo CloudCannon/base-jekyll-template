@@ -8,7 +8,7 @@ type: Document
 ---
 Tài khoản của máy ảo được hệ thống tự động sinh ra và đáp ứng các chính sách dưới đây.
 
-## Chính sách mật khẩu của máy ảo
+## 1.Chính sách mật khẩu của máy ảo
 
 Các chính sách này được áp dụng để đảm bảo an toàn cho máy ảo của khách hàng.
 ```
@@ -20,7 +20,7 @@ Các chính sách này được áp dụng để đảm bảo an toàn cho máy 
 
 Người dùng lưu ý khi đổi mật khẩu cần đảm bảo đáp ứng chính sách ở trên khi chủ động thay đổi.
 
-## Cam kết của nhà cung cấp dịch vụ
+## 2.Cam kết của nhà cung cấp dịch vụ
 Chúng tôi cam kết đảm bảo an toàn và không tự ý thay đổi mật khẩu của khách hàng.
 
 ---
