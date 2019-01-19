@@ -43,7 +43,7 @@ Lưu ý: Bạn có thể đặt password cá nhân và phải tuân thủ chính
 Quá trình lấy lại mật khẩu portal hoàn tất.
 
 ---
-[cloud365.vn](https://cloud365.vn/)
+<a href="https://cloud365.vn/" target="_blank">cloud365.vn</a>
 
 Khi cần hỗ trợ xin liên hệ với chúng tôi:
 

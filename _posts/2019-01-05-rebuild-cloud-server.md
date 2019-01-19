@@ -87,7 +87,7 @@ Sau khi rebuild thành công thông tin sẽ được gửi về email của b�
 Quá trình rebuild hoàn thành.
 
 ---
-[cloud365.vn](https://cloud365.vn/)
+<a href="https://cloud365.vn/" target="_blank">cloud365.vn</a>
 
 Khi cần hỗ trợ xin liên hệ với chúng tôi:
 

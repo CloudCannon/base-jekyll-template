@@ -14,7 +14,7 @@ Khi bạn sử dụng dịch vụ cloud server cloud365 cung cấp bạn sẽ đ
 + Thông tin về tài khoản portal, cloud server (remote/ssh) hoàn toàn do bạn quản lý.
 
 ---
-[cloud365.vn](https://cloud365.vn/)
+<a href="https://cloud365.vn/" target="_blank">cloud365.vn</a>
 
 Khi cần hỗ trợ xin liên hệ với chúng tôi:
 

@@ -34,7 +34,7 @@ Nhân Hòa cung cấp cho bạn portal để quản trị cloud server của mì
 Quá trình thay đổi thông tin cá nhân hoàn tất.
 
 ---
-[cloud365.vn](https://cloud365.vn/)
+<a href="https://cloud365.vn/" target="_blank">cloud365.vn</a>
 
 Khi cần hỗ trợ xin liên hệ với chúng tôi:
 

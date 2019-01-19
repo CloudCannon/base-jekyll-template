@@ -19,7 +19,7 @@ Là một hình thức nâng cao của dịch vụ `cloud server`. Dịch vụ n
 + Thông tin mật khẩu cho cloud application tuân thủ chính sách mật khẩu mạnh.
 + Khách hàng có thể chủ động chuyển đổi giữa các cloud application khách nhau trong chính sách cho phép.
 ---
-[cloud365.vn](https://cloud365.vn/)
+<a href="https://cloud365.vn/" target="_blank">cloud365.vn</a>
 
 Khi cần hỗ trợ xin liên hệ với chúng tôi:
 

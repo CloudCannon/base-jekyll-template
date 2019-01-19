@@ -16,7 +16,7 @@ Tài khoản portal của dịch vụ cloud365 được cung cấp dành cho kh�
 ```
 
 ---
-[cloud365.vn](https://cloud365.vn/)
+<a href="https://cloud365.vn/" target="_blank">cloud365.vn</a>
 
 Khi cần hỗ trợ xin liên hệ với chúng tôi:
 

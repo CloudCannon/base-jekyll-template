@@ -30,7 +30,7 @@ Quá trình login portal hoàn tất.
 Trong trường hợp bạn bị quên tài khoản, xin vui lòng xem hướng dẫn [tại đây](https://support.cloud365.vn/account-settings/khoi-phuc-mat-khau-portal/)
 
 ---
-[cloud365.vn](https://cloud365.vn/)
+<a href="https://cloud365.vn/" target="_blank">cloud365.vn</a>
 
 Khi cần hỗ trợ xin liên hệ với chúng tôi:
 
