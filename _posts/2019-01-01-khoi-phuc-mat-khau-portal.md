@@ -10,7 +10,7 @@ Nhân Hòa cung cấp cho bạn portal để quản trị cloud server của mì
 
 ## Bước 1: Truy cập trang portal
 
-https://portal.cloud365.vn/
+<a href="https://portal.cloud365.vn/" target="_blank">https://portal.cloud365.vn/</a>
 
 ![](/images/img-lay-pass-portal/Screenshot_587.png)
 

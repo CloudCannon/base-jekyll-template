@@ -37,7 +37,9 @@ Portal yêu cầu bạn đổi mật khẩu sau khi active tài khoản, bạn c
 
 ## Bước 4: Login portal
 
-+ Sau khi thực hiện active tài khoản bạn có thể đăng nhập vào portal bằng tài khoản (email/password).
+<a href="https://support.cloud365.vn/account-settings/dang-nhap-portal/" target="_blank">Đăng nhập</a> portal tại địa chỉ <a href="https://portal.cloud365.vn/" target="_blank">https://portal.cloud365.vn/</a>
+
++ Sau khi thực hiện active tài khoản bạn có thể đăng nhập vào portal bằng tài khoản `email/password`.
 
 ![](/images/img-active-account-portal/Screenshot_538.png)
 
