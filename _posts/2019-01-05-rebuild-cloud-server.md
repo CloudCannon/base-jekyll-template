@@ -25,7 +25,9 @@ Chi tiết cách thức rebuild cloud server bạn thực hiện theo hướng d
 <a name="truycap"></a>
 ## Bước 1: Truy cập vào Nhân Hòa portal
 
-Bạn sử dụng thông tin đăng nhập bao gồm email/password để đăng nhập
+Bạn sử dụng thông tin đăng nhập bao gồm `email/password` để đăng nhập
+
+<a href="https://support.cloud365.vn/account-settings/dang-nhap-portal/" target="_blank">Đăng nhập</a> portal tại địa chỉ <a href="https://portal.cloud365.vn/" target="_blank">https://portal.cloud365.vn/</a>
 
 ![](/images/img-rebuild-vps/Screenshot_568.png)
 

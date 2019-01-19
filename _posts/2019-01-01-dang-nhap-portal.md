@@ -11,7 +11,7 @@ Khi sử dụng dịch vụ cloud server Nhân Hòa cung cấp bạn có thể c
 
 ## Bước 1: Truy cập vào portal
 
-+ Tài khoản portal dịch vụ cloud365 được xác thực theo email mà bạn cung cấp cho chúng tôi. Để đăng nhập vào portal xin vui lòng truy cập trang: https://portal.cloud365.vn
++ Tài khoản portal dịch vụ cloud365 được xác thực theo email mà bạn cung cấp cho chúng tôi. Để đăng nhập vào portal xin vui lòng truy cập trang: <a href="https://portal.cloud365.vn/" target="_blank">https://portal.cloud365.vn/</a>
 
 ![](/images/img-login-portal/Screenshot_597.png)
 
