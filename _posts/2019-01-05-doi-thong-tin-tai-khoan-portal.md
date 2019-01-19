@@ -11,7 +11,9 @@ Nhân Hòa cung cấp cho bạn portal để quản trị cloud server của mì
 
 ## Bước 1: Đăng nhập portal
 
-+ Bạn sử dụng thông tin đăng nhập bao gồm email/password để đăng nhập
++ Bạn sử dụng thông tin đăng nhập bao gồm `email/password` để đăng nhập
+
+<a href="https://support.cloud365.vn/account-settings/dang-nhap-portal/" target="_blank">Đăng nhập</a> portal tại địa chỉ <a href="https://portal.cloud365.vn/" target="_blank">https://portal.cloud365.vn/</a>
 
 ![](/images/img-change-info-portal/Screenshot_568.png)
 
