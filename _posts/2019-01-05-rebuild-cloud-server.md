@@ -53,7 +53,7 @@ Bạn sử dụng thông tin đăng nhập bao gồm `email/password` để đă
 
 Bạn lựa chọn hệ điều hành muốn rebuild cho cloud server của mình.
 
-Lưu ý: 
+Lưu ý:
 + Khi rebuild dữ liệu ổ cứng sẽ không được giữ lại. Máy chủ sẽ chạy với hệ điều hành mà bạn xác nhận lựa chọn để rebuild.<br>
 + Bạn có thể rebuild sang hệ điều hành Windows, Linux trắng và Linux có cài đặt ứng dụng (Plesk, Direct Admin, WHM).<br>
 + Bạn không thể rebuild sang hệ điều hành Windows server có cài đặt ứng dụng.
