@@ -70,6 +70,11 @@ defaults:
       path: "index.html"
     values:
       body_class: "show_hero_search"
+  -
+    scope:
+      path: "404.html"
+    values:
+      layout: "404layout"
 
 # -----------
 # CloudCannon
