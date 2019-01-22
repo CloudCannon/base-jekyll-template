@@ -15,7 +15,7 @@ If there is an item you think we absolutely MUST have, let us know! Now, that do
 
 ## How to Request New Content
 
-If you have an item (or items) you'd like us to add to WaniKani send an email to hello@wanikani.com or fill out our [contact form](https://www.wanikani.com/contact) and look something like the following:
+If you have an item (or items) you'd like us to add to WaniKani, [contact us](/wanikani/contact-page/) with a request that looks something like the following:
 
 ![New Item Request](/images/new-item-request.png)
 
