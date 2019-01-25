@@ -13,7 +13,7 @@ Now that you have a basic understanding of [how WaniKani works](/getting-started
 
 ![WaniKani lessons button](/images/lessons-button-sq.gif)
 
-This will take you to your available lessons where you will be able to learn the first set of radicals. Everything else builds off these 27 radicals, so do your best!
+This will take you to your available lessons where you will be able to learn the first set of radicals. Everything else builds off these 26 radicals, so do your best!
 
 ## Learning the Lessons
 
