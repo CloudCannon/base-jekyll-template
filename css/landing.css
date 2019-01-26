@@ -1,0 +1,31 @@
+main {
+display: grid;
+grid-template-columns: 300px 1fr
+}
+
+.main-child {
+  grid-column: 2 / 3;
+}
+
+.feature-image img {
+width: 100%;
+height: auto;
+}
+
+main .main-title {
+  text-align: center;
+  font-size: 2em;
+  color: var(--black);
+  text-transform: uppercase;
+}
+
+main p {
+  text-align: center;
+  font-size: 1.2em;
+  color: var(--black);
+}
+
+main button {
+  margin-left: auto;
+  margin-right: auto;
+}

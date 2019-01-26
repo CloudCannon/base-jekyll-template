@@ -208,7 +208,7 @@ Beginning of smaller screen stylings.
       position: absolute;
       opacity: 0;
       display: none;
-      grid-template-rows: auto auto 1fr;
+      grid-template-rows: auto 1fr auto 1fr auto 1fr;
       transition: all 1s ease-in-out;
     }
 
@@ -225,7 +225,7 @@ Beginning of smaller screen stylings.
     list-style: none;
     padding: 0;
     padding-top: 20px;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
     }
 
     .nav1 li {
@@ -252,7 +252,7 @@ Beginning of smaller screen stylings.
     }
 
     .nav1 li img {
-      width: 25%;
+      width: 6em;
       height: auto;
     }
 
@@ -276,7 +276,7 @@ Beginning of smaller screen stylings.
     ====================================== */
 
      .social-bar {
-      grid-row: 3 / 4;
+      grid-row: 5 / 6;
       display: grid;
       grid-template-columns: 3fr auto 1fr auto 1fr auto 3fr;
       justify-items: center;

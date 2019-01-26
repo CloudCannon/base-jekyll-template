@@ -2,26 +2,33 @@
 layout: default
 ---
 
-<section class="categories">
-	{% assign categories = site.categories | sort %}
-	{% for category in categories %}
-		{% assign name = category[0] %}
-		{% assign posts = category[1] %}
-		{% assign size = posts | size %}
-		<section class="category">
-				<h3>
-					<a href="{{ site.baseurl }}/category/{{ name | slugify }}/">{{ name | replace: "-", " " }}</a>
-				</h3>
+<main class="landing-page-content">
+<div class="feature-image main-child">
+	<img src="images/untitled-458-2.jpg" alt="Wood River Ballroom Dancers">
+</div>
+<div class="about main-child">
+	<h2 class="editable main-title">About Wood River Ballroom</h2>
+	<p class="editable">I am passionate about dance.  I have been dancing for over 15 years studying Ballroom, swing, and contemporary dance.  Although I love all forms of dance, what I like to share and teach is the joy of partner and social dancing.  Between the structured movement of ballroom, the carefree style of swing, and the free expression of contemporary dance my teaching style is very pliable to meet the needs of those I teach. <br> <br>I believe anyone can learn to dance.</p>
+	<img src="" alt="">
+	<button type="button" name="button" class="editable">Learn more about Todd</button>
 
-			<ul>
-				{% assign tutorials = posts | sort: "title" %}
-				{% for tutorial in tutorials limit: 4 %}
-					<li><a href="{{ site.baseurl }}{{ tutorial.url }}">{% include document-icon.html icon=tutorial.type %}{{ tutorial.title }}</a></li>
-				{% endfor %}
-				{% if size > 4 %}
-					<li><a href="{{ site.baseurl }}/category/{{ name | slugify }}/">{{ size | minus: 4 }} more...</a></li>
-				{% endif %}
-			</ul>
-		</section>
-	{% endfor %}
-</section>
+</div>
+<div class="classes main-child">
+	<h2 class="editable main-title">Classes</h2>
+	<div class="group-classes">
+		<h3 class="editable">Group Classes</h3>
+		<img src="" alt="a group dancing">
+		<p class="editable"></p>
+		<button type="button" name="button"></button>
+	</div>
+	<div class="private-classes">
+		<h3 class="editable">Private Classes</h3>
+		<img src="" alt="a couple dancing">
+		<p class="editable"></p>
+		<button type="button" name="button"></button>
+	</div>
+</div>
+<div class="mailing-list main-child">
+<h2 class="editable main-title"></h2>
+</div>
+</main>
