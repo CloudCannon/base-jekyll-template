@@ -1,15 +1,13 @@
 main {
 display: grid;
-grid-template-columns: 300px 1fr 8fr 1fr;
+grid-template-columns: 300px 1fr
 }
 
 .main-child {
-  padding: 30px 0px 30px 0px;
+  grid-column: 2 / 3;
 }
 
-
-.feature-image {
-grid-column: 2 / 5;
+.feature-image img {
 width: 100%;
 height: auto;
 }
@@ -25,122 +23,9 @@ main p {
   text-align: center;
   font-size: 1.2em;
   color: var(--black);
-
 }
 
-.button {
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  padding: 20px;
-  border-radius: 10px;
-  transition: all .4s ease-in-out;
-
-}
-
-
-
-main .button a {
-  text-decoration: none;
-  font-size: 1.2em;
-  text-transform: uppercase;
-  transition: all .2s ease-in-out .2s;
-}
-
-main .button:hover a {
-  color: var(--green);
-  font-size: 1.3em;
-}
-
-main .button .button-bar {
-  width: 0em;
-  height: .2em;
-  background-color: var(--green);
-  transition: all .4s ease-in-out;
-}
-
-main .button:hover .button-bar {
-  width: 15em;
-
-}
-
-/*================================
-Styling for about section specifics
-=================================*/
-
-.about {
-  grid-column: 3 / 4;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-}
-
-.diamond-frame {
-  background-color: var(--silver);
-  width: 300px;
-  height: 300px;
-  transform: rotate(45deg);
-  margin: 80px;
-
-}
-
-.diamond-frame img {
-  height: 100%;
-  width: 100%;
-  transform: rotate(-45deg);
-  position: absolute;
-
-}
-
-.about .button {
-  background-color: var(--green);
-}
-
-.about .button:hover {
-  background-color: transparent;
-}
-
-.about .button a {
-  color: white;
-}
-
-.classes {
-  grid-column: 2 / 5;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  background-color: var(--green);
-  color: white;
-  justify-items: center;
-  align-items: center;
-}
-
-.classes h2 {
-  grid-column: 1 / 3;
-  color: white;
-
-}
-
-
-
-@media only screen and (max-width: 1100px) {
-  main {
-    grid-template-columns: 200px 1fr 8fr 1fr;
-  }
-}
-
-/* Styling for mobile */
-
-@media only screen and (max-width: 650px) {
-  main {
-    grid-template-columns: 1fr 8fr 1fr;
-  }
-
-  .feature-image {
-    grid-column: 1 / 4;
-  }
-
-  .main-child {
-    grid-column: 2 / 3;
-  }
+main button {
+  margin-left: auto;
+  margin-right: auto;
 }
