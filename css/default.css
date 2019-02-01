@@ -6,7 +6,7 @@ html {
   --gray: #6f6a64;
   --silver: #d1d0d6;
   --green: #4c5b16;
-  --tan: #dad1c2;
+  --tan: #bfa067;
 }
 
 p, a, button {
@@ -15,4 +15,20 @@ p, a, button {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Abhaya Libre', serif;
+}
+
+
+
+@media only screen and (max-width: 950px) {
+  body {
+    grid-template-columns: 200px, 1fr;
+  }
+}
+
+/* Styling for mobile */
+
+@media only screen and (max-width: 650px) {
+  body {
+    grid-template-columns: 1fr;
+  }
 }
