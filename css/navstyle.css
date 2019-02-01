@@ -52,7 +52,6 @@ padding-top: 20px;
   justify-items: center;
   align-items: center;
   padding: 15px 0px 15px 0px;
-
 }
 
 .nav1 .nav-item-bar {
@@ -72,7 +71,6 @@ padding-top: 20px;
   width: 35%;
   height: auto;
 }
-
 
 
 .nav1 a {
@@ -142,7 +140,7 @@ Beginning of smaller screen stylings.
 ====================================== */
 
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1100px) {
   .nav1 {
     width: 200px;
   }
