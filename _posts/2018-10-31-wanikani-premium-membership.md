@@ -25,4 +25,4 @@ Wow! That's the price of a $299 cup of coffee! To get a premium account, [visit 
 
 Please note that all subscriptions amounts are in USD (if you're in another country, payment will be converted automatically) and monthly/annual subscriptions are recurring. If you [cancel your monthly or annual subscription](/account-and-membership/payment-and-billing/cancel-subscription/), you'll be able to use your premium subscription until it expires. You paid for it, after all.
 
-If you have any questions about upgrading, feel free to write a handwritten letter or [contact us online](/wanikani/contact-page/).
+If you have any questions about upgrading, feel free to write a handwritten letter or [contact us online](/account-and-membership/wanikani/contact-page/).
