@@ -13,6 +13,6 @@ If you have a problem, email is the best way to let us know. We don't have peopl
 
 If you are reporting a typo or error, give a quick explanation of what you found and why it's wrong.
 
-If you're reporting a bug, describe what happened and when. Some good information to include is what OS and browser you're using, and whether you're running any scripts or extensions with WaniKani. Screenshots are always helpful too! The more information you give us about what happened, the better we'll be able to help you.
+If you're reporting a bug, describe what happened and when. Some good information to include is what OS and browser you're using (you can check yours [here](https://supportdetails.com) if you're not sure), and whether you're running any scripts or extensions with WaniKani. Screenshots are always helpful too! The more information you give us about what happened, the better we'll be able to help you.
 
 Finally, if you're contacting us about something to do with your subscription or the account itself, **please** make sure that you're emailing us from the email address you use for your WaniKani account. We need to know that it's really you before we make any changes.
