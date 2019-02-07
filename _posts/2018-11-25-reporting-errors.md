@@ -9,7 +9,7 @@ type: Document
 
 Uh oh, you're here. I guess that means we messed up somewhere.
 
-If you spot a typo, weird formatting, or an error of any kind, let us know! The best way to do that is by email: [hello@wanikani.com](mailto:hello@wanikani.com) or the [contact form](https://www.wanikani.com/contact).
+If you spot a typo, weird formatting, or an error of any kind, let us know! The best way to do that is [by email](/account-and-membership/wanikani/contact-page/) or the [contact form](https://www.wanikani.com/contact).
 
 There's a handy shortcut to this form at the bottom left-hand corner of all Lessons and Reviews.
 
