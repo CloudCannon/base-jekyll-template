@@ -13,7 +13,7 @@ There are a few different ways to get in touch with us.
 * Email: [hello@wanikani.com](mailto:hello@wanikani.com)
 * Twitter: [@wanikaniapp](https://twitter.com/WaniKaniApp)
 
-Or our own special [contact form](www.wanikani.com/contact).
+Or our own special [contact form](https://www.wanikani.com/contact).
 
 If you have a problem, email is the best way to let us know. We don't have people on 24/7, but we'll get back to you as soon as we can.
 
