@@ -27,8 +27,8 @@ To type the small tsu, you don't have to type ltu or xtsu or any of those other 
 
 Here are some of examples of how to type the small tsu in some of the early level vocabulary you'll encounter:
 
-みっつ = mi**tt**su
-やっつ = ya**tt**su
+みっつ = mi**tt**su \\
+やっつ = ya**tt**su \\
 よっつ = yo**tt**su
 
 As you can see, the consonant that is being doubled is the one that appears (in romaji) right after the small tsu. In the case of the examples above, we are doubling the "t" in "tsu."
@@ -37,10 +37,10 @@ As you can see, the consonant that is being doubled is the one that appears (in 
 
 To type all of the だぢづでど sounds, you need to use the "d" key.
 
-だ = da
-ぢ = di
-づ = du
-で = de
+だ = da \\
+ぢ = di \\
+づ = du \\
+で = de \\
 ど = do
 
 So when you want to type words like 続く, it's:
