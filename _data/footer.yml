@@ -1,7 +1,7 @@
 - name:
   link: https://facebook.com/
-  new_window: true
   social_icon: Facebook
+  new_window: true
 - name:
   link: https://twitter.com/
   social_icon: Twitter
@@ -11,6 +11,6 @@
   social_icon: YouTube
   new_window: true
 - name: 
-  link: /feed.xml
-  social_icon: RSS
-  new_window: false
+  link: https://instagram.com/
+  social_icon: Instagram
+  new_window: true
