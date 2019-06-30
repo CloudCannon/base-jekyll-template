@@ -35,4 +35,4 @@ chronos@localhost / $
 ```bash
 sudo su -
 ```
-并在提示之后输入密码，默认为 `chronos`。
+注意，从 FydeOS for PC v6.0 开始，系统命令行默认用户chronos将不再设置默认密码。你可以直接使用sudo命令执行需要 root 权限的命令行操作。如果你需要更改密码，可参照[该文档](/recipes/chronos-password/)。

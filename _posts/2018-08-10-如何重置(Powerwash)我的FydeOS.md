@@ -14,7 +14,7 @@ redirect_from:
 
 ## 1. 进入 Bash Shell
 
-参照[这个教程](/使用技巧/在FydeOS中进入Shell/)进入 Bash Shell 环境。
+参照[这个教程](/getting-started/shell-access/)进入 Bash Shell 环境。
 
 
 ## 2. 运行命令

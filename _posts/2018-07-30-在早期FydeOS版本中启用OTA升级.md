@@ -17,12 +17,12 @@ redirect_from:
 
 __请注意，只有将 FydeOS 安装进硬盘后才能根据本教程进行 OTA 升级的启用，通过烧写 U 盘体验是无法进行 OTA 升级的！__
 
-请参照 [该教程](https://faq.fydeos.com/%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/%E5%B0%86FydeOS-for-PC%E5%AE%89%E8%A3%85%E8%BF%9B%E7%A1%AC%E7%9B%98/) 将 FydeOS for PC 安装进目标 PC 的硬盘并成功启动进入 FydeOS 的图形界面。
+请参照 [该全盘安装教程](/getting-started/install-fydeos-to-hdd/) 或[多启动安装教程](/recipes/dual-boot/)将 FydeOS for PC 安装进目标 PC 的硬盘并成功启动进入 FydeOS 的图形界面。
 
 
 ## 1 进入 Bash Shell
 
-参照 [这个教程](/使用技巧/在FydeOS中进入Shell/) 进入 Bash Shell 环境并获得 root 权限。
+参照 [这个教程](/getting-started/shell-access/) 进入 Bash Shell 环境并获得 root 权限。
 
 
 ## 2. 运行命令

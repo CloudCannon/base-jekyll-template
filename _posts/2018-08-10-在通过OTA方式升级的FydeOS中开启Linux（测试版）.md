@@ -28,7 +28,7 @@ redirect_from:
 
 ## 2. 进入 Shell
 
-参照 [这个教程](/使用技巧/在FydeOS中进入Shell/) 进入 Bash Shell 环境。
+参照 [这个教程](/getting-started/shell-access/) 进入 Bash Shell 环境。
 
 
 ## 3. 文件操作
@@ -54,4 +54,4 @@ reboot
 
  - 首次启用 Linux（测试版）组件需要耗费较长的时间，大约 15 分钟至半小时不等，视计算机配置和网络环境而定。
  - 如在 v4.1 版本尝试开启过 Linux（测试版）且并未成功，可依旧按照此教程给系统提供所需文件。完成文件操作后再行点击「Termnial」程序尝试启动。
- - 若仍出错，可尝试通过下载 FydeOS for PC 最新版镜像文件重新烧写、安装的方法获得内置的 Linux（测试版）所需依赖文件。或通过执行 [Powerwash](/%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/%E5%A6%82%E4%BD%95%E9%87%8D%E7%BD%AE(Powerwash)%E6%88%91%E7%9A%84FydeOS/) 的方法清除用户文件之后再执行本教程内容。
+ - 若仍出错，可尝试通过下载 FydeOS for PC 最新版镜像文件重新烧写、安装的方法获得内置的 Linux（测试版）所需依赖文件。或通过执行 [Powerwash](https://faq.fydeos.com/recipes/powerwash/) 的方法清除用户文件之后再执行本教程内容。
