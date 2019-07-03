@@ -4,4 +4,4 @@
   command = "jekyll build && cp netlify_headers _site/_headers"
 
 [context.production]
-  command = "jekyll build"
+  command = "JEKYLL_ENV=production jekyll build"
