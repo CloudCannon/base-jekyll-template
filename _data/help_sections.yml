@@ -12,6 +12,8 @@
   slug: "printing"
 - name: "平板模式"
   slug: "tablet-mode"
+- name: "触控笔"
+  slug: "stylus"
 - name: "无障碍"
   slug: "accessiability"
 - name: "设备支持"
