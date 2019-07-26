@@ -10,7 +10,7 @@ resources:
     link: https://github.com/CloudCannon/bakery-store/tree/structure
 type: Video
 set: getting-started
-set_order: 2
+order_number: 2
 ---
 Many people don’t use Jekyll for client projects as non-developers would traditionally have to learn HTML, Markdown and Liquid to update content. In this tutorial, we give non-developers an easy way to update Jekyll sites with [CloudCannon](https://cloudcannon.com).
 

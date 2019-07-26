@@ -63,7 +63,7 @@ To create a new series:
 
 To add a tutorial/post to a series:
 * Add a `set` field to the tutorial front matter which points to the file name of the desired set without the `.md` extention. e.g. If I have a set at `_sets/getting-started.md` I would use this in my tutorial front matter: `set: getting-started`.
-* Add a `set_order` field to the tutorial front matter and specify a number. This is the tutorials order in the set.
+* Add a `order_number` field to the tutorial front matter and specify a number. This is the tutorials order in the set.
 
 ### Navigation
 
