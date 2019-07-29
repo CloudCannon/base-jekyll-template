@@ -7,6 +7,6 @@
 		{% if link.link == page.url %}
 			{% assign class = class | append: " active" %}
 		{% endif %}
-		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a>
+		<a href="{{ site.baseurl }}{{ link.link }}" class="{{ class }}">{{ link.name }}</a>
 	{% endfor %}
 </nav>
