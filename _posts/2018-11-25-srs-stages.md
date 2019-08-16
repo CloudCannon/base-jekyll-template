@@ -68,4 +68,10 @@ Guru 2 → **2 weeks** → Master \\
 Master → **1 month** → Enlightened \\
 Enlightened → **4 months** → Burned
 
+For **Level 1 & 2** the SRS timings are accelerated for the Apprentice stage.
+Apprentice 1 → **2 hours** → Apprentice 2 \\
+Apprentice 2 → **4 hours** → Apprentice 3 \\
+Apprentice 3 → **8 hours** → Apprentice 4 \\
+Apprentice 4 → **1 day** → Guru 1 \\
+
 Review times are also rounded down to the beginning of the hour, so you won't get new reviews every couple minutes. Instead, you'll get (hopefully) a nice manageable chunk.
