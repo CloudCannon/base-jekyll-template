@@ -1,4 +1,5 @@
 ---
+anchor: system-controller
 ---
 FydeOS 默认携带了名为「FydeOS 系统控制」的浏览器插件（id: `mofiofjpikncjaigmdlblhojbnkabako`）。此插件为 FydeOS 提供了不可或缺的系统功能，是 FydeOS 系统的重要组成部分。
 

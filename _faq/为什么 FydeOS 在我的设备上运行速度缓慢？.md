@@ -1,4 +1,5 @@
 ---
+anchor: slow-on-my-device
 ---
 通过测试，我们发现通过移动存储设备引导启动的 FydeOS 将会受到较大的性能影响。若希望获得最佳使用体验，可以尝试[将 FydeOS 装进硬盘](/getting-started/install-fydeos-to-hdd/)。
 
