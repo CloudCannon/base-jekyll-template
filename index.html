@@ -4,16 +4,14 @@
 <h1>FAQ</h1>
 
 <section class="faq">
-
   <div class="accordion" id="accordionFaq">
-
     <div class="card">
     {% assign sorted = site.faq | sort: 'weight' | reverse %}
     {% for item in sorted %}
       {% assign question =  item.path | replace:'_faq/','' | replace:'.html','' | replace:'.md','' %}
       <div class="card-header" id="heading{{ forloop.index }}">
         <h5 class="mb-0">
-          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="true" aria-controls="collapse{{ forloop.index }}">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="true" aria-controls="collapse{{ forloop.index }}" data-slug="{{ item.anchor }}">
             {{question}}
           </button>
         </h5>
@@ -26,6 +24,35 @@
       </div>
       {% endfor %}
     </div>
-
   </div>
 </section>
+
+<script>
+  //init collapse state
+  var currentURL = window.location.href;
+  if (currentURL.indexOf("#") > -1)
+  {
+    var slug = currentURL.substr(currentURL.indexOf("#")+1);
+    var toUnCollapse = document.querySelector("button[data-slug="+slug+"]");
+    var toUnCollapseTarget = toUnCollapse.getAttribute('data-target');
+    document.querySelector(toUnCollapseTarget).classList.add('show');
+
+    var sectionContainer = document.querySelector('section.content');
+    window.scrollTo({
+      left: 0,
+      top: toUnCollapse.offsetTop + document.querySelector('header').offsetHeight,
+      behavior: 'smooth'
+    });
+    console.log("scrolled to");
+    console.log(toUnCollapse.offsetTop + document.querySelector('header').offsetHeight);
+  }
+
+  //handles button click and append slug to URL
+  var buttons = document.querySelectorAll("button.btn-link");
+  buttons.forEach((button) => {
+    button.addEventListener("click", (e)=> {
+      var appendix = "#" + e.target.dataset.slug;
+      window.history.replaceState(null, null, appendix);
+    });
+  });
+</script>

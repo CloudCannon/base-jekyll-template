@@ -43,6 +43,7 @@ Now you should have **FydeOS FAQ & Knowledge base** showing up on your browser a
 
 ```
 ---
+anchor: <anchor_for_each_question>
 ---
 Your answer here
 ```
