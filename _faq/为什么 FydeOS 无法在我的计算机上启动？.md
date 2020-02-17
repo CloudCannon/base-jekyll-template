@@ -1,4 +1,5 @@
 ---
+anchor: fydeos-not-working-on-my-pc
 weight: 997
 ---
 **FydeOS for PC 目前仍是个较为早期的版本。这意味着 FydeOS 目前还未能在世界上每一台电脑上完美运行。而且在使用中你也很可能会发现它仍存在技术问题，美中不足以及功能缺失。**

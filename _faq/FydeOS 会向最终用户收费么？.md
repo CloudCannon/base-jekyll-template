@@ -1,4 +1,5 @@
 ---
+anchor: free-for-individual
 ---
 不会。
 

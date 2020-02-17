@@ -1,4 +1,5 @@
 ---
+anchor: device-not-recognized
 weight: 996
 ---
 FydeOS 致力于适配并且兼容更多的硬件设备和外接设备。由于 Chromium OS 系统结构的特殊性，FydeOS 目前对非主流、未提供主线 Linux 内核驱动以及对主流 Linux 发行版支持不完善的硬件设备兼容性较弱。
