@@ -2,7 +2,7 @@
 date: 2020-01-24
 title: Updating Credit Card Information
 categories:
-  - wanikani
+  - payment-and-billing
 description:
 type: Document
 ---
