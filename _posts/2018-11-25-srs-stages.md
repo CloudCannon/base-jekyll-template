@@ -63,7 +63,7 @@ Apprentice 1 → **4 hours** → Apprentice 2 \\
 Apprentice 2 → **8 hours** → Apprentice 3 \\
 Apprentice 3 → **1 day** → Apprentice 4 \\
 Apprentice 4 → **2 days** → Guru 1 \\
-Guru 1 → **4 days** → Guru 2 \\
+Guru 1 → **1 week** → Guru 2 \\
 Guru 2 → **2 weeks** → Master \\
 Master → **1 month** → Enlightened \\
 Enlightened → **4 months** → Burned
