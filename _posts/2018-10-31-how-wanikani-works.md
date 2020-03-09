@@ -11,7 +11,6 @@ type: Document
 
 If you try WaniKani, you'll be able to complete the incredibly simple task of learning ~2,000 kanji (both meaning _and_ reading) and 6,000+ Japanese vocabulary words. In order to do this, all you need to do is:
 
-
 1. Do your available Lessons.
 2. Do your reviews.
 3. Do them every day, without fail. Probably even on Christmas.
