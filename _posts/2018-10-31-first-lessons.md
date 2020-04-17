@@ -9,7 +9,7 @@ set-order: 2
 type: Document
 ---
 
-Now that you have a basic understanding of [how WaniKani works](/getting-started/how-wanikani-works/), it's time to learn something. To begin, hit the pink "Lessons" button that's located below the "WaniKani" title on the left side of your screen. The number on the lower righthand corner shows you how many lessons you currently have.
+Now that you have a basic understanding of [how WaniKani works](/getting-started/how-wanikani-works/), it's time to learn something. To begin, hit the pink "Lessons" button that's located below the "WaniKani" logo on the left side of your screen. The number on the lower righthand corner shows you how many lessons you currently have.
 
 ![WaniKani lessons button](/images/lessons-button.gif)
 

@@ -3,7 +3,6 @@ date: 2020-04-17 10:00
 title: Review Forecast
 categories:
   - getting-started
-  - wanikani
 description:
 set: onboarding
 set-order: 7
@@ -16,7 +15,7 @@ The Review Forecast is located on the righthand side of the dashboard. It's the 
 
 ![WaniKani review forecast](/images/review-forecast.png)
 
-Looking at this, you can see that the number of reviews you have *today* are shown first. Hovering your mouse over the different numbers shows more information. The forecast is read horizontally and divided into hourly categories. The number to the right of the "+" sign tells you how many new reviews you will get on the hour. The green bar also reflects this number. The number to on the far right side shows you how many reviews you will have in total. You can see that it increases by increments of each new number of hourly reviews.
+Looking at this, you can see that the number of reviews you have *today* are shown first. Hovering your mouse over the different numbers shows more information. The forecast is read horizontally and divided into hourly categories. The number to the right of the "+" sign tells you how many new reviews you will get on the hour. The green bar also reflects this number. The number on the far right side shows you how many reviews you will have in total. You can see that it increases by increments of each new number of hourly reviews.
 
 If you'd like to see your reviews that are coming up in the next few days, click the drop down triangle in the upper lefthand corner.
 
