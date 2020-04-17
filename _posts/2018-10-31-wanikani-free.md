@@ -7,7 +7,7 @@ categories:
   - wanikani
 description:
 set: onboarding
-set-order: 7
+set-order: 8
 type: Document
 ---
 

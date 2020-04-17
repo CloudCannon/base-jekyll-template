@@ -7,7 +7,7 @@ categories:
   - payment-and-billing
 description:
 set: onboarding
-set-order: 8
+set-order: 9
 type: Document
 ---
 
