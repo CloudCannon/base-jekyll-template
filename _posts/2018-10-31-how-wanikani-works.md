@@ -1,4 +1,5 @@
 ---
+date: 2018-10-31 22:00
 title: What is WaniKani?
 categories:
   - getting-started

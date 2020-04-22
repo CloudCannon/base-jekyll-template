@@ -1,4 +1,5 @@
 ---
+date: 2018-10-31 17:00
 title: Unlocking Vocabulary Lessons
 categories:
   - getting-started
