@@ -1,11 +1,11 @@
 ---
-date: 2020-04-22 11:00
+date: 2020-04-22 10:00
 title: Unlocking Kanji Lessons
 categories:
   - getting-started
 description:
 set: onboarding
-set-order: 5
+set-order: 6
 type: Document
 ---
 

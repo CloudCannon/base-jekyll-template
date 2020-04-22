@@ -1,11 +1,11 @@
 ---
-date: 2020-04-22 12:00
+date: 2020-04-22 11:00
 title: Doing Your First Reviews
 categories:
   - getting-started
 description:
 set: onboarding
-set-order: 4
+set-order: 5
 type: Document
 ---
 

@@ -1,11 +1,11 @@
 ---
-date: 2020-04-22 10:00
+date: 2020-04-22 9:00
 title: Unlocking Vocabulary Lessons
 categories:
   - getting-started
 description:
 set: onboarding
-set-order: 6
+set-order: 7
 type: Document
 ---
 
