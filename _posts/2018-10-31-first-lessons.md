@@ -1,5 +1,5 @@
 ---
-date: 2018-10-31 21:00
+date: 2020-04-22 8:00
 title: Doing Your First Lessons
 categories:
   - getting-started

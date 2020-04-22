@@ -1,5 +1,5 @@
 ---
-date: 2018-10-31 9:00
+date: 2020-04-22 15:00
 title: WaniKani Premium Membership
 categories:
   - getting-started
