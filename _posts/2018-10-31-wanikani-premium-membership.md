@@ -1,5 +1,5 @@
 ---
-date: 2018-10-31 9:00
+date: 2020-04-22 7:00
 title: WaniKani Premium Membership
 categories:
   - getting-started
@@ -7,7 +7,7 @@ categories:
   - payment-and-billing
 description:
 set: onboarding
-set-order: 8
+set-order: 9
 type: Document
 ---
 

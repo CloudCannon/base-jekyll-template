@@ -1,5 +1,5 @@
 ---
-date: 2018-11-25
+date: 2020-04-17
 title: Small vs Big Characters
 categories:
   - japanese
@@ -53,6 +53,6 @@ If you just need a quick refresher, here are some of examples of how to type con
 If you're having a really hard time remember how to type the contraction you want, you can also add an x before the character to make it smaller:
 
 にゅう = nixyuu \\
-じょう = jixyuu
+じょう = jixyou
 
 But that leads to slower typing, and you don't want to be slow, you're trying to learn 2000+ kanji over here!

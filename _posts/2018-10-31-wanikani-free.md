@@ -1,5 +1,5 @@
 ---
-date: 2018-10-31 10:00
+date: 2020-04-22 8:00
 title: Is WaniKani Free?
 categories:
   - getting-started
@@ -7,7 +7,7 @@ categories:
   - wanikani
 description:
 set: onboarding
-set-order: 7
+set-order: 8
 type: Document
 ---
 

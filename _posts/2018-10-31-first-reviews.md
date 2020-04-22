@@ -1,17 +1,17 @@
 ---
-date: 2018-10-31 19:00
+date: 2020-04-22 11:00
 title: Doing Your First Reviews
 categories:
   - getting-started
 description:
 set: onboarding
-set-order: 4
+set-order: 5
 type: Document
 ---
 
-After you've finished the huge, arduous task that is [waiting for your reviews](/getting-started/waiting-for-reviews/), it's time to actually do them. Start by clicking "Reviews" in the top menu.
+After you've finished the huge, arduous task that is [waiting for your reviews](/getting-started/waiting-for-reviews/), it's time to actually do them. Start by clicking the blue "Reviews" button that's next to your Lessons on the home screen.
 
-![Clicking the reviews button](/images/reviews-click.gif)
+![Clicking the reviews button](/images/reviews-button.gif)
 
 From there, you'll see a quiz screen that's very similar to the Lessons quiz you did before. Assuming you're just starting out, you should see a radical displayed.
 

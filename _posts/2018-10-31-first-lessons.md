@@ -1,5 +1,5 @@
 ---
-date: 2018-10-31 21:00
+date: 2020-04-22 14:00
 title: Doing Your First Lessons
 categories:
   - getting-started
@@ -9,9 +9,9 @@ set-order: 2
 type: Document
 ---
 
-Now that you have a basic understanding of [how WaniKani works](/getting-started/how-wanikani-works/), it's time to learn something. To begin, hit the "Lessons" button in the top left corner of your screen.
+Now that you have a basic understanding of [how WaniKani works](/getting-started/how-wanikani-works/), it's time to learn something. To begin, hit the pink "Lessons" button that's located below the "WaniKani" logo on the left side of your screen. The number on the lower righthand corner shows you how many lessons you currently have.
 
-![WaniKani lessons button](/images/lessons-button-sq.gif)
+![WaniKani lessons button](/images/lessons-button.gif)
 
 This will take you to your available lessons where you will be able to learn the first set of radicals. Everything else builds off these 26 radicals, so do your best!
 
