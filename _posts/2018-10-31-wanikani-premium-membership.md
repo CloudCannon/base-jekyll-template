@@ -1,5 +1,4 @@
 ---
-date: 2018-10-31 9:00
 title: WaniKani Premium Membership
 categories:
   - getting-started

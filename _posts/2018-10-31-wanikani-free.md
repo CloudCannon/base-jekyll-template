@@ -1,5 +1,4 @@
 ---
-date: 2018-10-31 10:00
 title: Is WaniKani Free?
 categories:
   - getting-started

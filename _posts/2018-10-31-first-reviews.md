@@ -1,5 +1,4 @@
 ---
-date: 2018-10-31 19:00
 title: Doing Your First Reviews
 categories:
   - getting-started

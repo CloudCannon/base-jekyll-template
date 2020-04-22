@@ -1,5 +1,4 @@
 ---
-date: 2020-04-17 10:00
 title: Review Forecast
 categories:
   - getting-started

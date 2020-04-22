@@ -1,5 +1,4 @@
 ---
-date: 2018-10-31 18:00
 title: Unlocking Kanji Lessons
 categories:
   - getting-started
