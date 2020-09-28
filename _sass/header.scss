@@ -62,6 +62,10 @@ header {
 			input[type="search"] {
 				max-width: 300px;
 			}
+
+			.chat-with-us-nav {
+				display: inline;
+			}
 		}
 		display: none;
 
@@ -104,6 +108,10 @@ header {
 			}
 		}
 	}
+}
+
+.chat-with-us-nav {
+	display: none;
 }
 
 .nav-open header nav {
