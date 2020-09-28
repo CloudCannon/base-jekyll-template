@@ -1,6 +1,6 @@
-# WaniKani Knowledge Base
+# WaniKani Knowledge Guide
 
-Knowledge base for [WaniKani](https://www.wanikani.com). Browse through the [production build](https://knowledge.wanikani.com/).
+Knowledge Guide for [WaniKani](https://www.wanikani.com). Browse through the [production build](https://knowledge.wanikani.com/).
 
 Platform and template forked from [CloudCannon's base-jekyll-template](https://github.com/CloudCannon/base-jekyll-template). Review their [README](https://github.com/CloudCannon/base-jekyll-template) for developing and editing information.
 
