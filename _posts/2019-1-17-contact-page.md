@@ -10,6 +10,7 @@ type: Document
 
 There are a few different ways to get in touch with us.
 
+* <a onclick="FrontChat('show')" tabindex="0" role="link">Chat with Us</a> 
 * Email: [hello@wanikani.com](mailto:hello@wanikani.com)
 * Twitter: [@wanikaniapp](https://twitter.com/WaniKaniApp)
 

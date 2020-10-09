@@ -82,8 +82,18 @@ a {
 	transition: color 0.3s ease;
 }
 
-a:hover {
+a:hover,
+a[role="link"]:hover {
 	color: $link-hover-color;
+}
+
+a[role="link"]:focus {
+  outline: 1px dotted black;
+}
+
+a[role="link"] {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 p,
