@@ -7,7 +7,7 @@ type: Video
 categories:
   - getting-started
 set: getting-started
-set_order: 6
+order_number: 6
 ---
 Many people don’t use Jekyll for client projects as non-developers would traditionally have to learn HTML, Markdown and Liquid to update content. In this tutorial, we give non-developers an easy way to update Jekyll sites with [CloudCannon](https://cloudcannon.com).
 
