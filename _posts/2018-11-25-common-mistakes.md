@@ -1,13 +1,13 @@
 ---
 date: 2018-11-25
-title: Why is my answer being marked wrong?
+title: Why isn't my answer accepted?
 categories:
   - wanikani
 description:
 type: Document
 ---
 
-Is WaniKani telling you that your answer is wrong and you can't figure out why? Odds are it's one of the following reasons:
+Is WaniKani telling you that your answer is wrong, or correct but not accepted? Odds are it's one of the following reasons:
 
 ## Readings vs Meanings
 
@@ -23,12 +23,12 @@ Lots of kanji have multiple readings, like 大 (たい, だい) or 力 (りき, 
 
 ## Small Characters
 
-Most likely, you are putting in a big や, ゆ, or よ instead of a small one. The difference is big, and it’s important to get these correct. For example, じゆう means “freedom,” so if you wrote that in instead of じゅう you would be saying something completely different.
+Most likely, you are putting in a big や, ゆ, or よ instead of a small one. The difference is big, and it’s important to get these correct. For example, じゆう means “freedom,” so if you wrote that in instead of じゅう you would be saying something completely different. If you enter the wrong one, you'll see a shake animation with a hint to help you type it correctly.
 
-[Ream more about small characters and how to type them.](/japanese/small_characters/)
+[Read more about small characters and how to type them.](/japanese/small_characters/)
 
 ## Verbs
 
 WaniKani needs to know that _you_ know that verbs are verbs, so you'll always need to put a "to" at the beginning of your answer. For example, for 入る you'll need to type "to enter" instead of just "enter" (which is the meaning for 入).
 
-Read more about... never mind, you should already know what verbs are.
+If you forget to enter the "to," you'll see a shake animation with a reminder that it's a verb, to help you get into the habit.
