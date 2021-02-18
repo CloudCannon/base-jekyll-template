@@ -1,6 +1,6 @@
 ---
 date: 2018-11-25
-title: Why is my answer being marked wrong?
+title: Why isn't my answer accepted?
 categories:
   - wanikani
 description:
