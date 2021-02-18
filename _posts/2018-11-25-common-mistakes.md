@@ -25,7 +25,7 @@ Lots of kanji have multiple readings, like 大 (たい, だい) or 力 (りき, 
 
 Most likely, you are putting in a big や, ゆ, or よ instead of a small one. The difference is big, and it’s important to get these correct. For example, じゆう means “freedom,” so if you wrote that in instead of じゅう you would be saying something completely different.
 
-[Ream more about small characters and how to type them.](/japanese/small_characters/)
+[Read more about small characters and how to type them.](/japanese/small_characters/)
 
 ## Verbs
 
