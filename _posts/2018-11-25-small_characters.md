@@ -9,15 +9,13 @@ set-order: 2
 type: Document
 ---
 
-Does your reading answer for 入, 女, 九, 力, 上, or 十 keep getting marked wrong, but you can't figure out why? Before you smash your computer and swear vengeance on WaniKani, let's talk about small characters.
-
-Small characters are exactly what they sound like—smaller versions of certain hiragana characters. Here are some examples:
+Small characters are exactly what they sound like—smaller versions of certain kana characters. Here are some examples:
 
 や　ゃ (ya) \\
 ゆ　ゅ (yu) \\
 よ　ょ (yo)
 
-You'll see these small characters most on WaniKani in contractions. If you don't know what a contraction is in Japanese, feast your eyes on our guide for [how to read hiragana](https://www.tofugu.com/japanese/learn-hiragana/)!
+You'll see these small characters on WaniKani in combination kana. Combination kana are one large kana plus one small kana, which combine to make a new sound. You can find a complete list of them with audio [here](https://www.tofugu.com/japanese/learn-hiragana/)!
 
 じゆう (all normal-sized characters) is pronounced ji-yuu. \\
 じゅう (ゅ is a small character) is pronounced juu, because it's a contraction.
@@ -50,7 +48,7 @@ If you just need a quick refresher, here are some of examples of how to type con
 じよ = jiyo \\
 じょ = jo [or] jyo
 
-If you're having a really hard time remember how to type the contraction you want, you can also add an x before the character to make it smaller:
+If you're having a really hard time remembering how to type the combination you want, you can also add an x before the character to make it smaller:
 
 にゅう = nixyuu \\
 じょう = jixyou
