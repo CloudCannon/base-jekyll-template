@@ -15,21 +15,21 @@ Vocabulary will unlock when you've proven your knowledge of the kanji through Re
 
 Just like radicals and kanji, a vocabulary Lesson takes you through a series of tabs that are designed to help you to memorize the key points of the item.
 
-### Vocabulary Word Breakdown
+### Vocabulary Kanji Composition
 
-The first tab is the "Breakdown." This shows you what kanji the word is made up of.
+The first tab is the "Kanji Composition." This shows you what kanji the word is made up of.
 
-![Vocabulary Lesson Breakdown](/images/vocab-lesson-breakdown.jpg)
+![Vocabulary Lesson Breakdown](/images/vocab-lesson-kanji-composition.jpg)
 
 Take a look. In your own vocabulary Lessons, you should already know all of the kanji listed in the breakdown (otherwise, it wouldn't have unlocked)!
 
 ### Vocabulary Meaning
 
-The "Meaning" is the English meaning of the vocabulary word.
+The "Meaning" is the English translation of the vocabulary word.
 
 ![Vocabulary Lesson Breakdown](/images/vocab-lesson-meaning.jpg)
 
-All valid meanings are listed here, with the number one meaning at the top. A mnemonic helps you to memorize the meaning, so read it carefully. It will use your past knowledge of the kanji the vocabulary word is based off of.
+Multiple valid meanings are listed here, with the main meaning at the top. A mnemonic helps you to memorize the meaning, so read it carefully. It will use your past knowledge of the kanji the vocabulary word is based off of.
 
 ### Vocabulary Reading
 
@@ -39,7 +39,13 @@ The "Reading" tab will show you the accepted reading (i.e. how the word is read 
 
 In the cases where the reading is different from what you learned with the kanji, there will be a special mnemonic to help you.
 
-Below the mnemonic are Context Sentences. While some sentences will be level appropriate for your reading ability, these sentences are meant for _context_, not necessarily study. You should use these sentences to figure out the meanings of ambiguous or similar words.
+### Vocabulary Context
+
+The "Context" tab helps you understand how to put the word to use. Possible word types (also known as parts of speech) are given on the left, and on the right you'll see context sentences.
+
+![Vocabulary Lesson Breakdown](/images/vocab-lesson-context.jpg)
+
+While some sentences will be level appropriate for your reading ability, these sentences are meant for _context_, not necessarily study. You can use these sentences to figure out the meanings of ambiguous or similar words.
 
 ## The Vocabulary Lesson Quiz
 
