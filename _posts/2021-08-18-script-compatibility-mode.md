@@ -1,5 +1,5 @@
 ---
-date: 2021-08-25
+date: 2021-08-30
 title: Script Compatibility Mode
 categories:
   - wanikani
@@ -9,6 +9,10 @@ type: Document
 
 Changes that are affected by the Script Compatibility Mode setting are tracked here.
 Scripts can check WaniKani's version by checking `window.WaniKani.version` to match against this list.
+
+**v0.1.1 (August 30, 2021)** 
+- **Both Modes**: Fixed issue where network requests did not work in some cases on IE11 because `fetch` needed a polyfill
+- **Compatibility Mode Off**: Review queues are fetched with `fetch` and not `$.ajax` or `$.getJSON`
 
 **v0.1.0 (August 25, 2021)** Main bundles of lessons and reviews are now tied to the script compatibility setting. 
 - **Compatibility Mode On**: script tags serve lesson-legacy and review-legacy (plus hash in the filename)
