@@ -9,12 +9,14 @@ type: Document
 
 Changes that are affected by the Script Compatibility Mode setting are tracked here. Scripts can check WaniKani's version by checking `window.WaniKani.version` to match against this list.
 
+Subscribe to the [mailing list](https://tofugu.us1.list-manage.com/subscribe?u=b7f2114d74e3cac96344f797c&id=8b79442fb1) get notified when this page is updated. Make sure to check **UserScript Affecting Changes**.
+
 **v0.3.0 (October 7, 2021)**
+  - Vocabulary, kanji and radical objects in jStorage now have an additional field `type` which we use to determine the type instead of `voc`, `rad` and `kan`
   - **Compatibility Mode Off**: 
     - Reverted network requests to use $.ajax instead of fetch (this change is temporary while issues with review progress being stuck are investigated)
     - Reverted stat tracking refactoring. This change modified the initial stats object for a review. Will be reintroduced later in a way that doesn't break scripts.
     - The review input form now tracks its state internally instead of relying on DOM attributes like the presence of a class or input text being disabled
-    - Vocabulary, kanji and radical objects in jStorage now have an additional field `type` which we use to determine the type instead of `voc`, `rad` and `kan`
 
 **v0.2.0 (September 20, 2021)**
 - **Compatibility Mode Off**: Notes in lessons are now rendered with React and submit with `fetch`.
