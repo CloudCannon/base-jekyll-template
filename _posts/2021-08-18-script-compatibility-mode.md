@@ -11,6 +11,9 @@ Changes that are affected by the Script Compatibility Mode setting are tracked h
 
 Subscribe to the [mailing list](https://tofugu.us1.list-manage.com/subscribe?u=b7f2114d74e3cac96344f797c&id=8b79442fb1) get notified when this page is updated. Make sure to check **UserScript Affecting Changes**.
 
+**v0.4.0 (October 13, 2021)**
+- **Compatibility Mode Off**: Unread lessons are tracked through jStorage under `l/unreadIndices` instead of the presence of `read` class on batch-list items
+
 **v0.3.0 (October 7, 2021)**
   - Vocabulary, kanji and radical objects in jStorage now have an additional field `type` which we use to determine the type instead of `voc`, `rad` and `kan`
   - **Compatibility Mode Off**: 
