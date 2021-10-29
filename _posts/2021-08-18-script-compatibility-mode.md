@@ -11,6 +11,9 @@ Changes that are affected by the Script Compatibility Mode setting are tracked h
 
 Subscribe to the [mailing list](https://tofugu.us1.list-manage.com/subscribe?u=b7f2114d74e3cac96344f797c&id=8b79442fb1) get notified when this page is updated. Make sure to check **UserScript Affecting Changes**.
 
+**v0.7.0 (October 29, 2021)**
+- **Compatibility Mode Off**: Under lessons, the additional information panels have been redone in React. There are minor markup and visual differences.
+
 **v0.6.0 (October 20, 2021)**
 - **Compatibility Mode Off**: Under lessons, the kana IME input charts have been redone in React. Visual changes have been made to make it easier to distinguish tabs and buttons.
 
