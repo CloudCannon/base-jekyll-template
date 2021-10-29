@@ -8,6 +8,8 @@ Base was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyl
 
 Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
+[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/base-jekyll-template)
+
 ## Features
 
 * Tutorials organised by category
