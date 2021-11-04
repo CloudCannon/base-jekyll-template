@@ -11,6 +11,11 @@ Changes that are affected by the Script Compatibility Mode setting are tracked h
 
 Subscribe to the [mailing list](https://tofugu.us1.list-manage.com/subscribe?u=b7f2114d74e3cac96344f797c&id=8b79442fb1) get notified when this page is updated. Make sure to check **UserScript Affecting Changes**.
 
+**v1.1.0 (November 4, 2021)**
+- **Compatibility Mode Off**: Under lessons, the overlay that appears at the end of a batch of lesson slides has been converted to React.
+  - This reworks the markup in that overlay, converting the classes to Tailwind, adding ARIA attributes where appropriate, and converting the buttons to buttons.
+  - It touches how hotkey events are handled so that there aren't collisions or double events.
+
 **v1.0.0 (November 3, 2021)**
 - **Compatibility Mode Off**: Marked as a major change, in case there are scripts that rely on the specific review queue updates.
   - activeQueue in jStorage will no longer have extra null items. For example if there are only 8 items left, it will be an array of length 8 instead of 10 with 2 items null. 
