@@ -11,6 +11,9 @@ Changes that are affected by the Script Compatibility Mode setting are tracked h
 
 Subscribe to the [mailing list](https://tofugu.us1.list-manage.com/subscribe?u=b7f2114d74e3cac96344f797c&id=8b79442fb1) get notified when this page is updated. Make sure to check **UserScript Affecting Changes**.
 
+**v1.2.0 (November 15, 2021)**
+- **Compatibility Mode Off**: Under lessons, the positioning of the batch list navigation has been moved from Javascript (calculations that fire on window resize) to CSS using flexbox and margins.
+
 **v1.1.0 (November 4, 2021)**
 - **Compatibility Mode Off**: Under lessons, the overlay that appears at the end of a batch of lesson slides has been converted to React.
   - This reworks the markup in that overlay, converting the classes to Tailwind, adding ARIA attributes where appropriate, and converting the buttons to buttons.
