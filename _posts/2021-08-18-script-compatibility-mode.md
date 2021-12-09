@@ -11,7 +11,10 @@ Changes that are affected by the Script Compatibility Mode setting are tracked h
 
 Subscribe to the [mailing list](https://tofugu.us1.list-manage.com/subscribe?u=b7f2114d74e3cac96344f797c&id=8b79442fb1) get notified when this page is updated. Make sure to check **UserScript Affecting Changes**.
 
-**v3.0.0 (November 17, 2021)**
+**v3.1.0 (November 18, 2021)**
+- **Compatibility Mode Off**: Under lessons, we've consolidated the logic for the `Skip` button. It makes it so that the same code drives all the parts of the system that take you to the next item, like keyboard navigation.
+
+**v3.0.0 (November 18, 2021)**
 - **Compatibility Mode Off**: The overlays that appear at the end of the lesson quiz have been converted to React. This does a few things that are breaking changes:
   - The overlays no longer have IDs and are styled purely through Tailwind classes.
   - Removes the `activateLessonReadyScreen` function from `lessons.js`. That function controlled overlay and button behavior.
