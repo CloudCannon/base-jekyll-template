@@ -11,6 +11,12 @@ Changes that are affected by the Script Compatibility Mode setting are tracked h
 
 Subscribe to the [mailing list](https://tofugu.us1.list-manage.com/subscribe?u=b7f2114d74e3cac96344f797c&id=8b79442fb1) get notified when this page is updated. Make sure to check **UserScript Affecting Changes**.
 
+**v4.0.0 (December 9, 2021)**
+- **Compatibility Mode Off**: The navigation for lesson subjects and slides (the bit that lives at the bottom of the lesson slides) has been converted to React.
+  - As with other changes, IDs have been removed and we're using Tailwind classes for styling.
+  - The buttons are now `<button>`s, which is nice for all kinds of things, mainly accessibility.
+  - The logic driving the state of the items lives in jStorage and React and is no longer driven by the classes on the different elements in the list.
+
 **v3.1.0 (November 18, 2021)**
 - **Compatibility Mode Off**: Under lessons, we've consolidated the logic for the `Skip` button. It makes it so that the same code drives all the parts of the system that take you to the next item, like keyboard navigation.
 
