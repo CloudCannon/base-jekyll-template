@@ -51,4 +51,11 @@ Afterward, it will indicate whether or not you got the answer right. Complete th
 
 ## Finishing Your First Set of Lessons
 
-When you've completed all the lessons available to you as a new user, it's time for you to [complete your most difficult task yet: waiting](/getting-started/waiting-for-reviews/).
+
+1. Work on the lessons again from the “Recent Lessons” in the Extra Study section:
+![Extra Study](/images/extrastudy.jpg)
+
+You definitely don’t need to, but if you have spare time and you’d like to strengthen your memory, you can do the lessons again by clicking on the pink button. Your results from Extra Study don’t count towards anything, so no pressure!
+
+Or
+2. You can [complete your most difficult task yet: waiting](/getting-started/waiting-for-reviews/).
