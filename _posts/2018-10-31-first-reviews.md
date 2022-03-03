@@ -21,6 +21,12 @@ Simply write in the answer. In the case of the above example, you would type in 
 
 ![WaniKani Review with an empty field](/images/review-radical-filled.jpg)
 
-Hit enter or submit to see if you got it right or wrong. Keep doing this until you've cleared all of your Reviews. When you have, it's time to wait again. When reviews become available, you should do them.
+Hit enter or submit to see if you got it right or wrong. Keep doing this until you've cleared all of your Reviews. When you have, it's time to wait again.
+
+Or if you have some spare time and you want to re-study the ones you got wrong during your review, scroll down on the main page below the Reviews button to the Extra Study section. You should now see some available under Recent Mistakes.
+![Extra Study](/images/extrastudy.jpg)
+Just remember that the Extra Study section is for practice only, and the results do not affect your progress overall.
+
+If you have no Reviews or Recent Mistakes to work on, then great job! 
 
 Assuming you [completed all your lessons already](/getting-started/first-lessons/), all that's left for you to do is keep doing Reviews. Since kanji unlocks are reliant on proving your radical knowledge over longer and longer periods, putting in correct answers here will move you forward faster. More information can be found on our [Leveling Up](/WaniKani/getting-started/level-up/) page, but rest assured if you keep doing your reviews on time [you can unlock kanji in 2-3 days](/getting-started/unlocking-kanji/).
