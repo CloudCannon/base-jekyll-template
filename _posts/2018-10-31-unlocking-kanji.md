@@ -72,6 +72,6 @@ You'll also want to pay special attention to another common beginner problem, wh
 
 ## Doing Your Kanji Reviews
 
-When you complete your Lesson Quiz, these items will be added to your Reviews pile. Just like radicals before, you'll need to do more Reviews to unlock the next step. Getting 90% of your Level 1 kanji to "Guru" status will [unlock Level 2](/getting-started/wanikani/level-up/). Getting any kanji to "Guru" status will also [unlock vocabulary](/getting-started/unlocking-vocabulary/) based off that kanji (and any other combination of kanji that are also at "Guru").
+When you complete your Lesson Quiz, these items will be added to your Reviews pile. Just like radicals before, you'll need to do more Reviews to unlock the next step. Getting 90% of your Level 1 kanji to "Guru" status will [unlock Level 2](/wanikani/getting-started/level-up/). Getting any kanji to "Guru" status will also [unlock vocabulary](/getting-started/unlocking-vocabulary/) based off that kanji (and any other combination of kanji that are also at "Guru").
 
 To put it simply, do your Reviews when they are available until new Lessons appear. If you do, you'll continue to make progress.
