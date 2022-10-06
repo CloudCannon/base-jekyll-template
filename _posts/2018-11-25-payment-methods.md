@@ -15,7 +15,7 @@ WaniKani accepts most major credit cards. These ones:
 
 ![Accepted card types](/images/accepted-card-types.png)
 
-If you don’t have access to a credit or debit/bank card, we can manually accept PayPal for users outside of the US. For PayPal, you can choose to do 3-months, 6 months, yearly or Lifetime memberships. If you’re interested in this method, please [contact us](/account-and-membership/wanikani/contact-page/) with your PayPal email and billing address.
+If you don’t have access to a credit or debit/bank card, we can manually accept PayPal for users outside of the US. For PayPal, you can choose to do 3 months, 6 months, yearly, or Lifetime memberships. If you’re interested in this method, please [contact us](/account-and-membership/wanikani/contact-page/) with your PayPal email and billing address.
 
 ## Can I use other currencies?
 
